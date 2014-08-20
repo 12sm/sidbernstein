@@ -16,6 +16,17 @@
 
 (function($) {
 
+  function gridIt(){
+    imagesLoaded( '.js-masonry', function() {
+      var container = document.querySelector('.js-masonry');
+      var msnry = new Masonry( container, {
+        // options...
+        itemSelector: '.item',
+        gutter: 5
+      });
+    });
+  }
+
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -45,6 +56,7 @@
       init: function() {
         // JavaScript to be fired on the about us page
         console.log("this is the photos page yo");
+	gritIt();
       }
     }
   };

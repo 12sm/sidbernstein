@@ -4,14 +4,14 @@
       <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
-    <div class="row footer-nav">  
+    <div class="row footer-nav">
         <?php
      if (has_nav_menu('footer_navigation')) :
        wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => ''));
      endif;
   ?>
     </div>
-         
+
       <div id="social" class="row social-nav">
   <?php
      if (has_nav_menu('social_navigation')) :
@@ -26,7 +26,7 @@
 
 <?php wp_footer(); ?>
 
-<!-- Begin 12SM Network Analytics <!-->   
+<!-- Begin 12SM Network Analytics <!-->
   <script type="text/javascript">
 	var _gaq = _gaq || [];
   	_gaq.push(['_setAccount', 'UA-27814560-1']);
@@ -40,3 +40,4 @@
 	  	})();
 	</script>
   <!-- End 12SM Network Analytics <!--> 
+->
