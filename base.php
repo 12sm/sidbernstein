@@ -16,14 +16,13 @@
       get_template_part('templates/header');
     //}
 ?>
-<?php
-  /*<?php if (roots_display_sidenavbar()) : ?>*/
+
+  <!--<?php if (roots_display_sidenavbar()) : ?>-->
             <div class="<?php echo roots_sidenavbar_class(); ?>">
                 <section class="side-nav-wrapper">
-                    /*<?php*/ get_template_part('templates/sidenavbar'); /*?>*/
+                    <?php get_template_part('templates/sidenavbar'); ?>
                 </section>
-            </div><!-- /.sidenavbar -->
-  ?>           
+            </div><!-- /.sidenavbar -->         
   <!--<?php endif; ?>-->
  
 
