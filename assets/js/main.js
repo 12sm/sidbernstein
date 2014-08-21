@@ -17,14 +17,17 @@
 (function($) {
 
   function gridIt(){
-    imagesLoaded( '.js-masonry', function() {
-      var container = document.querySelector('.js-masonry');
-      var msnry = new Masonry( container, {
-        // options...
-        itemSelector: '.item',
-        gutter: 5
-      });
-    });
+    var container = document.getElementsByClassName('.js-masonry')[0];
+		var msnry;
+		// initialize Masonry after all images have loaded
+		imagesLoaded( container, function() {
+		  msnry = new Masonry( container, {
+		  // options...
+		  	columnWidth: 150,
+		    itemSelector: '.item',
+		    gutter: 5
+		  });
+		});
   }
 
   // Use this variable to set up the common and page specific functions. If you
@@ -56,7 +59,7 @@
       init: function() {
         // JavaScript to be fired on the about us page
         console.log("this is the photos page yo");
-	gritIt();
+		gridIt();
       }
     }
   };
@@ -73,7 +76,6 @@
     },
     loadEvents: function() {
       UTIL.fire('common');
-
       $.each(document.body.className.replace(/-/g, '_').split(/\s+/), function(i, classnm) {
         UTIL.fire(classnm);
       });
