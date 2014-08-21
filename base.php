@@ -12,17 +12,18 @@
     // Use Bootstrap's navbar if enabled in config.php
     /*if (current_theme_supports('bootstrap-top-navbar')) {
       get_template_part('templates/header-top-navbar');
-    } else {
+    } else {*/
       get_template_part('templates/header');
-    }*/
+    //}
   ?>
-  <?php if (roots_display_sidenavbar()) : ?>
+  <?php //if (roots_display_sidenavbar()) : ?>
             <div class="<?php echo roots_sidenavbar_class(); ?>">
                 <section class="side-nav-wrapper">
                     <?php get_template_part('templates/sidenavbar'); ?>
                 </section>
             </div><!-- /.sidenavbar -->
-  <?php endif; ?>
+  <!--<?php endif; ?>-->
+  ?>
 
    <div class="wrap container" role="document">
     <div class="content row">
