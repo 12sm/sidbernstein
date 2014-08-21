@@ -45,7 +45,35 @@ body { }
 
 .sidebar { }
 
+/* ==========================================================================
+Side Navbar
+========================================================================== */
 
+.side-nav-wrapper {
+   min-height: 100%;
+}
+
+.sidenavbar-collapse {
+}
+
+.navbar-collapse;
+}
+
+.sidenav {
+   margin-top:60px;
+/* use visibility if you want to only show when top nav disapears
+visibility:hidden; */
+}
+
+.affix {
+/* use visibility if you want to only show when top disapears
+visibility:visible; */
+margin-top:-65px;
+}
+.sidenavbar-collapse {padding-right:60px;}
+}
+}
+   
 
 /* ==========================================================================
    Posts
