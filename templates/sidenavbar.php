@@ -1,13 +1,13 @@
-<div class="sidenav navbar navbar-default" data-spy="affix" data-offset-top="120" role="sidenav">
+<div class="sidenav navbar navbar-inverse" data-spy="affix" data-offset-top="120" role="sidenav">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle navbar-inverse" data-toggle="collapse" data-target=".sidenavbar-collapse">
+      <button type="button" class="navbar-toggle navbar" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar white"></span>
-        <span class="icon-bar white"></span>
-        <span class="icon-bar white"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
     </div>
-      <div class="collapse sidenavbar-collapse" role="navigation">
+      <div class="collapse navbar-collapse affix" role="navigation" >
       <?php
         if (has_nav_menu('side_navigation')) :
             wp_nav_menu(array('theme_location' => 'side_navigation', 'menu_class' => 'nav nav-pills nav-stacked'));
