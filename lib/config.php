@@ -20,10 +20,10 @@ define('POST_EXCERPT_LENGTH', 40); // length in words for excerpt_length filter 
 function roots_main_class() {
     if (roots_display_sidebar() && roots_display_sidenavbar()) {
             // There is a side bar on each side
-            $class = 'col-md-5';
+            $class = 'col-md-6';
     } elseif (roots_display_sidebar() || roots_display_sidenavbar()) {
             // There is a bar on only one side of the content
-            $class = 'col-md-9';
+            $class = 'col-md-10';
 
     } else {
             // No side bars on this page
@@ -43,7 +43,7 @@ function roots_sidebar_class() {
  * .sidenavbar classes
  */
 function roots_sidenavbar_class() {
-  return 'col-md-3';
+  return 'col-md-2';
 }
 
 /**
