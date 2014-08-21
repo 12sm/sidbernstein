@@ -8,6 +8,8 @@
       </button>
     </div>
       <div class="collapse navbar-collapse affix" role="navigation" >
+      <div class="sbbox">
+      </div>  
       <?php
         if (has_nav_menu('side_navigation')) :
             wp_nav_menu(array('theme_location' => 'side_navigation', 'menu_class' => 'nav nav-pills nav-stacked'));
