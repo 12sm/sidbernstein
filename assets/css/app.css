@@ -58,6 +58,7 @@ Side Navbar
 #menu-side-navigation {
   background-color: rgba(0, 0, 0, 0.9);
 }
+
 .navbar-collapse {
 background-color: rgba(0, 0, 0, 0.7);
 min-width: 100%;
@@ -65,20 +66,15 @@ z-index: 100;
 padding: 0px;
 margin: 0 -20px;
 }
-.navbar-collapse {
-  background-color: rgba(0, 0, 0, 0.7);
-  min-width: 100%;
-  z-index: 100;
-}
 
 ul.nav li {
 background-color: transparent;
 }
 
-.navbar {
+/*.navbar {
 min-height: 40px;
 width: 40px;
-}
+}*/
 
 .navbar-inverse {
 background-color: transparent!important;
