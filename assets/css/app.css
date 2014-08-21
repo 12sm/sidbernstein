@@ -45,6 +45,8 @@ body { }
 
 .sidebar { }
 
+
+
 /* ==========================================================================
 Side Navbar
 ========================================================================== */
@@ -53,26 +55,68 @@ Side Navbar
    min-height: 100%;
 }
 
-.sidenavbar-collapse {
+#menu-side-navigation {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.navbar-collapse {
+background-color: rgba(0, 0, 0, 0.7);
+min-width: 100%;
+z-index: 100;
+padding: 0px;
+margin: 0 -20px;
+}
+.navbar-collapse {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-width: 100%;
+  z-index: 100;
 }
 
-.navbar-collapse;
+ul.nav li {
+background-color: transparent;
 }
 
-.sidenav {
-   margin-top:60px;
-/* use visibility if you want to only show when top nav disapears
-visibility:hidden; */
+.navbar {
+min-height: 40px;
+width: 40px;
 }
 
-.affix {
-/* use visibility if you want to only show when top disapears
-visibility:visible; */
-margin-top:-65px;
+.navbar-inverse {
+background-color: transparent!important;
+border:none!important;
 }
-.sidenavbar-collapse {padding-right:60px;}
+
+.navbar-toggle .icon-bar {
+width: 17px;
 }
+
+.nav > li > a {
+    color: #83807A;
+    font-family: headerfont; 
+    font-size: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  z-index: 100;
 }
+
+.nav-pills > li > a:hover, a:focus {
+    color: #9CF;
+    background: none;
+      z-index: 100;
+}
+.navbar-toggle {
+background-color: rgba(0, 0, 0, 0.8);
+z-index: 100;
+float: left;
+margin-left: -10px;
+margin-top: -10px;
+}
+
+.navlogo {
+  display:none;
+
+}
+
    
 
 /* ==========================================================================
@@ -125,6 +169,48 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    height: 100%;
    width: 200px;
 }
+
+.nav > li > a {
+    color: #83807A;
+    padding: 0px;
+}
+
+#menu-side-navigation {
+    background-color: initial;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background: none;
+}
+
+.navbar-collapse{
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.45);
+  min-width: 15% !important;
+  z-index: 1;
+  margin: 0px;
+}
+
+.navbar-collapse.collapse {
+    display: block !important;
+    min-height: 100% !important;
+    overflow: visible !important;
+    padding-bottom: 0;
+}
+
+.navlogo {
+  display: inherit;
+  height: 180px;
+  width: 160px;
+  margin-left: auto ;
+  margin-right: auto ;
+  z-index: -10;
+}
+
+.navbar-default .navbar-nav>li>a {
+font-size: 14px;
+}
+.navbar-brand {display:none;}
+
 
  }
 
