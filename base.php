@@ -19,13 +19,13 @@
 
    <div class="wrap container" role="document">
     <div class="content row">
-        <?php if (roots_display_sidenavbar()) : ?>
+        <!--<?php if (roots_display_sidenavbar()) : ?>-->
             <div class="<?php echo roots_sidenavbar_class(); ?>">
                 <section class="side-nav-wrapper">
                     <?php get_template_part('templates/sidenavbar'); ?>
                 </section>
             </div><!-- /.sidenavbar -->
-        <?php endif; ?> 
+        <!--<?php endif; ?>--> 
 
   <div class="wrap container" role="document">
     <div class="content row">
