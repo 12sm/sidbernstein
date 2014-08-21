@@ -180,7 +180,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .navbar-collapse{
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.45);
   min-width: 15% !important;
   z-index: 1;
   margin: 0px;
