@@ -7,7 +7,9 @@
    Base
    ========================================================================== */
 
-body { }
+body {
+   background-image: 
+    }
 
 
 
@@ -206,6 +208,9 @@ font-size: 14px;
 }
 .navbar-brand {display:none;}
 
+.credits {
+   bottom: 0px;
+}
 
  }
 
