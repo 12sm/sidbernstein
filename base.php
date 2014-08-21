@@ -1,4 +1,4 @@
-<!--<?php get_template_part('templates/head'); ?>-->
+<?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
@@ -7,7 +7,7 @@
     </div>
   <![endif]-->
 
-  <!--<?php
+  <?php
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
@@ -15,11 +15,11 @@
     } else {
       get_template_part('templates/header');
     }
-  ?>-->
+  ?>
 
    <div class="wrap container" role="document">
     <div class="content row">
-        <!--<?php if (roots_display_sidenavbar()) : ?>-->
+        <?php if (roots_display_sidenavbar()) : ?>
             <div class="<?php echo roots_sidenavbar_class(); ?>">
                 <section class="side-nav-wrapper">
                     <?php get_template_part('templates/sidenavbar'); ?>
@@ -37,7 +37,7 @@
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
-  <!--<?php get_template_part('templates/footer'); ?>-->
+  <?php get_template_part('templates/footer'); ?>
 
 </body>
 </html>
