@@ -163,8 +163,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-.nopad {
+.sidenav {
    padding: 0px;
+   float: left;
 }
 
 .navbar {
@@ -214,6 +215,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 font-size: 14px;
 }
 .navbar-brand {display:none;}
+
+.mainarea {
+   float: left;
+}
 
 p .credits {
    bottom: 0px;

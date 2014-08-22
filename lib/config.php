@@ -27,7 +27,7 @@ function roots_main_class() {
 
     } else {
             // No side bars on this page
-            $class = 'col-lg-12';
+            $class = 'col-lg-12 mainarea';
     }
     return $class;
 }
@@ -43,7 +43,7 @@ function roots_sidebar_class() {
  * .sidenavbar classes
  */
 function roots_sidenavbar_class() {
-  return 'col-md-2 nopad';
+  return 'col-md-2 sidenav';
 }
 
 /**
