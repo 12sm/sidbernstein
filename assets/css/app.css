@@ -191,6 +191,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   margin: 0px;
 }
 
+.navlogo {
+   background-image: url("../img/logo.jpg");
+   max-width: 146px;
+   margin: 20px, auto;
+}
+
 .navbar-collapse.collapse {
     display: block !important;
     min-height: 100% !important;
