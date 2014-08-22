@@ -43,7 +43,7 @@ function roots_sidebar_class() {
  * .sidenavbar classes
  */
 function roots_sidenavbar_class() {
-  return 'col-md-2';
+  return 'col-md-2 nopad';
 }
 
 /**
