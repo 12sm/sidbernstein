@@ -72,7 +72,7 @@
     "padding-bottom": "50px"
   });
 } else {
-  $.backstretch("../assets/img/bg.jpg");
+  $.backstretch("..wp-content/themes/sidbernstein/assets/img/bg.jpg");
 }
 
   // The routing fires all common scripts, followed by the page specific scripts.
