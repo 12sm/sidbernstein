@@ -18,17 +18,13 @@
 
   function gridIt(){
     console.log("function has been hit");
-    var container = document.getElementsByClassName('.js-masonry')[0];
-		var msnry;
+    debugger;
 		// initialize Masonry after all images have loaded
-		imagesLoaded(container, function() {
-		  debugger;
+		imagesLoaded('.jsmasonry', function() {
+		  var container = document.querySelector('.jsmasonry');
 		  console.log("images have loaded");
-		  msnry = new Masonry(container, {
+		  var msnry = $(container).masonry({
 		  // options...
-		  	columnWidth: 150,
-		    itemSelector: '.item',
-		    gutter: 5
 		  });
 		  console.log(msnry);
 		});
@@ -63,11 +59,10 @@
       init: function() {
         // JavaScript to be fired on the about us page
         console.log("this is the photos page yo");
-				gridIt();
+        gridIt();
       }
     }
   };
-
 
          //iOS 7 workaround
   if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
