@@ -68,7 +68,7 @@
     }
   };
 
-<<<<<<< HEAD
+
          //iOS 7 workaround
   if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
   $("body").css({
@@ -80,8 +80,6 @@
   $.backstretch("..wp-content/themes/sidbernstein/assets/img/bg.jpg");
 }
 
-=======
->>>>>>> origin/master
   // The routing fires all common scripts, followed by the page specific scripts.
   // Add additional events for more control over timing e.g. a finalize event
   var UTIL = {
