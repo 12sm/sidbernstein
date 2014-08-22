@@ -20,14 +20,14 @@ define('POST_EXCERPT_LENGTH', 40); // length in words for excerpt_length filter 
 function roots_main_class() {
     if (roots_display_sidebar() && roots_display_sidenavbar()) {
             // There is a side bar on each side
-            $class = 'col-md-6';
+            $class = 'col-lg-6';
     } elseif (roots_display_sidebar() || roots_display_sidenavbar()) {
             // There is a bar on only one side of the content
-            $class = 'col-md-10';
+            $class = 'col-lg-12';
 
     } else {
             // No side bars on this page
-            $class = 'col-md-12';
+            $class = 'col-lg-12';
     }
     return $class;
 }
