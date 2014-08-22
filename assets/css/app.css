@@ -215,6 +215,11 @@ p .credits {
    bottom: 0px;
 }
 
+.sidback {
+   background-image: url"../img/nav-tile-bg.jpg");
+   overflow: hidden;
+}
+
 
 footer {
    bottom: 0px;
