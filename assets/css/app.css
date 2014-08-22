@@ -217,9 +217,10 @@ p .credits {
 
 .sidback {
    background-image: url("../img/sid-face-bg.jpg");
-   overflow: hidden;
-   max-width: 100%;
-
+   background-size: contain;
+   width: auto;
+   height: 811px;
+   margin: 0px 0px 0px -200px;
 }
 
 
