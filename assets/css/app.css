@@ -192,8 +192,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .navlogo {
+   display: inherit;  
    background-image: url("../img/logo.jpg");
    max-width: 146px;
+   height: auto;
    margin: 20px, auto;
 }
 
@@ -202,15 +204,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     min-height: 100% !important;
     overflow: visible !important;
     padding-bottom: 0;
-}
-
-.navlogo {
-  display: inherit;
-  height: 180px;
-  width: 160px;
-  margin-left: auto ;
-  margin-right: auto ;
-  z-index: -10;
 }
 
 .navbar-default .navbar-nav>li>a {
