@@ -32,7 +32,7 @@ function roots_main_class() {
     return $class;
 }
 
-/**
+/***
  * .sidebar classes
  */
 function roots_sidebar_class() {
