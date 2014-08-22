@@ -192,11 +192,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .navlogo {
-   display: inherit;  
-   background-image: url("../img/logo.jpg");
-   max-width: 146px;
-   height: auto;
-   /*margin: 20px, auto;*/
+   display: inherit;
+   z-index: 100;
+   width: 146px;
+   height: 56px;
+   margin: 20px auto;
 }
 
 .navbar-collapse.collapse {
@@ -214,6 +214,7 @@ font-size: 14px;
 p .credits {
    bottom: 0px;
 }
+
 
 footer {
    bottom: 0px;
