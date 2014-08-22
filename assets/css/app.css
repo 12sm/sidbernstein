@@ -62,7 +62,7 @@ Side Navbar
 }
 
 .navbar-collapse {
-background-image: ('../assets/img/nav-tile-bg.jpg')
+background-image: ('../assets/img/nav-tile-bg.jpg');
 min-width: 100%;
 z-index: 100;
 padding: 0px;
