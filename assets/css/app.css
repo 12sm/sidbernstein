@@ -196,7 +196,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    background-image: url("../img/logo.jpg");
    max-width: 146px;
    height: auto;
-   margin: 20px, auto;
+   /*margin: 20px, auto;*/
 }
 
 .navbar-collapse.collapse {
