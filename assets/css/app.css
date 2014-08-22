@@ -217,6 +217,7 @@ p .credits {
 
 .sidback {
    background-image: url("../img/sid-face-bg.jpg");
+   background-repeat: no-repeat;
    background-size: contain;
    width: auto;
    height: 811px;
