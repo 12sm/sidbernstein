@@ -17,16 +17,20 @@
 (function($) {
 
   function gridIt(){
+    console.log("function has been hit");
     var container = document.getElementsByClassName('.js-masonry')[0];
 		var msnry;
 		// initialize Masonry after all images have loaded
-		imagesLoaded( container, function() {
-		  msnry = new Masonry( container, {
+		imagesLoaded(container, function() {
+		  debugger;
+		  console.log("images have loaded");
+		  msnry = new Masonry(container, {
 		  // options...
 		  	columnWidth: 150,
 		    itemSelector: '.item',
 		    gutter: 5
 		  });
+		  console.log(msnry);
 		});
   }
 
@@ -55,25 +59,14 @@
       }
     },
 
-    photos: {
+    post_type_archive_photos: {
       init: function() {
         // JavaScript to be fired on the about us page
         console.log("this is the photos page yo");
-		gridIt();
+				gridIt();
       }
     }
   };
-
-         //iOS 7 workaround
-  if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
-  $("body").css({
-    "background": "url(/assets/img/bg.jpg) center center no-repeat",
-    "background-size": "cover",
-    "padding-bottom": "50px"
-  });
-} else {
-  $.backstretch("../assets/img/bg.jpg");
-}
 
   // The routing fires all common scripts, followed by the page specific scripts.
   // Add additional events for more control over timing e.g. a finalize event
