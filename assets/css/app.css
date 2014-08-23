@@ -258,7 +258,7 @@ p .credits {
    background-size: contain;
    width: auto;
    height: 811px;
-   margin: 0px;
+   margin: 0 0 0 -50px;
 }
 
 .jsmasonry {
