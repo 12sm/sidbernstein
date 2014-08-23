@@ -23,11 +23,11 @@ function roots_main_class() {
             $class = 'col-lg-6';
     } elseif (roots_display_sidebar() || roots_display_sidenavbar()) {
             // There is a bar on only one side of the content
-            $class = 'col-lg-12 nopad';
+            $class = 'col-lg-12';
 
     } else {
             // No side bars on this page
-            $class = 'col-lg-12 nopad';
+            $class = 'col-lg-12';
     }
     return $class;
 }
