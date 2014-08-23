@@ -244,6 +244,10 @@ font-size: 14px;
    padding: 0 0 0 15px !important;
 }
 
+.quote {
+  padding: 150px auto 0;
+}
+
 p .credits {
    bottom: 0px;
 }
@@ -254,7 +258,7 @@ p .credits {
    background-size: contain;
    width: auto;
    height: 811px;
-   margin: 0px 0px 0px -200px;
+   margin: 0 0 0 50px;
 }
 
 .jsmasonry {
@@ -269,10 +273,19 @@ footer {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+ 
+.sidback { 
+
+   margin: 0 0 0 -100px;
+}
 
  }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+.sidback { 
+
+   margin: 0 0 0 -100px;
+}
  }
