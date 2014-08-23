@@ -258,7 +258,7 @@ p .credits {
    background-size: contain;
    width: auto;
    height: 811px;
-   margin: 0 0 0 -50px;
+   margin: 0 0 0 -10%;
 }
 
 .jsmasonry {
@@ -274,10 +274,6 @@ footer {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
  
-.sidback { 
-
-   margin: 0 0 0 -100px;
-}
 
  }
 
