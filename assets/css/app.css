@@ -28,6 +28,20 @@ body {
 
 .content { }
 
+.quote {
+  background-image: url("../img/homequote.png");
+  max-width: 100%;
+  margin: auto;
+}
+
+.memory {
+  
+}
+
+.memory > a {
+  
+}
+
 
 
 /* ==========================================================================
