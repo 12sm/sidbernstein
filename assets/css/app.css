@@ -220,6 +220,7 @@ font-size: 14px;
 .mainarea {
    float: left;
    width: 86% !important;
+   padding: 0 0 0 15px !important;
 }
 
 p .credits {
