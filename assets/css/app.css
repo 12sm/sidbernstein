@@ -241,9 +241,12 @@ p .credits {
 }
 
 .jsmasonry {
-  padding: 30px !important;
+  margin: 30px !important;
 }
 
+#photoMason {
+  margin: 30px !important;
+}
 
 footer {
    bottom: 0px;
