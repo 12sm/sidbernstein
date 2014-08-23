@@ -29,7 +29,7 @@ body {
 .content { }
 
 .quote {
-  background-image: url("../img/homequote.png");
+  background-image: url("../img/home-quote.png");
   max-width: 100%;
   margin: auto;
 }
