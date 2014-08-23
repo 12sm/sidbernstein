@@ -187,7 +187,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .sidenav {
    padding: 0px;
    float: left;
-   width: 14% !important;
+   width: 10% !important;
 }
 
 .navbar {
@@ -284,8 +284,4 @@ footer {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-.sidback { 
-
-   margin: 0 0 0 -200px;
-}
  }
