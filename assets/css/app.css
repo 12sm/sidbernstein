@@ -240,6 +240,10 @@ p .credits {
    margin: 0px 0px 0px -200px;
 }
 
+.jsmasonry {
+  padding: 30px !important;
+}
+
 
 footer {
    bottom: 0px;
