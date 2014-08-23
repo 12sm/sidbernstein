@@ -1,5 +1,5 @@
 <div class="sidback">
-</div>
+
 <div class="col-lg-5">
 	<div class="row">
 	</div>
@@ -12,3 +12,4 @@
 		</div>
 	</div>
 <div>
+</div>

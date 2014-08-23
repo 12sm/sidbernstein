@@ -30,8 +30,11 @@ body {
 
 .quote {
   background-image: url("../img/home-quote.png");
-  max-width: 100%;
+  width: 100%;
   margin: auto;
+  height: 126px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .memory {
@@ -251,7 +254,7 @@ p .credits {
    background-size: contain;
    width: auto;
    height: 811px;
-   margin: 0px 0px 0px -200px;
+   margin: 0px 0px 0px -100px;
 }
 
 .jsmasonry {
