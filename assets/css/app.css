@@ -43,13 +43,12 @@ body {
 }
 
 .memorybutton {
-  width: 200px;
-  height: 50px;
   background-color: #53aba7;
-  font-size: 16px;
+  font-size: 32px;
   font-family: serif;
   font-style: italic;
-  color: #000;  
+  color: rgba(0,0,0,0.8);
+  padding: 15px 10px; 
 }
 
 
