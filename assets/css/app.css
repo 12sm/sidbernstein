@@ -88,6 +88,11 @@ a:hover {
 Side Navbar
 ========================================================================== */
 
+.navbar {
+  margin: 0px;
+  
+}
+
 .side-nav-wrapper {
    min-height: 100%;
 }
@@ -97,11 +102,11 @@ Side Navbar
 }
 
 .navbar-collapse {
-background-image: url("../img/nav-tile-bg.jpg");
-min-width: 100%;
-z-index: 100;
-padding: 0px;
-margin: 0 -20px;
+  background-image: url("../img/nav-tile-bg.jpg");
+  min-width: 100%;
+  z-index: 100;
+  padding: 0px;
+  margin: 0 -20px;
 }
 
 ul.nav li {
@@ -114,8 +119,15 @@ width: 40px;
 }*/
 
 .navbar-inverse {
-background-color: transparent!important;
-border:none!important;
+  border:none!important;
+  background-image: url("../img/nav-tile-bg.jpg");
+}
+
+.navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  margin: 3px 4px;
+  padding: 9px 12px;
 }
 
 .navbar-toggle .icon-bar {
@@ -129,20 +141,13 @@ width: 17px;
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
-  z-index: 100;
+    z-index: 100;
 }
 
 .nav-pills > li > a:hover, a:focus {
     color: #9CF;
     background: none;
-      z-index: 100;
-}
-.navbar-toggle {
-background-color: rgba(0, 0, 0, 0.8);
-z-index: 100;
-float: left;
-margin-left: -10px;
-margin-top: -10px;
+    z-index: 100;
 }
 
 .navlogo {
