@@ -20,7 +20,7 @@
   ?>
   </div>
       <div class="col-sm-2 nopad credits">
-      <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
+      <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">Built by <striong>12SM</strong></a>
       </div>
     </div>
   </div>

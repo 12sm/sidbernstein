@@ -252,6 +252,11 @@ font-size: 14px;
    bottom: 0px;
    width: 10% !important;
    text-align: center;
+   color: #FFF;
+}
+
+.credits > a {
+  color: #FFFF00 !important;
 }
 
 .sidback {
