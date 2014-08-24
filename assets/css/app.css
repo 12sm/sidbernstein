@@ -43,7 +43,7 @@ a:hover {
 
 .memory {
   width: 100%;
-  margin: 10% 0 0 16%;
+  margin: 10% auto;
   
 }
 
@@ -259,6 +259,10 @@ font-size: 14px;
   margin: 20% auto 0;
 }
 
+.memory {
+  margin: 10% 0 0 22%;
+}
+
 .memorybutton {
   font-size: 22px;
 }
@@ -299,9 +303,6 @@ footer {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-.memory {
-    margin: 10% 0 0 20%;
-}
 
 .memorybutton {
   font-size: 28px;
@@ -311,6 +312,10 @@ footer {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+.memory {
+    margin: 10% 0 0 16%;
+}
 
 .memorybutton {
   font-size: 32px;
