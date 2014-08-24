@@ -51,7 +51,8 @@ a:hover {
   background-color: #53aba7;
   font-size: 18px;
   font-family: serif;
-  font-style: italic, bold;
+  font-style: italic;
+  font-weight: 700;
   color: rgba(0,0,0,0.8);
   padding: 15px 10px; 
 }
