@@ -38,11 +38,18 @@ body {
 }
 
 .memory {
-  
+  width: 100%;
+  margin: 20px auto 0;
 }
 
-.memory > a {
-  
+.memorybutton {
+  width: 200px;
+  height: 50px;
+  background-color: #53aba7;
+  font-size: 16px;
+  font-family: serif;
+  font-style: italic;
+  color: #000;  
 }
 
 

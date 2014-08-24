@@ -8,7 +8,10 @@
 	<div class="row">
 		<div class="quote">
 		</div>
-		</div class="memorybutton">
+		</div class="memory">
+		<a class="btn btn-lg btn-default memorybutton" data-toggle="modal" 
+   		   data-target="#largeModal" 
+   		   data-remote="memory-modal.html">Click To Share a Memory</a>
 		</div>
 	</div>
 <div>
