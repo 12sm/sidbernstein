@@ -52,7 +52,6 @@ a:hover {
   font-size: 18px;
   font-family: serif;
   font-style: italic;
-  font-weight: 700;
   color: rgba(0,0,0,0.8);
   padding: 15px 10px; 
 }
@@ -300,8 +299,12 @@ footer {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+.memory {
+    margin: 10% 0 0 20%;
+}
+
 .memorybutton {
-  font-size: 24px;
+  font-size: 28px;
 }
 
  }
