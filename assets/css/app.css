@@ -139,16 +139,19 @@ width: 17px;
 }
 
 .nav > li > a {
-  background-color: #53aba7;
+  color: #53aba7;
   font-size: 24px;
   font-family: serif;
   font-style: italic;
-  color: rgba(0,0,0,0.8);
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
   z-index: 100;
 }
+
+.nav > li.active > a {
+  background-color: #53aba7;
+}  
 
 .nav-pills > li > a:hover, a:focus {
     color: #9CF;
