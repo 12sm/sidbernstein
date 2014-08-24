@@ -249,6 +249,7 @@ font-size: 14px;
 }
 
 .credits {
+   font-size: 10px;
    bottom: 0px;
    width: 10% !important;
    text-align: center;
@@ -256,7 +257,8 @@ font-size: 14px;
 }
 
 .credits > a {
-  color: #FFFF00 !important;
+  color: rgba(225,238,47,.8); !important;
+  font-size: 10px;
 }
 
 .sidback {
