@@ -248,8 +248,10 @@ font-size: 14px;
   margin: 20% auto 0;
 }
 
-p .credits {
+.credits {
    bottom: 0px;
+   width: 10% !important;
+   text-align: center;
 }
 
 .sidback {
