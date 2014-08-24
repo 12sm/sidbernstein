@@ -39,14 +39,15 @@ body {
 
 .memory {
   width: 100%;
-  margin: 20px auto 0;
+  margin: 10% 0 0 16%;
+  
 }
 
 .memorybutton {
   background-color: #53aba7;
   font-size: 32px;
   font-family: serif;
-  font-style: italic;
+  font-style: italic, bold;
   color: rgba(0,0,0,0.8);
   padding: 15px 10px; 
 }
