@@ -64,6 +64,13 @@ a:hover {
 
 .main { }
 
+.sidback {
+   background-image: url("../img/sid-face-bg.jpg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: auto;
+}
+
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
@@ -281,10 +288,6 @@ font-size: 14px;
 }
 
 .sidback {
-   background-image: url("../img/sid-face-bg.jpg");
-   background-repeat: no-repeat;
-   background-size: contain;
-   width: auto;
    height: 811px;
    margin: 0 0 0 -10%;
 }
