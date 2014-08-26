@@ -40,10 +40,10 @@
   	$(".item").fitVids();
   	console.log(msnry);
   }
-  
+
   function stopVideo(){
     debugger;
-    src = $('.modal iframe').attr('src');
+    var src = $('.modal iframe').attr('src');
     $('.modal iframe').attr('src', '');
     $('.modal iframe').attr('src', src);
   }
@@ -81,6 +81,11 @@
       init: function() {
         console.log("this is the videos page yo");
         gridVid();
+        
+        $('.modal').on('hidden.bs.modal', function(){
+          $(".modal iframe").attr("src", $(".modal iframe").attr("src"));
+        });
+        
         $('.stopPlay').click(stopVideo);
         $('.js').click(stopVideo);
       }
