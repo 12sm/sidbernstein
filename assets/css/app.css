@@ -27,10 +27,17 @@ a:hover {
 
 
 /* ==========================================================================
-   Content
+   Home Content
    ========================================================================== */
 
 .content { }
+
+.sidback {
+   background-image: url("../img/sid-face-bg.jpg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: auto;
+}
 
 .quote {
   background-image: url("../img/home-quote.png");
@@ -56,6 +63,12 @@ a:hover {
   padding: 15px 10px; 
 }
 
+.homebio {
+  padding: 20px 0;
+}
+
+
+
 
 
 /* ==========================================================================
@@ -64,12 +77,6 @@ a:hover {
 
 .main { }
 
-.sidback {
-   background-image: url("../img/sid-face-bg.jpg");
-   background-repeat: no-repeat;
-   background-size: contain;
-   width: auto;
-}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -273,6 +280,10 @@ font-size: 14px;
    float: left;
    width: 90% !important;
    padding: 0 0 0 15px !important;
+}
+
+.homebio {
+  padding: -200px 0 0;
 }
 
 .quote {
