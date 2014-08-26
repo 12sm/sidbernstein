@@ -64,7 +64,7 @@ a:hover {
 }
 
 .homebio {
-  padding: 20px 0;
+  margin: 20px 0;
 }
 
 
@@ -283,7 +283,7 @@ font-size: 14px;
 }
 
 .homebio {
-  padding: -200px 0 0;
+  margin: -200px 0 0;
 }
 
 .quote {
