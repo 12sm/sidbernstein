@@ -55,6 +55,8 @@
     common: {
       init: function() {
         console.log("this script will run if this works");
+        $('.modal-link').bind('touchstart', function(e) {
+        $(this).toggleClass('hover_effect'); 
       }
     },
 
