@@ -14,5 +14,6 @@
    		   data-remote="memory-modal.html">Click To Share a Memory</a>
 		</div>
 	</div>
+<?php echo render_view( $'Home Bio' ); ?>
 <div>
 </div>
