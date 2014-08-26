@@ -83,6 +83,13 @@ a:hover {
   padding: 20px 0 0;
 }
 
+.bioexcerpt {
+  font-size: 14px;
+  font-family: serif;
+  color: rgba(0,0,0,0.8);
+  padding: 20px 0 0;
+}
+
 .keepreading {
   width: 100%;
   margin: 5% auto;
@@ -316,12 +323,20 @@ font-size: 14px;
   margin: -80px 0 0;
 }
 
+.fullbio {
+
+}
+
 .homeheader {
   font-size: 42px;
   line-height: 42px;
 }
 
 .homeexcerpt {
+  font-size: 20px;
+}
+
+.bioexcerpt {
   font-size: 20px;
 }
 
