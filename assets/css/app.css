@@ -233,7 +233,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .nav > li > a {
     color: #83807A;
     padding: 0px;
-    text-transform: inherit;
 }
 
 #menu-side-navigation {
