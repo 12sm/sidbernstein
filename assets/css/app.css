@@ -16,7 +16,7 @@ a:hover {
   color: #FFF;
 }
 
-p. {
+p {
   margin: 0 0 20px !important;
 }
 
@@ -346,9 +346,6 @@ font-size: 14px;
   line-height: 42px;
 }
 
-.fullbio {
- font-family: serif;
-}
 
 .quote {
   margin: 20% auto 0;
