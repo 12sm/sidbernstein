@@ -135,14 +135,13 @@ width: 17px;
 }
 
 .nav {
-  margin: 0px 10px;
+  margin: 20px;
 }
 
 .nav > li > a {
   color: #53aba7;
   font-size: 24px;
   font-family: serif;
-  font-style: italic;
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
@@ -234,6 +233,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .nav > li > a {
     color: #83807A;
     padding: 0px;
+    text-transform: inherit;
 }
 
 #menu-side-navigation {
