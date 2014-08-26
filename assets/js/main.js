@@ -16,18 +16,36 @@
 
 (function($) {
 
-  function gridIt(){
-    console.log("function has been hit");
-    debugger;
-		// initialize Masonry after all images have loaded
+	var msnry;
+	var src;
+
+	function gridIt(){
+	  var container = document.querySelector('.jsmasonry');
+	  console.log("images have loaded");
+	  msnry = $(container).masonry({
+	  });
+	}
+
+  function gridImg(){
+    console.log("function has been called");
 		imagesLoaded('.jsmasonry', function() {
-		  var container = document.querySelector('.jsmasonry');
-		  console.log("images have loaded");
-		  var msnry = $(container).masonry({
-		  // options...
-		  });
+			gridIt();
 		  console.log(msnry);
 		});
+  }
+  
+  function gridVid(){
+	  console.log("function has been called");
+	  gridIt();
+  	$(".item").fitVids();
+  	console.log(msnry);
+  }
+  
+  function stopVideo(){
+    debugger;
+    src = $('.modal iframe').attr('src');
+    $('.modal iframe').attr('src', '');
+    $('.modal iframe').attr('src', src);
   }
 
   // Use this variable to set up the common and page specific functions. If you
@@ -36,32 +54,38 @@
 
     common: {
       init: function() {
-        // JavaScript to be fired on all pages
         console.log("this script will run if this works");
       }
     },
 
     home: {
       init: function() {
-        // JavaScript to be fired on the home page
         console.log("this is the home page yo");
       }
     },
 
     sids_bio_4: {
       init: function() {
-        // JavaScript to be fired on the about us page
         console.log("this is the bio page yo");
       }
     },
 
     post_type_archive_photos: {
       init: function() {
-        // JavaScript to be fired on the about us page
         console.log("this is the photos page yo");
-        gridIt();
+        gridImg();
+      }
+    },
+    
+    post_type_archive_videos: {
+      init: function() {
+        console.log("this is the videos page yo");
+        gridVid();
+        $('.stopPlay').click(stopVideo);
+        $('.js').click(stopVideo);
       }
     }
+
   };
 
          //iOS 7 workaround
