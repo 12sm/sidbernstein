@@ -311,7 +311,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-default .navbar-nav>li>a {
 font-size: 14px;
 }
-.navbar-brand {display:none;}
+.navbar-brand {display:none;} 
 
 .mainarea {
    float: left;
@@ -337,7 +337,9 @@ font-size: 14px;
 }
 
 .bioexcerpt {
-  font-size: 20px;
+  font-size: 32px;
+  line-height: 40px;
+  
 }
 
 .quote {
