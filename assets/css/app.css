@@ -69,14 +69,14 @@ a:hover {
 }
 
 .homeheader {
-  font-size: 22px;
+  font-size: 32px;
   font-family: serif;
   font-style: italic;
   color: rgba(0,0,0,0.8);
 }
 
 .homeexcerpt {
-  font-size: 18px;
+  font-size: 26px;
   font-family: serif;
   color: rgba(0,0,0,0.8);
 }
