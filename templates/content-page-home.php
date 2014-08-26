@@ -14,6 +14,8 @@
    		   data-remote="memory-modal.html">Click To Share a Memory</a>
 		</div>
 	</div>
-<?php echo render_view( $'Home Bio' ); ?>
+<?php
+  echo do_shortcode("[wpv-view name='Home Bio']");
+?>
 <div>
 </div>
