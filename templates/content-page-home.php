@@ -15,7 +15,7 @@
 		</div>
 	</div>
 </div>		
-<div class="col-md-12">
+<div class="col-md-12 homebio">
 	<div class="row">	
 		<?php
 	 		 echo do_shortcode("[wpv-view name='home-bio']");
