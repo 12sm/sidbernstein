@@ -105,7 +105,7 @@
       "background": "url(/assets/img/bg.jpg) center center no-repeat",
       "background-size": "cover",
       "padding-bottom": "50px"
-    }
+    )}
   } else {
     $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
   });
