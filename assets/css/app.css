@@ -81,6 +81,19 @@ a:hover {
   color: rgba(0,0,0,0.8);
 }
 
+.keepreading {
+  width: 100%;
+  margin: 10% auto;
+}
+
+.keepreadingbutton {
+  background-color: #53aba7;
+  font-size: 14px;
+  font-family: serif;
+  font-style: italic;
+  color: rgba(0,0,0,0.8);
+  padding: 15px 10px; 
+}
 
 
 
