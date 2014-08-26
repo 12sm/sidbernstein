@@ -1,3 +1,3 @@
 <?php
-  echo do_shortcode("[wpv-view name='BIO | PAGE']");
+  echo do_shortcode("[wpv-view name='bio']");
 ?>

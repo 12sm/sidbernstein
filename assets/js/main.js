@@ -16,36 +16,24 @@
 
 (function($) {
 
-	var msnry;
-	var src;
+  var src;
+  var mode;
 
-	function gridIt(){
-	  var container = document.querySelector('.jsmasonry');
-	  console.log("images have loaded");
-	  msnry = $(container).masonry({
-	  });
-	}
+  function gridIt(){
+    var container = document.querySelector('.jsmasonry');
+    $(container).masonry({
+    });
+  }
 
   function gridImg(){
-    console.log("function has been called");
-		imagesLoaded('.jsmasonry', function() {
-			gridIt();
-		  console.log(msnry);
-		});
+    imagesLoaded('.jsmasonry', function() {
+      gridIt();
+    });
   }
   
   function gridVid(){
-	  console.log("function has been called");
-	  gridIt();
-  	$(".item").fitVids();
-  	console.log(msnry);
-  }
-
-  function stopVideo(){
-    debugger;
-    var src = $('.modal iframe').attr('src');
-    $('.modal iframe').attr('src', '');
-    $('.modal iframe').attr('src', src);
+    gridIt();
+    $(".item").fitVids();
   }
 
   // Use this variable to set up the common and page specific functions. If you
@@ -55,56 +43,72 @@
     common: {
       init: function() {
         console.log("this script will run if this works");
-        /*$('.modal-link').bind('touchstart', function(e) {
-        $(this).toggleClass('hover_effect'); */
+        $('.modal-link').bind('touchstart', function(e) {
+          $(this).toggleClass('hover_effect'); 
+        });
       }
     },
 
     home: {
       init: function() {
-        console.log("this is the home page yo");
+        console.log("this is the home page");
       }
     },
 
     sids_bio_4: {
       init: function() {
-        console.log("this is the bio page yo");
+        console.log("this is the bio page");
       }
     },
 
     post_type_archive_photos: {
       init: function() {
-        console.log("this is the photos page yo");
+        console.log("this is the photos page");
         gridImg();
       }
     },
-    
+
     post_type_archive_videos: {
       init: function() {
-        console.log("this is the videos page yo");
+        console.log("this is the videos page");
         gridVid();
-        
-        $('.modal').on('hidden.bs.modal', function(){
-          $(".modal iframe").attr("src", $(".modal iframe").attr("src"));
+        $('.modal').on('show.bs.modal', function(){
+          mode = $(this).find("iframe");
+          src = mode.attr('src');
         });
-        
-        $('.stopPlay').click(stopVideo);
-        $('.js').click(stopVideo);
+        $('.modal').on('hide.bs.modal', function(){
+          mode.attr('src', '');
+          mode.attr('src', src);
+        });
       }
     }
-
+    
+    post_type_archive_memories: {
+      init: function() {
+        console.log("this is the memories page");
+        gridVid();
+        $('.modal').on('show.bs.modal', function(){
+          mode = $(this).find("iframe");
+          src = mode.attr('src');
+        });
+        $('.modal').on('hide.bs.modal', function(){
+          mode.attr('src', '');
+          mode.attr('src', src);
+        });
+      }
+    }
   };
 
-         //iOS 7 workaround
-if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
-  $("body").css({
-    "background": "url(/assets/img/bg.jpg) center center no-repeat",
-    "background-size": "cover",
-    "padding-bottom": "50px"
-  });
-} else {
-  $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
-}
+             //iOS 7 workaround
+  if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
+    $("body").css({
+      "background": "url(/assets/img/bg.jpg) center center no-repeat",
+      "background-size": "cover",
+      "padding-bottom": "50px"
+    });
+  } else {
+    $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
+  }
 
   // The routing fires all common scripts, followed by the page specific scripts.
   // Add additional events for more control over timing e.g. a finalize event
