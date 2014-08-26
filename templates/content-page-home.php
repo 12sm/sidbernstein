@@ -13,13 +13,14 @@
 	   		   data-remote="memory-modal.html">Click To Share a Memory</a>
 			</div>
 		</div>
-	</div>	
-	<div class="col-sm-12">
-		<div class="row">	
-			<?php
-	 			 echo do_shortcode("[wpv-view name='home-bio']");
-			?>
-		</div>
+	</div>
+</div>		
+<div class="col-md-12">
+	<div class="row">	
+		<?php
+	 		 echo do_shortcode("[wpv-view name='home-bio']");
+		?>
 	</div>
 </div>
+
 
