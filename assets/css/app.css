@@ -65,6 +65,20 @@ a:hover {
 
 .homebio {
   margin: 20px 0;
+  text-align: center;
+}
+
+.homeheader {
+  font-size: 22px;
+  font-family: serif;
+  font-style: italic;
+  color: rgba(0,0,0,0.8);
+}
+
+.homeexcerpt {
+  font-size: 18px;
+  font-family: serif;
+  color: rgba(0,0,0,0.8);
 }
 
 
@@ -283,7 +297,7 @@ font-size: 14px;
 }
 
 .homebio {
-  margin: -200px 0 0;
+  margin: -50px 0 0;
 }
 
 .quote {
@@ -307,7 +321,7 @@ font-size: 14px;
 }
 
 .credits > a {
-  color: rgba(225,238,47,.8); !important;
+  color: rgba(225,238,47,.8) !important;
   font-size: 10px;
 }
 
