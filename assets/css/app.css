@@ -16,6 +16,10 @@ a:hover {
   color: #FFF;
 }
 
+p.fullbio {
+  margin: 10px 0 0 0;
+}
+
 
 
 /* ==========================================================================
@@ -154,7 +158,7 @@ Side Navbar
 }
 
 ul.nav li {
-background-color: transparent;
+  background-color: transparent;
 }
 
 /*.navbar {
@@ -343,7 +347,7 @@ font-size: 14px;
 }
 
 .fullbio {
-  
+
 }
 
 .quote {
