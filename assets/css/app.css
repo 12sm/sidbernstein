@@ -16,10 +16,6 @@ a:hover {
   color: #FFF;
 }
 
-.spacer {
-  line-height: 2%;
-}
-
 
 
 /* ==========================================================================
@@ -342,9 +338,8 @@ font-size: 14px;
 }
 
 .bioexcerpt {
-  font-size: 22px;
-  line-height: 38px;
-  padding: 20px 0;
+  font-size: 28px;
+  line-height: 42px;
 }
 
 .fullbio {
