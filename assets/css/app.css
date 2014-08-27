@@ -429,7 +429,7 @@ font-size: 14px;
 }
 
 .mp3play > a:hover {
-  color: rgba(225, 238, 47, 0.8);
+  color: rgba(225, 238, 47, 0.8) !important;
 }
 
 .credits {
