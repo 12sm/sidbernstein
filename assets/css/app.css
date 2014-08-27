@@ -133,10 +133,30 @@ p {
 
 .mp3contlg {
   background-color: #777;
+  display: block;
 }
 
 .mp3contdg {
   background-color: #333;
+  display: block;
+}
+
+.mp3numb {
+  color: #FFF;
+  font-style: serif;
+  float: left;
+}
+
+.mp3title {
+  color: #FFF;
+  font-style: serif;
+  float: left;
+}
+
+a.mp3play {
+  color: #FFF !important;
+  font-style: serif !important;
+  float: left;
 }
 
 
