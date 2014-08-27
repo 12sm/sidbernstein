@@ -97,7 +97,6 @@ p {
 .keepreading {
   width: 100%;
   margin: 5% auto;
-  text-align: center;
 }
 
 .button {
@@ -119,11 +118,11 @@ p {
 }
 
 .homemp3container {
-   background-color: #555; 
+  
 }
 
 .homemp3cont {
-
+  
 
 }
 
@@ -389,9 +388,13 @@ font-size: 14px;
 }
 
 .homemp3container {
-   margin: 0 2% 0 0; 
+  
 }
 
+.homemp3cont {
+  
+
+}
 
 .2ndalbumimage {
   
