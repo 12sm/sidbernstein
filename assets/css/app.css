@@ -122,7 +122,7 @@ p {
 }
 
 .homemp3cont {
-  
+  background-color: #444;
 
 }
 
@@ -392,8 +392,7 @@ font-size: 14px;
 }
 
 .homemp3cont {
-  
-
+  margin: 0 2% 0 0; 
 }
 
 .2ndalbumimage {
