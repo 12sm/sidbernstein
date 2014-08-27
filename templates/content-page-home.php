@@ -22,5 +22,12 @@
 		?>
 	</div>
 </div>
+ <div class="col-lg-12 homealbumcontainer">
+  	<div class="row"> 
+		<?php
+	 		 echo do_shortcode("[wpv-view name='home-music-player']");
+		?>
+</div>
+</div>		
 
 
