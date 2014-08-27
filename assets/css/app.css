@@ -76,7 +76,7 @@ p {
 }
 
 .homeheader {
-  font-size: 18px;
+  font-size: 32px;
   font-family: serif;
   font-style: italic;
   color: rgba(0, 0, 0, 0.7);
@@ -116,7 +116,7 @@ p {
   font-family: serif;
   font-style: italic;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 42px;
+  font-size: 32px;
   margin: 3% 0px;
   text-align: center;
   
@@ -439,6 +439,7 @@ font-size: 14px;
 
 .homealbumtitle {
   text-align: left;
+  font-size: 42px;
 }
 
 .homealbumcover {
