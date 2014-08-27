@@ -75,6 +75,10 @@ p {
   text-align: center;
 }
 
+.homebiophoto {
+  margin: 20px 0 0 0;
+}
+
 .homeheader {
   font-size: 32px;
   font-family: serif;
@@ -436,6 +440,9 @@ font-size: 14px;
   line-height: 42px;
 }
 
+.homebiophoto {
+  margin: inherit;
+}
 
 .homealbumtitle {
   text-align: left;
