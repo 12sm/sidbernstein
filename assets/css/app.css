@@ -150,6 +150,7 @@ p {
   color: #FFF;
   font-style: serif;
   float: left;
+  margin: 0px 12px;
 }
 
 .mp3title {
@@ -160,6 +161,7 @@ p {
 
 .mp3play {
   text-align: right;
+  margin: 0 12px 0 0;
 }
 
 .mp3play > a {
