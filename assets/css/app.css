@@ -135,11 +135,13 @@ p {
 .mp3contlg {
   background-color: #777;
   display: block;
+  padding: 2% 0;
 }
 
 .mp3contdg {
   background-color: #333;
   display: block;
+  padding: 2% 0;
 }
 
 .mp3numb {
