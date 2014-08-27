@@ -111,6 +111,9 @@ p {
 }
 
 .homealbumtitle {
+  font-family: serif;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.7);
   
 }
 
@@ -420,9 +423,7 @@ font-size: 14px;
 }
 
 .homealbumtitle {
-  font-family: serif;
   font-size: 42px;
-  font-style: italic;
   margin: 0 0 15% 0;
 }
 
