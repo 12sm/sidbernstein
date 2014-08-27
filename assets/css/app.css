@@ -190,6 +190,18 @@ p {
 
 .main { }
 
+.credits {
+   font-size: 10px;
+   bottom: 0px;
+   width: 10% !important;
+   text-align: center;
+   color: #FFF;
+}
+
+.credits > a {
+  color: rgba(225,238,47,.8) !important;
+  font-size: 10px;
+}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -470,16 +482,11 @@ font-size: 14px;
 }
 
 .credits {
-   font-size: 10px;
-   bottom: 0px;
-   width: 10% !important;
-   text-align: center;
-   color: #FFF;
+  
 }
 
 .credits > a {
-  color: rgba(225,238,47,.8) !important;
-  font-size: 10px;
+  
 }
 
 .jsmasonry {
