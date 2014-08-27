@@ -153,10 +153,14 @@ p {
   float: left;
 }
 
-a.mp3play {
+.mp3play > a {
   color: #FFF !important;
   font-style: serif !important;
   float: left;
+}
+
+.mp3play > a:hover {
+  color: rgba(225, 238, 47, 0.8) !important;
 }
 
 
