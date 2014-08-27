@@ -40,14 +40,15 @@ p {
 .sidback {
    background-image: url("../img/sid-face-bg.jpg");
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: 100%;
+
    width: auto;
 }
 
 .quote {
   background-image: url("../img/home-quote.png");
   width: 100%;
-  margin: auto;
+  margin: 50% auto 0;s
   height: 126px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -56,6 +57,7 @@ p {
 .memory {
   width: 100%;
   margin: 10% auto;
+  text-align: center;
   
 }
 
@@ -136,7 +138,8 @@ p {
 }
 
 .2ndalbumimage {
-  
+  width: 100%;
+  margin: auto;
 }
 
 .mp3contlg {
@@ -277,6 +280,9 @@ width: 17px;
 
 }
 
+.navbar-brand {
+  display: inherit;
+}
    
 
 /* ==========================================================================
@@ -381,6 +387,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-default .navbar-nav>li>a {
 font-size: 14px;
 }
+
 .navbar-brand {display:none;} 
 
 .mainarea {
@@ -389,6 +396,24 @@ font-size: 14px;
    padding: 0 0 0 15px !important;
 }
 
+.sidback {
+   height: 811px;
+   margin: 0 0 0 -10%;
+   background-size: contain;
+}
+
+.quote {
+  margin: 20% auto 0;
+}
+
+.memory {
+  margin: 10% 0 0 22%;
+  text-align: inherit;
+}
+
+.memorybutton {
+  font-size: 22px;
+}
 .homebio {
   margin: -80px 0 0;
 }
@@ -413,18 +438,6 @@ font-size: 14px;
 }
 
 
-.quote {
-  margin: 20% auto 0;
-}
-
-.memory {
-  margin: 10% 0 0 22%;
-}
-
-.memorybutton {
-  font-size: 22px;
-}
-
 .homealbumtitle {
   text-align: left;
 }
@@ -442,7 +455,7 @@ font-size: 14px;
 }
 
 .2ndalbumimage {
-  
+  margin: inherit;
 }
 
 .mp3play > a:hover {
@@ -460,11 +473,6 @@ font-size: 14px;
 .credits > a {
   color: rgba(225,238,47,.8) !important;
   font-size: 10px;
-}
-
-.sidback {
-   height: 811px;
-   margin: 0 0 0 -10%;
 }
 
 .jsmasonry {
