@@ -153,11 +153,10 @@ p {
   float: left;
 }
 
-/*.mp3play {
+.mp3play > a {
   color: #FFF !important;
   font-style: serif !important;
-  float: left;
-}*/
+}
 
 
 
