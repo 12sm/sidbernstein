@@ -158,6 +158,10 @@ p {
   float: left;
 }
 
+.mp3play {
+  text-align: right;
+}
+
 .mp3play > a {
   color: #FFF !important;
   font-style: serif !important;
