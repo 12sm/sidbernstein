@@ -354,7 +354,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    padding: 0px;
    float: left;
    width: 10% !important;
-   z-index: 100;
 }
 
 .navbar {
