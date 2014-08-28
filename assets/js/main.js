@@ -18,15 +18,15 @@
 
   var src;
   var mode;
+  var container;
 
   function gridIt(){
-    var container = document.querySelector('.jsmasonry');
-    $(container).masonry({
-    });
+    container = document.querySelector('.jsmasonry');
+    $(container).masonry();
   }
 
   function gridImg(){
-    imagesLoaded('.jsmasonry', function() {
+    imagesLoaded('.jsmasonry', function(){
       gridIt();
     });
   }
@@ -36,13 +36,28 @@
     $(".item").fitVids();
   }
 
+  function gridMem(){
+    gridImg();
+    $(".item").fitVids();
+  }
+
+  function stopVid(){
+    $('.modal').on('show.bs.modal', function(){
+      mode = $(this).find("iframe");
+      src = mode.attr('src');
+    });
+    $('.modal').on('hide.bs.modal', function(){
+      mode.attr('src', '');
+      mode.attr('src', src);
+    })
+  }
+
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
 
     common: {
       init: function() {
-        console.log("this script will run if this works");
         $('.modal-link').bind('touchstart', function(e) {
           $(this).toggleClass('hover_effect'); 
         });
@@ -51,64 +66,45 @@
 
     home: {
       init: function() {
-        console.log("this is the home page");
       }
     },
 
-    sids_bio_4: {
+    post_type_archive_bio: {
       init: function() {
-        console.log("this is the bio page");
       }
     },
 
     post_type_archive_photos: {
       init: function() {
-        console.log("this is the photos page");
         gridImg();
       }
     },
 
     post_type_archive_videos: {
       init: function() {
-        console.log("this is the videos page");
         gridVid();
-        $('.modal').on('show.bs.modal', function(){
-          mode = $(this).find("iframe");
-          src = mode.attr('src');
-        });
-        $('.modal').on('hide.bs.modal', function(){
-          mode.attr('src', '');
-          mode.attr('src', src);
-        });
+        stopVid();
       }
-    }
-    
+    },
+
     post_type_archive_memories: {
       init: function() {
-        console.log("this is the memories page");
-        gridVid();
-        $('.modal').on('show.bs.modal', function(){
-          mode = $(this).find("iframe");
-          src = mode.attr('src');
-        });
-        $('.modal').on('hide.bs.modal', function(){
-          mode.attr('src', '');
-          mode.attr('src', src);
-        });
+        gridMem();
+        stopVid();
       }
     }
   };
 
-             //iOS 7 workaround
+  //iOS 7 workaround
   if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
     $("body").css({
       "background": "url(/assets/img/bg.jpg) center center no-repeat",
       "background-size": "cover",
       "padding-bottom": "50px"
-    )}
+    })
   } else {
     $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
-  });
+  };
 
   // The routing fires all common scripts, followed by the page specific scripts.
   // Add additional events for more control over timing e.g. a finalize event
