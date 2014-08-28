@@ -406,11 +406,11 @@ font-size: 14px;
 
 .navbar-brand {display:none;} 
 
-.mainarea {
+/*.mainarea {
    float: left;
    width: 90% !important;
    padding: 0 0 0 15px !important;
-}
+}*/
 
 .sidback {
    height: 811px;
