@@ -30,7 +30,7 @@
       gridIt();
     });
   }
-  
+
   function gridVid(){
     gridIt();
     $(".item").fitVids();
@@ -61,34 +61,34 @@
         $('.modal-link').bind('touchstart', function(e) {
           $(this).toggleClass('hover_effect'); 
         });
-    
-    soundManager.setup({
-    // disable or enable debug output
-    debugMode: true,
-    // use HTML5 audio for MP3/MP4, if available
-    preferFlash: false,
-    useFlashBlock: true,
-    // path to directory containing SM2 SWF
-    url: ' ',
-    // optional: enable MPEG-4/AAC support (requires flash 9)
-    flashVersion: 9
-    });
 
-    soundManager.onready(function() {
-    // soundManager.createSound() etc. may now be called
-    inlinePlayer = new InlinePlayer();
-    });
+        soundManager.setup({
+          // disable or enable debug output
+          debugMode: true,
+          // use HTML5 audio for MP3/MP4, if available
+          preferFlash: false,
+          useFlashBlock: true,
+          // path to directory containing SM2 SWF
+          url: ' ',
+          // optional: enable MPEG-4/AAC support (requires flash 9)
+          flashVersion: 9
+        });
 
-  //iOS 7 workaround
-  if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
-    $("body").css({
-      "background": "url(/assets/img/bg.jpg) center center no-repeat",
-      "background-size": "cover",
-      "padding-bottom": "50px"
-    )}
-  } else {
-    $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
-  });
+        soundManager.onready(function() {
+        // soundManager.createSound() etc. may now be called
+        inlinePlayer = new InlinePlayer();
+        });
+
+        //iOS 7 workaround
+        if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
+          $("body").css({
+            "background": "url(/assets/img/bg.jpg) center center no-repeat",
+            "background-size": "cover",
+            "padding-bottom": "50px"
+          })
+        } else {
+          $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
+        };
 
       }
     },
