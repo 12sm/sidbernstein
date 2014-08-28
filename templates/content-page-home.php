@@ -1,3 +1,4 @@
+<div class="row">
 <div class="sidback">
 	<div class="col-md-6 col-sm-6">
 		<div class="row">
@@ -27,6 +28,7 @@
 		<?php
 	 		 echo do_shortcode("[wpv-view name='home-music-player']");
 		?>
+</div>
 </div>
 </div>		
 
