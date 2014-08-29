@@ -128,10 +128,10 @@ h1 {
 }
 
 .homealbumtitle {
-  font-family: serif;
-  font-style: italic;
-  color: rgba(0, 0, 0, 0.7);
+  font-family: "garamond-premier-pro" serif;
   font-size: 32px;
+  font-style: italic;
+  color: #444D4D;
   margin: 3% 0px;
   text-align: center;
   
