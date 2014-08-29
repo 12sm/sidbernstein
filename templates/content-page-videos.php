@@ -7,7 +7,7 @@
 </div>
 <div class="col-sm-12">
 	<div class="row">		
-	<?php<?php
+	<?php
   		echo do_shortcode("[wpv-view name='videos']");
 	?>
 	</div>
