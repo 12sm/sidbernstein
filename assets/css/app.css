@@ -240,7 +240,7 @@ p {
   background-color: #F4EC25;
 }
 
-a .mason-link {
+.masonlink > a {
     color: #FFF !important;
 }
 
