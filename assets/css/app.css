@@ -118,13 +118,18 @@ h1 {
 }
 
 .button {
-  background-color: #53aba7;
+  background-color: #59a9a6;
   font-size: 18px;
-  font-family: serif;
+  font-family: "garamond-premier-pro", serif;
   font-style: italic;
-  color: rgba(0,0,0,0.8);
+  color: #063230;
   padding: 10px;
   font-weight: 700;
+}
+
+.button > a:hover {
+  color: #FFF;
+  background-color: #7dcecf;
 }
 
 .homealbumtitle {
