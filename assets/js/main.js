@@ -121,7 +121,15 @@
         gridMem();
         stopVid();
       }
+    },
+
+    blog: {
+      init: function() {
+        gridMem();
+        stopVid();
+      }
     }
+
   };
 
 
