@@ -238,7 +238,10 @@ p {
 
 .masonlink {
   background-color: #F4EC25;
-  color: #FFF !important;
+}
+
+.mason-link {
+    color: #FFF !important;
 }
 
 /* ==========================================================================
