@@ -128,11 +128,6 @@ h1 {
   font-weight: 700;
 }
 
-.button > a:hover {
-  color: #FFF;
-  background-color: #7dcecf;
-}
-
 .homealbumtitle {
   font-family: "garamond-premier-pro";
   font-size: 32px;
@@ -504,6 +499,11 @@ font-size: 14px;
 .memory {
   margin: 10% 0 0 22%;
   text-align: inherit;
+}
+
+.button > a:hover {
+  color: #FFF;
+  background-color: #7dcecf;
 }
 
 .memorybutton {
