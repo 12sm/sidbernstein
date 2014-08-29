@@ -209,6 +209,9 @@ p {
 .masonblock {
   text-align: center;
   padding: 10px 0;
+ }
+
+.masonthumb {
 
 }
 
@@ -482,6 +485,10 @@ font-size: 14px;
 
 .mp3play > a:hover {
   color: rgba(225, 238, 47, 0.9) !important;
+}
+
+.masonthumb {
+  width: 100%;
 }
 
 .credits {
