@@ -403,8 +403,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-.container {
-  width: 100%;
+.container-fluid {
+  padding-left: 175px;
 }
 
 .nopad {
@@ -440,7 +440,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .navbar-collapse{
-  min-width: 11% !important;
+  min-width: 175px !important;
   z-index: 1;
   margin: 0px;
 }
