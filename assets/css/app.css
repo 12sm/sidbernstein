@@ -220,6 +220,27 @@ p {
   background-color: #FFF;
 }
 
+.masontitle {
+  
+}
+
+.masonlocation{
+  
+}
+
+.masondate{
+  
+}
+
+.masoncaption {
+
+}
+
+.masonlink {
+  background-color: rgba(225, 238, 47, 1);
+  color: #FFF !important;
+}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -498,6 +519,30 @@ font-size: 14px;
 
 .masoninfoblock {
   
+}
+
+.masontitle {
+  
+}
+
+.masonlocation{
+  
+}
+
+.masondate{
+  
+}
+
+.masoncaption {
+
+}
+
+.masonlink {
+  text-align: right;
+}
+
+.masonlink > a:hover {
+  color: #428BCA !important;
 }
 
 .credits {
