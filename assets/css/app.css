@@ -208,11 +208,12 @@ p {
 
 .masonblock {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 1%;
  }
 
 .masonthumb {
-
+  width: 100%;
+  height: auto;
 }
 
 /* ==========================================================================
@@ -488,7 +489,7 @@ font-size: 14px;
 }
 
 .masonthumb {
-  width: 100%;
+
 }
 
 .credits {
