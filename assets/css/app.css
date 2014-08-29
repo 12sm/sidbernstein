@@ -199,7 +199,7 @@ p {
 }
 
 .credits > a {
-  color: rgba(225,238,47,.8) !important;
+  color: rgba(244,236,37,.9) !important;
   font-size: 10px;
 }
 
@@ -237,7 +237,7 @@ p {
 }
 
 .masonlink {
-  background-color: rgba(225, 238, 47, 1);
+  background-color: #F4EC25;
   color: #FFF !important;
 }
 
