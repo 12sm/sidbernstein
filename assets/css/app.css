@@ -237,7 +237,7 @@ p {
 }
 
 .masonlink {
-  background-color: #F4EC25;
+  background-color: #C8BE2A;
 }
 
 .masonlink > a {
@@ -542,6 +542,7 @@ font-size: 14px;
 
 .masonlink {
   text-align: right;
+  padding: 0 10px 0 0;
 }
 
 .masonlink > a:hover {
