@@ -120,7 +120,8 @@ h1 {
 .button {
   background-color: #59a9a6;
   font-size: 18px;
-  font-family: "garamond-premier-pro", serif;
+  font-family: "garamond-premier-pro";
+  font-family: serif;
   font-style: italic;
   color: #063230;
   padding: 10px;
