@@ -245,7 +245,9 @@ p {
 }
 
 .masonlink {
-  padding: 10px 0 0 0;
+  text-align: right;
+  padding: 0px 10px 0px 0px;
+  margin: 10px 0 0 0;
   background-color: #CCC93D;
 }
 
@@ -555,8 +557,7 @@ font-size: 14px;
 }
 
 .masonlink {
-  text-align: right;
-  padding: 0 10px 0 0;
+
 }
 
 .masonlink > a:hover {
