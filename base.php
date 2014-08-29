@@ -7,12 +7,12 @@
     </div>
   <![endif]-->
   <?php
-    do_action('get_header');
+    //do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
-    if (current_theme_supports('bootstrap-top-navbar')) {
+    /*if (current_theme_supports('bootstrap-top-navbar')) {
       get_template_part('templates/header-top-navbar');
-    } else {
-      get_template_part('templates/header');
+    } else {*/
+      //get_template_part('templates/header');
     //}
   ?>
 
@@ -21,9 +21,9 @@
                 <section class="side-nav-wrapper">
                     <?php get_template_part('templates/sidenavbar'); ?>
                 </section>
-            </div><!-- /.sidenavbar -->
+            </div><!-- /.sidenavbar -->         
   <!--<?php endif; ?>-->
-
+ 
 
   <div class="wrap container mainarea" role="document">
     <div class="content row">
