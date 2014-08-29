@@ -24,6 +24,12 @@ hr {
   margin: 10px 0px;
 }
 
+h1 {
+  font-family: "garamond-premier-pro";
+  font-size: 46px;
+  color: #232323;  
+}
+
 
 /* ==========================================================================
    Header
@@ -192,6 +198,10 @@ hr {
    ========================================================================== */
 
 .main { }
+
+.pagetitle {
+  text-align: center;
+}
 
 .credits {
    font-size: 10px;
