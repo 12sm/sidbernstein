@@ -91,18 +91,17 @@ h1 {
 }
 
 .homeheader {
-  font-family: "garamond-premier-pro";
+  font-family: "garamond-premier-pro" serif;
   font-size: 32px;
-  font-family: serif;
   font-style: italic;
-  color: rgba(0, 0, 0, 0.7);
+  color: #444D4D;
 }
 
 .homeexcerpt {
   font-size: 14px;
   font-family: serif;
   color: rgba(0,0,0,0.8);
-  padding: 20px 0 0;
+  padding: 10px 0 0;
 }
 
 .bioexcerpt {
