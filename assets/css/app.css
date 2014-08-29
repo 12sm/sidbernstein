@@ -234,13 +234,14 @@ hr {
 .masonlocation{
   font-weight: 700;
   font-size: 16px;
+  line-height: 15px;  
 }
 
 .masondate{
   font-weight: 700;
   font-size: 16px;
   color: #989898;
-  line-height: 15px;  
+
 }
 
 .masoncaption {
