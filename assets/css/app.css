@@ -200,6 +200,7 @@ h1 {
 .main { }
 
 .pagetitle {
+  margin: 10px 0;
   text-align: center;
 }
 
