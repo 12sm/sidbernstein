@@ -27,7 +27,7 @@ hr {
 h1 {
   font-family: "garamond-premier-pro";
   font-size: 46px;
-  color: #232323;
+  color: #444D4D;
   font-style: italic;
   text-align: center;  
 }
@@ -94,8 +94,7 @@ h1 {
   font-family: "garamond-premier-pro" serif;
   font-size: 32px;
   font-style: italic;
-  color: #444d4d;
-  
+  color: #444D4D;
 }
 
 .homeexcerpt {
