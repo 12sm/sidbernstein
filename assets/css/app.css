@@ -505,7 +505,7 @@ font-size: 14px;
   font-size: 22px;
 }
 
-.memorybutton > a:hover {
+a:hover .memorybutton {
   background-color: #7DCECF !important;
   color:#FFF !important;
 }
@@ -514,7 +514,6 @@ font-size: 14px;
   color: #FFF;
   background-color: #7dcecf;
 } 
-
 
 .homebio {
   margin: -80px 0 0;
