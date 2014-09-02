@@ -501,14 +501,21 @@ font-size: 14px;
   text-align: inherit;
 }
 
+.memorybutton {
+  font-size: 22px;
+}
+
+.memorybutton > a:hover {
+  background-color: #7DCECF;
+  color:#FFF
+}
+
 .button > a:hover {
   color: #FFF;
   background-color: #7dcecf;
 } 
 
-.memorybutton {
-  font-size: 22px;
-}
+
 .homebio {
   margin: -80px 0 0;
 }
