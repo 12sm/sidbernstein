@@ -506,8 +506,8 @@ font-size: 14px;
 }
 
 .memorybutton > a:hover {
-  background-color: #7DCECF;
-  color:#FFF
+  background-color: #7DCECF !important;
+  color:#FFF !important;
 }
 
 .button > a:hover {
