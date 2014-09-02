@@ -9,7 +9,7 @@
 			<div class="quote">
 			</div>
 			<div class="memory">
-			<a class="btn-default memorybutton" data-toggle="modal" 
+			<a class="memorybutton" data-toggle="modal" 
 	   		   data-target="#largeModal" 
 	   		   data-remote="memory-modal.html">Click To Share a Memory</a>
 			</div>
