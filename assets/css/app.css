@@ -58,7 +58,7 @@ h1 {
 
 .quote {
   background-image: url("../img/home-quote.png");
-  width: 100%;
+  max-width: 100%;
   margin: 50% auto 0;
   height: 126px;
   background-repeat: no-repeat;
@@ -504,7 +504,7 @@ font-size: 14px;
 .button > a:hover {
   color: #FFF;
   background-color: #7dcecf;
-}
+} 
 
 .memorybutton {
   font-size: 22px;
