@@ -499,13 +499,14 @@ font-size: 14px;
 .memory {
   margin: 10% 0 0 22%;
   text-align: inherit;
+  background-image: url("../img/texture-behind-share-btn.jpg");
 }
 
 .memorybutton {
   font-size: 22px;
 }
 
-a:hover .memorybutton {
+.memorybutton > a:hover {
   background-color: #7DCECF !important;
   color:#FFF !important;
 }
