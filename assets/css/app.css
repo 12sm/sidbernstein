@@ -497,9 +497,10 @@ font-size: 14px;
 }
 
 .memory {
-  margin: 10% 0 0 22%;
+  padding: 10% 0 0 22%;
   text-align: inherit;
   width: inherit;
+  margin: inherit;
   background-image: url("../img/texture-behind-share-btn.png");
 }
 
@@ -634,7 +635,7 @@ footer {
 @media (min-width: 1200px) {
 
 .memory {
-    margin: 10% 0 0 16%;
+  padding: 8% 0 0 16%;
 }
 
 .memorybutton {
