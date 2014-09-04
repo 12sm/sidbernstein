@@ -280,6 +280,11 @@ h1 {
   padding: 0 7px;
 }
 
+.vc_vc_video {
+  width: 90%;
+  height: auto;
+}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -600,6 +605,11 @@ font-size: 14px;
 
 .masonlink > a:hover {
   color: #428BCA !important;
+}
+
+.vc_vc_video {
+  width: 50%;
+  height: auto;
 }
 
 .credits {
