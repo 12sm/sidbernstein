@@ -373,7 +373,7 @@ width: 17px;
 
 .nav-pills > li > a:hover, a:focus {
     font-family: "futura-pt-condensed";
-    color: #F8F8F8 !important;
+    background-color: #F8F8F8 !important;
     background: none;
     z-index: 100;
 }
