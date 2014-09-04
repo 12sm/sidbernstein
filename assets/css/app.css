@@ -286,6 +286,10 @@ h1 {
   margin: auto;
 }
 
+.sidvidcopy {
+  margin: 20px 2% 0;
+}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -606,6 +610,13 @@ font-size: 14px;
 
 .masonlink > a:hover {
   color: #428BCA !important;
+}
+
+.sidvidcopy {
+  margin: 20px 5% 0;
+  -webkit-column-count: 2;
+  -moz-column-count: 2; 
+  column-count: 2;
 }
 
 .wpb_video_wrapper {
