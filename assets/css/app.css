@@ -17,6 +17,9 @@ a:hover {
 }
 
 p {
+  font-family: "garamond-premier-pro";
+  font-style: italic;
+  font-size: 16px;
   margin: 0 0 20px !important;
 }
 
@@ -288,8 +291,6 @@ h1 {
 
 .sidvidcopy {
   margin: 20px 2% 0;
-  font-family: "garamond-premier-pro";
-  font-style: italic;
 }
 
 /* ==========================================================================
