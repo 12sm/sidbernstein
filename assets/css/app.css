@@ -471,9 +471,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     background-color: initial;
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+.nav-pills > li > a:hover, a:focus  {
     background-color: none !important;
 }
+
 
 .navbar-collapse{
   min-width: 175px !important;
