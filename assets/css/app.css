@@ -287,6 +287,12 @@ h1 {
   margin: auto;
 }
 
+.sidvidbanner {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
 .sidvidcopy {
   margin: 20px 2% 0;
   font-family: "garamond-premier-pro";
