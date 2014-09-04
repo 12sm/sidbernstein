@@ -311,10 +311,6 @@ Side Navbar
   z-index: 100;
 }
 
-.navbar-header {
-  width: 100%
-}
-
 .side-nav-wrapper {
    min-height: 100%;
 }
@@ -343,6 +339,7 @@ width: 40px;
 .navbar-inverse {
   border:none!important;
   background-image: url("../img/nav-tile-bg.jpg");
+  width: 100%;
 }
 
 .navbar-toggle {
