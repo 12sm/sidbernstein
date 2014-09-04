@@ -609,8 +609,9 @@ font-size: 14px;
 }
 
 .wpb_video_wrapper {
-  width: 50%;
+  width: 70%;
   height: auto;
+  margin: auto;
 }
 
 .credits {
