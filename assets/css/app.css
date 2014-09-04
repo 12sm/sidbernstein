@@ -309,7 +309,10 @@ Side Navbar
 .navbar {
   margin: 0px;
   z-index: 100;
-  
+}
+
+.navbar-header {
+  width: 100%
 }
 
 .side-nav-wrapper {
