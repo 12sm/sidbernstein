@@ -472,7 +472,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    background-color: none;
+    background-color: none !important;
 }
 
 .navbar-collapse{
