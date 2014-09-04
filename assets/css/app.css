@@ -356,21 +356,22 @@ width: 17px;
 }
 
 .nav > li > a {
-  color: #53aba7;
-  font-size: 24px;
-  font-family: serif;
-  letter-spacing: 2px;
+  color: #5F6060;
   text-align: center;
   text-transform: uppercase;
   z-index: 100;
+  font-family: "futura-pt-condensed";
+  font-size: 20px;
 }
 
 .nav > li.active > a {
   background-color: #53aba7;
+  font-family: "futura-pt-condensed";
 }  
 
 .nav-pills > li > a:hover, a:focus {
-    color: #9CF;
+    font-family: "futura-pt-condensed";
+    color: #F8F8F8;
     background: none;
     z-index: 100;
 }
