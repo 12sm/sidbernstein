@@ -305,8 +305,10 @@ h1 {
 Side Navbar
 ========================================================================== */
 
+
 .navbar {
   margin: 0px;
+  z-index: 100;
   
 }
 
@@ -371,7 +373,7 @@ width: 17px;
 
 .nav-pills > li > a:hover, a:focus {
     font-family: "futura-pt-condensed";
-    color: #F8F8F8;
+    color: #F8F8F8 !important;
     background: none;
     z-index: 100;
 }
