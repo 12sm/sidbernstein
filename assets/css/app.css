@@ -313,6 +313,7 @@ Side Navbar
 
 .side-nav-wrapper {
    min-height: 100%;
+   padding: 0 0 55px 0;
 }
 
 #menu-side-navigation {
@@ -460,6 +461,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .nav > li > a {
     color: #83807A;
     padding: 0px;
+}
+
+.sidenavwrapper {
+  padding: inherit;
 }
 
 #menu-side-navigation {
