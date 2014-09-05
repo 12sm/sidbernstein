@@ -221,7 +221,7 @@ h1 {
 .credits {
    font-size: 10px;
    bottom: 0px;
-   width: 10% !important;
+
    text-align: center;
    color: #FFF;
 }
@@ -360,7 +360,7 @@ h1 {
 }
 
 .modal-footer .button {
-  padding: 10px 15px !important;
+  padding: 10px 15px !important; 
 }
 
 /* ==========================================================================
@@ -751,6 +751,7 @@ font-size: 14px;
 
 .credits {
   padding: 0px 0px 0px 2% !important;
+  width: 90% !important;
 }
 
 .credits > a {
