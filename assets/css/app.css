@@ -749,8 +749,8 @@ font-size: 14px;
 }
 
 .credits {
-  padding: 0px 0px 0px 2% !important;
-  width: 90% !important;
+  padding: 0 0 0 30px !important;
+  width: 70% !important;
 }
 
 .credits > a {
