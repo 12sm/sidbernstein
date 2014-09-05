@@ -338,6 +338,11 @@ h1 {
 
 .modal-footer {
   border-top: none !important;
+  text-align: left;
+}
+
+.modal-copy {
+  padding: 0 20px;
 }
 
 /* ==========================================================================
