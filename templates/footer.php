@@ -1,6 +1,6 @@
-<footer class="content-info container affix" role="contentinfo">
+<footer class="content-info affix" role="contentinfo">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-md-12">
       <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
@@ -19,7 +19,7 @@
      endif;
   ?>
   </div>
-      <div class="col-sm-2 nopad credits">
+      <div class="credits">
       <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">Built by <striong>12SM</strong></a>
       </div>
     </div>

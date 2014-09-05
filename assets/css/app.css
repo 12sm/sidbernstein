@@ -18,6 +18,7 @@ a:hover {
 
 p {
   margin: 0 0 20px !important;
+  font-family: "garamond-premier-pro";
 }
 
 hr {
@@ -136,6 +137,7 @@ h1 {
   color: #063230;
   padding: 10px;
   font-weight: 700;
+  border: none;
 }
 
 .homealbumtitle {
@@ -220,7 +222,6 @@ h1 {
 .credits {
    font-size: 10px;
    bottom: 0px;
-   width: 10% !important;
    text-align: center;
    color: #FFF;
 }
@@ -253,6 +254,7 @@ h1 {
   font-size: 24px;
   padding: 5px 0 0;
   font-family: "futura-pt-condensed";
+  line-height: 25px;
 }
 
 .masonlocation {
@@ -272,9 +274,12 @@ h1 {
 }
 
 .masoncaption {
-  margin: 10px 1px;
+  margin: 10px 15px;
   font-size: 15px;
   color: #7F7F7F;
+  max-height: 175px;
+  overflow: hidden;
+  text-align: left;
 }
 
 .masonlink {
@@ -323,6 +328,49 @@ h1 {
   font-size: 16px;
 }
 
+.addthis_sharing_toolbox {
+  margin: 10px 0 0;
+}
+
+
+/* ==========================================================================
+   Modal
+   ========================================================================== */
+
+.modal-body {
+  
+}
+
+.modal-content > hr {
+  margin: 0 0 10px !important;
+}
+
+.modal-title {
+  color: #42A39F;
+}
+
+.modal-subtitle {
+  text-align: center;
+}
+
+.modal-body {
+  
+}
+
+.modal-footer {
+  border-top: none !important;
+  text-align: right !important;
+  margin: 0px;
+  padding: 10px 40px 20px;
+}
+
+.modal-copy {
+  padding: 0 20px;
+}
+
+.modal-footer .button {
+  padding: 10px 15px !important; 
+}
 
 /* ==========================================================================
    Sidebar
@@ -419,6 +467,7 @@ width: 17px;
   display: inherit;
 }
    
+
 
 /* ==========================================================================
    Posts
@@ -671,6 +720,27 @@ font-size: 14px;
   color: #428BCA !important;
 }
 
+.modal-dialog {
+  margin: 15% auto;
+  text-align: left !important;
+}
+
+.videomodal {
+
+}
+
+.photomodal {
+  margin: 20px 0 0;
+}
+
+.modalcopy {
+
+}
+
+.memorymodal {
+
+}
+
 .sidvidcopy {
   margin: 20px 5% 0;
   -webkit-column-count: 2;
@@ -689,7 +759,8 @@ font-size: 14px;
 }
 
 .credits {
-  padding: 0px 0px 0px 2% !important;
+  padding: 0 0 10px 30px !important;
+  width: 70% !important;
 }
 
 .credits > a {
