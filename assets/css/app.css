@@ -544,7 +544,7 @@ font-size: 14px;
 }
 
 .memoryhead {
-  padding: 5% 10% 0;
+  padding: 5% 10%;
 }
 
 .memoryhead > .homeexcerpt {
@@ -703,7 +703,7 @@ footer {
 }
 
 .memoryhead {
-  padding: 5% 28% 0px;
+  padding: 5% 28% 5%;
  }
 
 /* Large devices (large desktops, 1200px and up) */
