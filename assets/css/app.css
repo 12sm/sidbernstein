@@ -711,9 +711,6 @@ footer {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-.memory {
-  padding: 8% 12% 0 0;
-}
 
 .memoryhead > .memory {
   padding: 8% 0 0;
@@ -724,3 +721,9 @@ footer {
 }
 
  }
+
+@media (min-width: 1200px) {
+.memory {
+  padding: 8% 12% 0 0;
+}
+}
