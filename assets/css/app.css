@@ -687,6 +687,10 @@ font-size: 14px;
   float: left;
 }
 
+.memorymodal {
+  float: left;
+}
+
 .sidvidcopy {
   margin: 20px 5% 0;
   -webkit-column-count: 2;
