@@ -272,11 +272,12 @@ h1 {
 }
 
 .masoncaption {
-  margin: 10px 1px;
+  margin: 10px 15px;
   font-size: 15px;
   color: #7F7F7F;
-  max-height: 200px;
+  max-height: 175px;
   overflow: hidden;
+  text-align: left;
 }
 
 .masonlink {
