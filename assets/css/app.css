@@ -345,8 +345,8 @@ h1 {
   margin: 0 0 10px !important;
 }
 
-.modal-title {
-  color: #42A39F;
+.modal-title > h1 {
+  color: #42A39F !important;
 }
 
 .modal-subtitle {
