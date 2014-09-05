@@ -698,7 +698,7 @@ footer {
 @media (min-width: 992px) {
 
 .memory {
-  padding: 8% 8% 0 0;
+  padding: 8% 0;
 }
 .memorybutton {
   font-size: 24px;
@@ -712,7 +712,7 @@ footer {
 @media (min-width: 1200px) {
 
 .memory {
-  padding: 8% 10% 0 0;
+  padding: 8% 0 0;
 }
 
 .memoryhead > .memory {
