@@ -1,4 +1,3 @@
-<div class="row">
 <div class="sidback">
 	<div class="col-md-6 col-sm-6">
 		<div class="row">
