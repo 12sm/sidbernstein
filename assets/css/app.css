@@ -539,6 +539,14 @@ font-size: 14px;
   margin: 20% auto 0;
 }
 
+.memoryhead {
+  padding: 5% 10% 0;
+}
+
+.memoryhead > .homeexcerpt {
+  font-size: 24px;
+}
+
 .memory {
   padding: 10% 0 0 22%;
   text-align: inherit;
