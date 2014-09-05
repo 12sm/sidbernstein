@@ -52,8 +52,8 @@ h1 {
    background-image: url("../img/sid-face-bg.jpg");
    background-repeat: no-repeat;
    background-size: 100%;
-
    width: auto;
+   padding-bottom: 50%
 }
 
 .quote {
@@ -503,7 +503,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     background-color: inherit !important;
 }
 
-
 .navbar-collapse{
   min-width: 175px !important;
   z-index: 1;
@@ -540,8 +539,7 @@ font-size: 14px;
 }*/
 
 .sidback {
-   height: 811px;
-   background-size: contain;
+   background-size: cover;
 }
 
 .quote {
