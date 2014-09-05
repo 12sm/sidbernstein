@@ -19,7 +19,7 @@
   var src;
   var mode;
   var container;
-
+  console.log("webhook test");
   function gridIt(){
     container = document.querySelector('.jsmasonry');
     $(container).masonry();
