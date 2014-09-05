@@ -255,12 +255,13 @@ h1 {
   font-family: "futura-pt-condensed";
 }
 
-.masonlocation, .masonemail {
+.masonlocation {
   font-weight: 700;
   font-size: 16px;
   line-height: 15px;
   color: #000;
-  text-transform: capitalize;  
+  text-transform: capitalize; 
+  padding: 5px 0; 
 }
 
 .masondate{
