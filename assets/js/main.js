@@ -22,7 +22,7 @@
 
   function gridIt(){
     container = document.querySelector('.jsmasonry');
-    $(container).masonry();
+    $(container).masonry(); 
   }
 
   function gridImg(){
@@ -76,7 +76,7 @@
 
         soundManager.onready(function() {
         // soundManager.createSound() etc. may now be called
-        inlinePlayer = new InlinePlayer();
+          inlinePlayer = new InlinePlayer();
         });
 
         //iOS 7 workaround
@@ -85,11 +85,10 @@
             "background": "url(/assets/img/bg.jpg) center center no-repeat",
             "background-size": "cover",
             "padding-bottom": "50px"
-          })
+          });
         } else {
           $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
         };
-
       }
     },
 
@@ -129,7 +128,6 @@
         stopVid();
       }
     }
-
   };
 
 
