@@ -392,7 +392,20 @@ h1 {
   font-family: "garamond-premier-pro";
   margin: auto;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.wpt-credfile-delete  {
+  background-color: #59A9A6;
+  font-family: serif;
+  font-style: italic;
+  color: #063230;
+  padding: 10px;
+  margin: 0 0 0 10px;
+  font-weight: 700;
+  border: medium none;
+  font-size: 18px;
+  
 }
 
 /* ==========================================================================
