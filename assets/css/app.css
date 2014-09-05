@@ -552,11 +552,11 @@ font-size: 14px;
 }
 
 .memory {
-  padding: 10% 0 0 22%;
-  text-align: inherit;
+  text-align: center;
   width: inherit;
   margin: inherit;
   background-image: url("../img/texture-behind-share-btn.png");
+
 }
 
 .memorybutton {
