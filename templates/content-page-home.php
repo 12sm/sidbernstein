@@ -33,7 +33,7 @@
               <div class="modal-content">
                 <div class="modal-body">
                   <?php
-                  echo do_shortcode("[cred_form form="Share a story about Sid"]");
+                  	echo do_shortcode("[cred_form form='Share a story about Sid']");
                   ?>
                 </div>
                 <div class="row modal-footer">
