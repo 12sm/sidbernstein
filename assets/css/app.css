@@ -105,6 +105,10 @@ h1 {
   padding: 10px 0 0;
 }
 
+.memoryhead {
+  padding: 5% 10% 0;
+}
+
 .bioexcerpt {
   font-size: 14px;
   font-family: "garamond-premier-pro";
