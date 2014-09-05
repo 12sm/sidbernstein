@@ -19,10 +19,10 @@
   var src;
   var mode;
   var container;
-
+  console.log('test');
   function gridIt(){
     container = document.querySelector('.jsmasonry');
-    $(container).masonry(); 
+    $(container).masonry();
   }
 
   function gridImg(){
@@ -59,7 +59,7 @@
     common: {
       init: function() {
         $('.modal-link').bind('touchstart', function(e) {
-          $(this).toggleClass('hover_effect'); 
+          $(this).toggleClass('hover_effect');
         });
 
         soundManager.setup({
