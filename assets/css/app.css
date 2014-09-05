@@ -689,11 +689,12 @@ font-size: 14px;
 
 .photomodal {
   float: left;
+  margin: 0 20px 0 0;
 }
 
 .memorymodal {
   text-align: left;
-  padding: 10px 3% 0;
+  padding: 10px 0 0;
 }
 
 .sidvidcopy {
