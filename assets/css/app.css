@@ -34,6 +34,18 @@ h1 {
   text-align: center;  
 }
 
+button {
+  background-color: #59a9a6;
+  font-size: 18px;
+  font-family: "garamond-premier-pro";
+  font-family: serif;
+  font-style: italic;
+  color: #063230;
+  padding: 10px;
+  font-weight: 700;
+  border: none;
+}
+
 
 /* ==========================================================================
    Header
@@ -401,7 +413,7 @@ h1 {
   font-style: italic;
   color: #063230;
   padding: 10px;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 10px !important;
   font-weight: 700;
   border: medium none;
   font-size: 18px;
