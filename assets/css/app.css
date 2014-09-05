@@ -275,6 +275,8 @@ h1 {
   margin: 10px 1px;
   font-size: 15px;
   color: #7F7F7F;
+  max-height: 200px;
+  overflow: hidden;
 }
 
 .masonlink {
