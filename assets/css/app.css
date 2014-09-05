@@ -359,9 +359,8 @@ h1 {
 
 .modal-footer {
   border-top: none !important;
-  text-align: right !important;
+  text-align: center !important;
   margin: 0px;
-  padding: 10px 40px 20px;
 }
 
 .modal-copy {
