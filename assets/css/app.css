@@ -375,6 +375,10 @@ h1 {
 
 .wpt-form-textfield {
   padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  font-family: "garamond-premier-pro";
+  font-size: 18px;
 }
 
 /* ==========================================================================
@@ -744,6 +748,11 @@ font-size: 14px;
 
 .memorymodal {
 
+}
+
+.js-wpt-field-items {
+    margin: auto;
+    width: 70%;
 }
 
 .sidvidcopy {
