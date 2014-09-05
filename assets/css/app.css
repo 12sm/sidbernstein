@@ -681,6 +681,7 @@ font-size: 14px;
 
 .modal-dialog {
   margin: 15% auto;
+  text-align: left !important;
 }
 
 .videomodal {
@@ -693,7 +694,6 @@ font-size: 14px;
 }
 
 .memorymodal {
-  text-align: left;
   padding: 10px 0 0;
 }
 
