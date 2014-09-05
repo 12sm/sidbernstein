@@ -33,5 +33,6 @@ http://12southmusic.com/
   <link rel="shortcut icon" href="<?php echo of_get_option('favicon_upload'); ?>" />
   <script type="text/javascript" src="//use.typekit.net/opi0epy.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53c96d1a34c34d66"></script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-540a156923e65ca2"></script>
+
 </head>
