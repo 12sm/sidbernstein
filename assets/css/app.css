@@ -692,7 +692,8 @@ font-size: 14px;
 }
 
 .memorymodal {
-
+  text-align: left;
+  padding: 10px 3% 0;
 }
 
 .sidvidcopy {
