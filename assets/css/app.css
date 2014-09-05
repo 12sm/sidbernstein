@@ -679,6 +679,10 @@ font-size: 14px;
   color: #428BCA !important;
 }
 
+.modal-dialog {
+  margin: 15% auto;
+}
+
 .videomodal {
   float: left;
 }
@@ -687,9 +691,9 @@ font-size: 14px;
   float: left;
 }
 
-/*.memorymodal {
-  float: left;
-}*/
+.memorymodal {
+
+}
 
 .sidvidcopy {
   margin: 20px 5% 0;
