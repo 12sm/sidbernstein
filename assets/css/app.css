@@ -373,8 +373,8 @@ h1 {
   padding: 10px 15px !important; 
 }
 
-.js-wpt-field-items {
-  padding 10px;
+.wpt-form-textfield {
+  padding: 10px;
 }
 
 /* ==========================================================================
