@@ -19,7 +19,7 @@
   var src;
   var mode;
   var container;
-  
+
   function gridIt(){
     container = document.querySelector('.jsmasonry');
     $(container).masonry();
@@ -32,8 +32,10 @@
   }
 
   function gridVid(){
-    gridIt();
-    $(".item").fitVids();
+    imagesLoaded('.jsmasonry', function(){
+      gridIt();
+      $(".item").fitVids();
+    });
   }
 
   function gridMem(){
