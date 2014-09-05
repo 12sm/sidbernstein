@@ -18,6 +18,7 @@ a:hover {
 
 p {
   margin: 0 0 20px !important;
+  font-family: "garamond-premier-pro";
 }
 
 hr {
@@ -344,18 +345,27 @@ h1 {
   margin: 0 0 10px !important;
 }
 
+.modal-title {
+  color: 42
+}
+
+.modal-subtitle {
+  text-align: center;
+}
+
+.modal-body {
+  
+}
+
 .modal-footer {
   border-top: none !important;
   text-align: right !important;
+  margin: 0px;
+  padding: 10px 40px 20px;
 }
 
 .modal-copy {
   padding: 0 20px;
-}
-
-.modal-footer {
-  margin: 0px;
-  padding: 10px 40px 20px;
 }
 
 .modal-footer .button {
