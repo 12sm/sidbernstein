@@ -381,6 +381,16 @@ h1 {
   font-size: 18px;
 }
 
+.wpt-form-select {
+  font-family: "garamond-premier-pro";
+  font-size: 18px;
+  padding: 10px;
+}
+
+.wpt-form-file {
+  margin: auto;
+}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -753,6 +763,10 @@ font-size: 14px;
 .js-wpt-field-items {
     margin: auto;
     width: 70%;
+}
+
+.wpt-form-file {
+  right: 0px;
 }
 
 .sidvidcopy {
