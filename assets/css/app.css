@@ -286,6 +286,11 @@ h1 {
     font-size: 20px; 
 }
 
+.masoninfoblock .masonlocation > a {
+      color: #FFF !important;
+      text-transform: capitalize;
+}
+
 .masonhr {
   padding: 0 7px;
 }
@@ -633,6 +638,13 @@ font-size: 14px;
 .masoninfoblock {
   
 }
+
+
+.masoninfoblock > a:hover {
+  color: #42A39F;
+}
+
+
 
 .masontitle {
   
