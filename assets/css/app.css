@@ -19,6 +19,7 @@ a:hover {
 p {
   margin: 0 0 20px !important;
   font-family: "garamond-premier-pro";
+  font-size: 16px;
 }
 
 hr {
@@ -370,6 +371,10 @@ h1 {
 
 .modal-footer .button {
   padding: 10px 15px !important; 
+}
+
+.js-wpt-field-items {
+  padding 10px;
 }
 
 /* ==========================================================================
