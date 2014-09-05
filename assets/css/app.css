@@ -105,6 +105,10 @@ h1 {
   padding: 10px 0 0;
 }
 
+.memoryhead .homeexcerpt {
+  text-align: center;
+}
+
 .memoryhead {
   padding: 5% 10% 0;
 }
