@@ -563,6 +563,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+.main {
+  float: none;
+}
+
 .container-fluid {
   padding-left: 175px;
 }
