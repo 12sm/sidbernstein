@@ -1,6 +1,8 @@
 <div class="sidback">
 	<div class="row">
 		<div class="col-sm-6">
+			<div class="row">
+			</div>	
 		</div>
 		<div class="col-sm-6">
 			<div class="row">
