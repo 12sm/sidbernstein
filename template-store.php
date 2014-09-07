@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Photo Template
+Template Name: Store
 */
 ?>
 
