@@ -1,19 +1,19 @@
 <div class="row">
-<div class="sidback">
-	<div class="row">
-	<div class="col-sm-6">
-	</div>
-	</div>
-	<div class="col-sm-6">
+	<div class="sidback">
 		<div class="row">
-			<div class="quote">
+			<div class="col-sm-6">
 			</div>
-			<div class="memory">
-	   		 <a type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</a>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="quote">
+					</div>
+					<div class="memory">
+	   		 			<a type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>		
+	</div>			
 <div class="col-md-12 homebio">
 	<div class="row">	
 		<?php
