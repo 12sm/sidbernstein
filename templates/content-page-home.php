@@ -1,10 +1,10 @@
 <div class="row">
 <div class="sidback">
-	<div class="col-md-6 col-sm-6">
-		<div class="row">
-		</div>
+	<div class="row">
+	<div class="col-sm-6">
 	</div>
-	<div class="col-lg-6 col-sm-6">
+	</div>
+	<div class="col-sm-6">
 		<div class="row">
 			<div class="quote">
 			</div>
