@@ -1,3 +1,3 @@
 <?php
-	do_shortcode("[wpv-view name='product-category-view']")
+	do_shortcode("[wpv-view name='product category view']")
 ?>	
