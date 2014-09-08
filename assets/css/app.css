@@ -818,6 +818,11 @@ font-size: 14px;
   margin: auto;
 }
 
+/*.woocommerce ul.products li.product {
+  margin: 0px 4% 2.992em;
+
+}*/
+
 .credits {
   padding: 0 0 10px 30px !important;
   width: 70% !important;
