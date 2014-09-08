@@ -1,3 +1,3 @@
 <?php
-	echo ('Hello World')
+	do_shortcode("[wpv-view name='product category']")
 ?>	
