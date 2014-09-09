@@ -56,16 +56,14 @@ button {
 
 .sidback {
    background-image: url("../img/sid-face-bg.jpg");
-   background-position: center 0;
+   background-position: right bottom;
    background-repeat: no-repeat;
-   background-size: 120%;
-   padding-bottom : 20%;
+   background-size: 112%;
+   padding-bottom : 59%;
 }
 
 .quote {
-  background-image: url("../img/home-quote.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  text-align: center;
 }
 
 .memory {
