@@ -1,5 +1,5 @@
 <div class="row sidback">
-  <div class="memright col-xs-5 col-xs-offset-7">
+  <div class="memright col-xs-7 col-xs-offset-5">
     <div class="row">
       <div class="col-xs-12 quote">
 				<img src="../wp-content/themes/sidbernstein/assets/img/home-quote.png">
