@@ -34,6 +34,18 @@ h1 {
   text-align: center;  
 }
 
+button {
+  background-color: #59a9a6;
+  font-size: 18px;
+  font-family: "garamond-premier-pro";
+  font-family: serif;
+  font-style: italic;
+  color: #063230;
+  padding: 10px;
+  font-weight: 700;
+  border: none;
+}
+
 
 /* ==========================================================================
    Header
@@ -55,7 +67,7 @@ h1 {
    background-repeat: no-repeat;
    background-size: 100%;
    width: auto;
-   padding-bottom: 50%
+   padding-bottom: 30%
 }
 
 .quote {
@@ -373,9 +385,52 @@ h1 {
   padding: 10px 15px !important; 
 }
 
-.wpt-form-textfield {
+.wpt-form-textfield, .wpt-form-textarea {
   padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  font-family: "garamond-premier-pro";
+  font-size: 18px;
 }
+
+.wpt-form-select {
+  font-family: "garamond-premier-pro";
+  font-size: 18px;
+  padding: 10px;
+  float: left;
+}
+
+.wpt-form-file {
+  font-family: "garamond-premier-pro";
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.wpt-credfile-delete  {
+  background-color: #59A9A6;
+  font-family: serif;
+  font-style: italic;
+  color: #063230;
+  padding: 10px;
+  margin: 0 0 0 10px !important;
+  font-weight: 700;
+  border: medium none;
+  font-size: 18px;
+  
+}
+
+/* ==========================================================================
+   Store
+   ========================================================================== */
+
+.woocat {
+  text-align: center;
+}
+
+.product-category {
+  padding: 25px !important;
+  }
 
 /* ==========================================================================
    Sidebar
@@ -520,6 +575,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+.main {
+  float: none;
+}
+
 .container-fluid {
   padding-left: 175px;
 }
@@ -596,7 +655,6 @@ font-size: 14px;
 }*/
 
 .sidback {
-   background-size: cover;
 }
 
 .quote {
@@ -607,8 +665,8 @@ font-size: 14px;
   padding: 5% 10%;
 }
 
-.memoryhead > .homeexcerpt {
-  font-size: 24px;
+.memoryhead .homeexcerpt {
+  font-size: 24px !important;
 }
 
 .memory {
@@ -746,6 +804,15 @@ font-size: 14px;
 
 }
 
+.js-wpt-field-items {
+    margin: auto;
+    width: 70%;
+}
+
+.wpt-form-file {
+  
+}
+
 .sidvidcopy {
   margin: 20px 5% 0;
   -webkit-column-count: 2;
@@ -762,6 +829,11 @@ font-size: 14px;
   height: auto;
   margin: auto;
 }
+
+/*.woocommerce ul.products li.product {
+  margin: 0px 4% 2.992em;
+
+}*/
 
 .credits {
   padding: 0 0 10px 30px !important;
