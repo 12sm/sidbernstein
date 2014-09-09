@@ -23,11 +23,24 @@
     <?php echo do_shortcode( "[wpv-view name='home-bio']"); ?>
   </div>
 </div>
+
+
+
+
+
+
 <div class="row">
   <div class="col-xs-12 homealbumcontainer">
     <?php echo do_shortcode( "[wpv-view name='home-music-player']"); ?>
   </div>
 </div>
+
+
+
+
+
+
+
 <div class="modal fade" id="memory-form">
   <div class="modal-dialog">
     <div class="modal-content">

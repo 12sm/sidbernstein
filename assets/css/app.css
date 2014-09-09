@@ -83,26 +83,15 @@ button {
   padding: 6px 6px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*Home Bio View*/
 
 .homebio {
-  margin: 0px 0;
+  margin: -20px 0;
   text-align: center;
 }
 
 .homebiophoto {
-  margin: 0px 0 0 0;
+  margin: 0px;
 }
 
 .homeheader {
@@ -117,7 +106,7 @@ button {
   font-size: 14px;
   font-family: serif;
   color: rgba(0,0,0,0.8);
-  padding: 10px 0 0;
+  padding: 10px;
 }
 
 .memoryhead .homeexcerpt {
@@ -438,6 +427,25 @@ button {
    ========================================================================== */
 
 .sidebar { }
+
+/* ==========================================================================
+Contact Page
+========================================================================== */
+
+div#frm_form_8_container {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.contactus {
+  text-align: center;
+}
+
+.contactname {
+  width: 100% !important;
+}
+
+
 
 
 
