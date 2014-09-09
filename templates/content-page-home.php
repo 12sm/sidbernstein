@@ -2,7 +2,7 @@
   <div class="col-xs-5 col-xs-offset-7">
     <div class="row">
       <div class="col-xs-12 quote">
-				<img url="../wp-content/themes/sidbernstein/assets/img/home-quote.png">
+				<img src="../wp-content/themes/sidbernstein/assets/img/home-quote.png">
       </div>
     </div>
     <div class="row">
