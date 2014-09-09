@@ -58,12 +58,17 @@ button {
    background-image: url("../img/sid-face-bg.jpg");
    background-position: right bottom;
    background-repeat: no-repeat;
-   background-size: 112%;
-   padding-bottom : 57%;
+   background-size: 115%;
+   padding-bottom : 40%;
 }
 
-.quote {
+.memright {
+  padding-top: 10%;
   text-align: center;
+}
+
+.membutt {
+  padding-top: 5%;
 }
 
 .memory {

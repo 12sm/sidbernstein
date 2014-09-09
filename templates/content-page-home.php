@@ -1,13 +1,13 @@
 <div class="row sidback">
-  <div class="col-xs-5 col-xs-offset-7">
+  <div class="memright col-xs-5 col-xs-offset-7">
     <div class="row">
       <div class="col-xs-12 quote">
 				<img src="../wp-content/themes/sidbernstein/assets/img/home-quote.png">
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12 memory">
-        <a type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</a>
+    <div class="row membutt">
+      <div class="col-xs-12">
+        <button type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</button>
       </div>
     </div>
   </div>
