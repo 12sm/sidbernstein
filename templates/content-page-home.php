@@ -1,5 +1,5 @@
 <div class="row sidback">
-	<div class="col-xs-7 col-xs-offset-5">
+	<div class="col-xs-6 col-xs-offset-6">
 		<div class="quote">
 		</div>
 		<div class="memory">
@@ -8,7 +8,7 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-md-12 homebio">
+	<div class="homebio col-md-12">
     <?php echo do_shortcode( "[wpv-view name='home-bio']"); ?>
   </div>
 </div>
