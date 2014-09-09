@@ -41,7 +41,7 @@ echo $category->name;
 if ( $category->count > 0 )
 echo apply_filters( 'woocommerce_subcategory_count_html', ' <mark class="count">(' . $category->count . ')</mark>', $category );
 ?>
-</h3>
+<!--</h3>
 <?php
 /**
 * woocommerce_after_subcategory_title hook
@@ -50,6 +50,6 @@ do_action( 'woocommerce_after_subcategory_title', $category );
 ?>
 </a>
 <?php do_action( 'woocommerce_after_subcategory', $category ); ?>
-</li>
+</li>-->
 
-HELLOOOO
+This text is in the content-product_cat.php template
