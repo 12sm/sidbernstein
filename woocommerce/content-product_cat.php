@@ -27,7 +27,7 @@ echo ' last';
 ?>">
 <?php do_action( 'woocommerce_before_subcategory', $category ); ?>
 <a href="<?php echo get_term_link( $category->slug, 'product_cat' ); ?>">
-<?php
+<!--<?php
 /**
 * woocommerce_before_subcategory_title hook
 *
@@ -35,7 +35,7 @@ echo ' last';
 */
 do_action( 'woocommerce_before_subcategory_title', $category );
 ?>
-<!--<h3>
+<h3>
 <?php
 echo $category->name;
 if ( $category->count > 0 )
