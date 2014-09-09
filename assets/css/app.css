@@ -11,6 +11,8 @@ body {
    background-image:
 }
 
+
+
 a:hover {
   text-decoration: none;
   color: #FFF;
@@ -46,49 +48,29 @@ button {
   border: none;
 }
 
-
-/* ==========================================================================
-   Header
-   ========================================================================== */
-
-.banner { }
-
-
-
-
 /* ==========================================================================
    Home Content
    ========================================================================== */
 
-.content { }
+/*Home Memory View*/
 
 .sidback {
    background-image: url("../img/sid-face-bg.jpg");
+   background-position: center 0;
    background-repeat: no-repeat;
-   background-size: 100%;
-   width: auto;
-   padding-bottom: 30%
+   background-size: 120%;
+   padding-bottom : 20%;
 }
 
 .quote {
   background-image: url("../img/home-quote.png");
-  max-width: 100%;
-  margin: 50% auto 0;
-  height: 126px;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 16% auto 0;
 }
 
 .memory {
-  width: 100%;
-  margin: 10% auto;
-  text-align: center;
-  padding-top: 59px;
-  padding-right: 36px;
   text-align: center;
   background-image: url("../img/texture-behind-share-btn.png");
-
 }
 
 .memorybutton {
@@ -98,6 +80,19 @@ button {
   font-style: italic;
   color: rgba(0,0,0,0.8);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .homebio {
   margin: 0px 0;
@@ -657,9 +652,6 @@ font-size: 14px;
    width: 90% !important;
    padding: 0 0 0 15px !important;
 }*/
-
-.sidback {
-}
 
 .memoryhead {
   padding: 5% 10%;

@@ -1,12 +1,22 @@
 <div class="row sidback">
-	<div class="col-xs-6 col-xs-offset-6">
-		<div class="quote">
-		</div>
-		<div class="memory">
-			<a type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</a>
-		</div>
-	</div>
+  <div class="col-xs-6 col-xs-offset-6">
+    <div class="row">
+      <div class="col-xs-12 quote">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 memory">
+        <a type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</a>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+
+
+
 <div class="row">
 	<div class="homebio col-md-12">
     <?php echo do_shortcode( "[wpv-view name='home-bio']"); ?>
