@@ -1,5 +1,5 @@
 <div class="row sidback">
-  <div class="memright col-xs-7 col-xs-offset-5">
+  <div class="memright col-xs-6 col-xs-offset-5">
     <div class="row">
       <div class="col-xs-12 quote">
 				<img src="../wp-content/themes/sidbernstein/assets/img/home-quote.png">
@@ -18,7 +18,7 @@
 
 
 
-<div class="row">
+<div class="row sidhomebio">
 	<div class="homebio col-md-12">
     <?php echo do_shortcode( "[wpv-view name='home-bio']"); ?>
   </div>
