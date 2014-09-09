@@ -35,13 +35,13 @@ echo ' last';
 */
 do_action( 'woocommerce_before_subcategory_title', $category );
 ?>
-<h3>
+<!--<h3>
 <?php
 echo $category->name;
 if ( $category->count > 0 )
 echo apply_filters( 'woocommerce_subcategory_count_html', ' <mark class="count">(' . $category->count . ')</mark>', $category );
 ?>
-<!--</h3>
+</h3>
 <?php
 /**
 * woocommerce_after_subcategory_title hook
