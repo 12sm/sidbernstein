@@ -48,8 +48,8 @@ echo apply_filters( 'woocommerce_subcategory_count_html', ' <mark class="count">
 */
 do_action( 'woocommerce_after_subcategory_title', $category );
 ?>
-</a>
+</a>-->
 <?php do_action( 'woocommerce_after_subcategory', $category ); ?>
-</li>-->
+<!--</li>-->
 
 This text is in the content-product_cat.php template
