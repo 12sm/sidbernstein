@@ -27,7 +27,7 @@ echo ' last';
 ?>">
 <?php do_action( 'woocommerce_before_subcategory', $category ); ?>
 <a href="<?php echo get_term_link( $category->slug, 'product_cat' ); ?>">
-<!--<?php
+<?php
 /**
 * woocommerce_before_subcategory_title hook
 *
@@ -50,6 +50,6 @@ do_action( 'woocommerce_after_subcategory_title', $category );
 ?>
 </a>-->
 <?php do_action( 'woocommerce_after_subcategory', $category ); ?>
-<!--</li>-->
+</li>
 
 This text is in the content-product_cat.php template
