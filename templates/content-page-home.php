@@ -1,17 +1,11 @@
-<div class="sidback">
-	<div class="row">
-    <div class="col-md-6 col-sm-6">
-    </div>
-		<div class="col-lg-6 col-sm-6">
-			<div class="row">
-				<div class="quote">
-				</div>
-				<div class="memory">
-					<a type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</a>
-				</div>
-			</div>
+<div class="row sidback">
+	<div class="col-xs-7 col-xs-offset-5">
+		<div class="quote">
 		</div>
-  </div>
+		<div class="memory">
+			<a type="button" class="memorybutton modal-link" data-toggle="modal" data-target="#memory-form">Click To Share A Memory</a>
+		</div>
+	</div>
 </div>
 <div class="row">
 	<div class="col-md-12 homebio">

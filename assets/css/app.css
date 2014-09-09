@@ -8,8 +8,8 @@
    ========================================================================== */
 
 body {
-   background-image: 
-    }
+   background-image:
+}
 
 a:hover {
   text-decoration: none;
@@ -31,7 +31,7 @@ h1 {
   font-size: 46px;
   color: #444D4D;
   font-style: italic;
-  text-align: center;  
+  text-align: center;
 }
 
 button {
@@ -77,13 +77,14 @@ button {
   height: 126px;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 16% auto 0;
 }
 
 .memory {
   width: 100%;
   margin: 10% auto;
   text-align: center;
-  
+
 }
 
 .memorybutton {
@@ -92,7 +93,7 @@ button {
   font-family: serif;
   font-style: italic;
   color: rgba(0,0,0,0.8);
-  padding: 15px 10px; 
+  padding: 15px 10px;
 }
 
 .homebio {
@@ -163,11 +164,11 @@ button {
 }
 
 .homealbumcover {
-  
+
 }
 
 .homemp3container {
-  
+
 }
 
 .homemp3cont {
@@ -191,7 +192,7 @@ button {
   background-color: #333;
   display: block;
   padding: 2% 0;
-  
+
 }
 
 .mp3numb {
@@ -275,8 +276,8 @@ button {
   font-size: 16px;
   line-height: 15px;
   color: #000;
-  text-transform: capitalize; 
-  padding: 5px 0; 
+  text-transform: capitalize;
+  padding: 5px 0;
 }
 
 .masondate{
@@ -304,7 +305,7 @@ button {
 
 .masonlink > a {
     color: #FFF !important;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 .masoninfoblock .masonlocation > a {
@@ -351,7 +352,7 @@ button {
    ========================================================================== */
 
 .modal-body {
-  
+
 }
 
 .modal-content > hr {
@@ -367,7 +368,7 @@ button {
 }
 
 .modal-body {
-  
+
 }
 
 .modal-footer {
@@ -382,7 +383,7 @@ button {
 }
 
 .modal-footer .button {
-  padding: 10px 15px !important; 
+  padding: 10px 15px !important;
 }
 
 .wpt-form-textfield, .wpt-form-textarea {
@@ -417,7 +418,7 @@ button {
   font-weight: 700;
   border: medium none;
   font-size: 18px;
-  
+
 }
 
 /* ==========================================================================
@@ -509,7 +510,7 @@ width: 17px;
 .nav > li.active > a {
   background-color: #53aba7;
   font-family: "futura-pt-condensed";
-}  
+}
 
 .nav-pills > li > a:hover, a:focus {
     font-family: "futura-pt-condensed";
@@ -526,7 +527,7 @@ width: 17px;
 .navbar-brand {
   display: inherit;
 }
-   
+
 
 
 /* ==========================================================================
@@ -646,7 +647,7 @@ font-size: 14px;
 
 .navbar-brand {
   /*display:none;*/
-} 
+}
 
 /*.mainarea {
    float: left;
@@ -655,10 +656,6 @@ font-size: 14px;
 }*/
 
 .sidback {
-}
-
-.quote {
-  margin: 20% auto 0;
 }
 
 .memoryhead {
@@ -689,7 +686,7 @@ font-size: 14px;
 .button > a:hover {
   color: #FFF;
   background-color: #7dcecf;
-} 
+}
 
 .homebio {
   margin: -80px 0 0;
@@ -733,7 +730,7 @@ font-size: 14px;
 }
 
 .homemp3cont {
-  margin: 0 3% 0 0; 
+  margin: 0 3% 0 0;
 }
 
 .secondalbumimage {
@@ -749,7 +746,7 @@ font-size: 14px;
 }
 
 .masoninfoblock {
-  
+
 }
 
 
@@ -760,15 +757,15 @@ font-size: 14px;
 
 
 .masontitle {
-  
+
 }
 
 .masonlocation{
-  
+
 }
 
 .masondate{
-  
+
 }
 
 .masoncaption {
@@ -810,13 +807,13 @@ font-size: 14px;
 }
 
 .wpt-form-file {
-  
+
 }
 
 .sidvidcopy {
   margin: 20px 5% 0;
   -webkit-column-count: 2;
-  -moz-column-count: 2; 
+  -moz-column-count: 2;
   column-count: 2;
 }
 
@@ -841,7 +838,7 @@ font-size: 14px;
 }
 
 .credits > a {
-  
+
 }
 
 .jsmasonry {
