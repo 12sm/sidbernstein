@@ -19,12 +19,12 @@
 
 
 <div class="row sidhomebio">
-	<div class="homebio col-md-12">
+	<div class="homebio col-xs-12">
     <?php echo do_shortcode( "[wpv-view name='home-bio']"); ?>
   </div>
 </div>
 <div class="row">
-  <div class="col-lg-12 homealbumcontainer">
+  <div class="col-xs-12 homealbumcontainer">
     <?php echo do_shortcode( "[wpv-view name='home-music-player']"); ?>
   </div>
 </div>
@@ -35,7 +35,7 @@
         <?php echo do_shortcode( "[cred_form form='Share a story about Sid']"); ?>
       </div>
       <div class="row modal-footer">
-        <div class="col-sm-12">
+        <div class="col-xs-12">
           <button type="button" class="text-right btn btn-warning" class="close" data-dismiss="modal"><span aria-hidden="true">Submit Your Story</span></button>
         </div>
       </div>
