@@ -529,7 +529,14 @@ Side Navbar
 .sidemem > a {
   color: #5F6060;
   z-index: 100;
-  font-size: 27px;
+  font-size: 20px;
+  font-family: "futura-pt-condensed";
+}
+
+.sidemem > a:hover {
+  color: #F8F8F8 !important;
+  background: none;
+  z-index: 100;
 }
 
 .navbar {
