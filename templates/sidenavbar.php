@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="row sidemems">
-      <div class="col-xs-10 col-xs-offset-1">
+      <div class="col-xs-8 col-xs-offset-2">
         <h4 class="sidemem"><a data-target="#memory-form" data-toggle="modal">CLICK HERE TO SHARE A MEMORY</a></h4>
       </div>
     </div>
