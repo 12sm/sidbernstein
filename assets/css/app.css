@@ -36,6 +36,14 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-family: "garamond-premier-pro";
+  font-size: 26px;
+  color: #444D4D;
+  font-style: italic;
+  text-align: center;
+}
+
 button {
   background-color: #59a9a6;
   font-family: "garamond-premier-pro";
@@ -434,7 +442,7 @@ Contact Page
 
 div#frm_form_8_container {
   margin: 0 auto;
-  width: 35%;
+  width: 65%;
 }
 
 .contactus {
