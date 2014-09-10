@@ -171,17 +171,19 @@ font-weight:normal!important;
   text-align: center;
 }
 
-.button,
-.keepreading a.button {
-  background-color: #59a9a6;
-  font-size: 18px;
-  font-family: "garamond-premier-pro";
-  font-family: serif;
-  font-style: italic;
-  color: #063230;
-  padding: 10px;
-  font-weight: 700;
-  border: none;
+.button, .keepreading a.button, .keepreading a {
+background-color: #59a9a6;
+font-size: 18px;
+font-family: "garamond-premier-pro";
+font-style: italic;
+color: #063230;
+padding: 10px;
+background: #59a9a6;
+text-shadow: none;
+box-shadow: none;
+font-weight: normal;
+border-radius: 0;
+border: none;
 }
 
 .homealbumtitle {
