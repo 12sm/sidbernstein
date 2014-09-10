@@ -519,6 +519,10 @@ Side Navbar
   margin-top: -10px;
 }
 
+.social {
+  padding: 10px;
+}
+
 .social > i {
   color: #5F6060;
   z-index: 100;
