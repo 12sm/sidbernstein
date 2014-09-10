@@ -223,13 +223,14 @@ background: #8ADFDB;
   background-color: #777;
   display: block;
   padding: 2% 0;
+  background: url("../img/music-player-texture-tile-light.png");
 }
 
 .mp3contdg {
   background-color: #333;
   display: block;
   padding: 2% 0;
-
+  background: url("../img/music-player-texture-tile-dark.png");
 }
 
 .mp3numb {
