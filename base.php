@@ -21,9 +21,9 @@
                 <section class="side-nav-wrapper">
                     <?php get_template_part('templates/sidenavbar'); ?>
                 </section>
-            </div><!-- /.sidenavbar -->         
+            </div><!-- /.sidenavbar -->
   <!--<?php endif; ?>-->
- 
+
 
   <div class="wrap container-fluid mainarea" role="document">
     <div class="content row">
