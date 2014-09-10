@@ -442,7 +442,7 @@ Contact Page
 
 div#frm_form_8_container {
   margin: 0 auto;
-  width: 65%;
+  width: 50%;
 }
 
 .contactus {
@@ -455,23 +455,24 @@ div#frm_form_8_container {
 
 ::-webkit-input-placeholder {
   font-family: "garamond-premier-pro";
-  font-size: 16px;
+  font-size: 14px;
 }
 :-moz-placeholder { /* Firefox 18- */
   font-family: "garamond-premier-pro";
-  font-size: 16px;
+  font-size: 14px;
 }
 ::-moz-placeholder {  /* Firefox 19+ */
   font-family: "garamond-premier-pro";
-  font-size: 16px;
+  font-size: 14px;
 }
 :-ms-input-placeholder {
   font-family: "garamond-premier-pro";
-  font-size: 16px;
+  font-size: 14px;
 }
 
 p.condor {
   text-align: left;
+  margin: 0px;
 }
 
 
