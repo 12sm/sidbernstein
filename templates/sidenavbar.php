@@ -15,10 +15,10 @@
     </div>
     <?php if (has_nav_menu( 'side_navigation')) : wp_nav_menu(array( 'theme_location'=>'side_navigation', 'menu_class' => 'nav nav-pills nav-stacked')); endif; ?>
     <div class="row">
-      <div class="col-xs-6 social">
+      <div class="col-xs-6 social face">
         <i class="fa fa-facebook-square"></i>
       </div>
-      <div class="col-xs-6 social">
+      <div class="col-xs-6 social tube">
         <i class="fa fa-youtube"></i>
       </div>
     </div>
