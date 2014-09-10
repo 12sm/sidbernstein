@@ -148,8 +148,8 @@ font-size: 28px;
 margin: 0px 41px 0px 0px;
 }
 
-.bioexcerpt strong p {
-color:red;
+.bioexcerpt strong {
+color: #59a9a6;
 }
 
 .keepreading {
