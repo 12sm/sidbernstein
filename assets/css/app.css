@@ -522,6 +522,16 @@ Side Navbar
   z-index: 100;
 }
 
+.sidemems {
+  width: 54%
+}
+
+.sidemem > a {
+  color: #5F6060;
+  z-index: 100;
+  font-size: 27px;
+}
+
 .navbar {
   margin: 0px;
   z-index: 100;
