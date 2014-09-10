@@ -519,10 +519,12 @@ Side Navbar
 
 .face {
   text-align: right;
+  margin-right: -2px;
 }
 
 .tube {
   text-align: left;
+  margin-left: -2px;
 }
 
 .social > i:hover {
