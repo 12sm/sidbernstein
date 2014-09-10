@@ -103,7 +103,7 @@ box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
 transition:background-color .3s ease;
 }
 
-button.memorybutton.modal-link, .memorybutton {
+button.memorybutton.modal-link:hover, .memorybutton:hover {
 background-color: #8ADFDB;
 }
 
