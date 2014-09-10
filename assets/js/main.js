@@ -60,9 +60,7 @@
 
     common: {
       init: function() {
-
         $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
-
         soundManager.setup({
           // disable or enable debug output
           debugMode: true,
@@ -74,7 +72,6 @@
           // optional: enable MPEG-4/AAC support (requires flash 9)
           flashVersion: 9
         });
-
         soundManager.onready(function() {
         // soundManager.createSound() etc. may now be called
           inlinePlayer = new InlinePlayer();

@@ -453,7 +453,26 @@ div#frm_form_8_container {
   width: 100% !important;
 }
 
+::-webkit-input-placeholder {
+  font-family: "garamond-premier-pro";
+  font-size: 16px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: "garamond-premier-pro";
+  font-size: 16px;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  font-family: "garamond-premier-pro";
+  font-size: 16px;
+}
+:-ms-input-placeholder {
+  font-family: "garamond-premier-pro";
+  font-size: 16px;
+}
 
+p.condor {
+  text-align: left;
+}
 
 
 
