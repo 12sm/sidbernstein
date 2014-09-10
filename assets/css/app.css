@@ -143,6 +143,15 @@ button {
   padding: 20px 0 0;
 }
 
+.bioexcerpt p {
+font-size: 28px;
+margin: 0px 41px 0px 0px;
+}
+
+.bioexcerpt strong p {
+color:red;
+}
+
 .keepreading {
   width: 100%;
   margin: 5% auto;
