@@ -171,7 +171,8 @@ font-weight:normal!important;
   text-align: center;
 }
 
-.button {
+.button,
+.keepreading a.button {
   background-color: #59a9a6;
   font-size: 18px;
   font-family: "garamond-premier-pro";
