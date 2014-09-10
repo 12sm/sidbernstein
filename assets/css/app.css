@@ -523,7 +523,8 @@ Side Navbar
 }
 
 .sidemems {
-  width: 5%
+  width: 100%;
+  text-align: center;
 }
 
 .sidemem > a {
