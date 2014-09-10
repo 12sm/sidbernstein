@@ -100,6 +100,11 @@ color: rgba(0,0,0,0.8);
 font-weight:normal!important;
 -webkit-box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
 box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
+transition:background-color .3s ease;
+}
+
+button.memorybutton.modal-link, .memorybutton {
+background-color: #8ADFDB;
 }
 
 /*Home Bio View*/
