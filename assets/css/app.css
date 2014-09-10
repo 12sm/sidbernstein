@@ -477,7 +477,7 @@ Contact Page
 
 div#frm_form_8_container {
   margin: 0 auto;
-  width: 50%;
+  width: 90%;
 }
 
 .contactus {
@@ -700,6 +700,10 @@ font-size: 22px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+div#frm_form_8_container {
+  width: 30%;
+}
 
 .main {
   float: none;
