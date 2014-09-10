@@ -184,6 +184,11 @@ box-shadow: none;
 font-weight: normal;
 border-radius: 0;
 border: none;
+transition:background .3s ease;
+}
+
+.button:hover, .keepreading a.button:hover, .keepreading a:hover {
+background: #8ADFDB;
 }
 
 .homealbumtitle {
