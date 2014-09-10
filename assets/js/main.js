@@ -21,7 +21,7 @@
   var container;
 
   function gridIt(){
-    $( ".backstretch" ).addClass( "gradient" );
+    $( ".grade" ).addClass( "gradient" );
     container = document.querySelector('.jsmasonry');
     $(container).masonry();
   }
@@ -86,7 +86,7 @@
             "padding-bottom": "50px"
           });
         } else {
-          $.backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
+          $("body").backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/bg.jpg");
         };
       }
     },
