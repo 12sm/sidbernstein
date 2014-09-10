@@ -96,6 +96,7 @@ button {
 background-color: #53aba7;
 font-family: "garamond-premier-pro" serif;
 font-style: italic;
+padding: 10px;
 color: rgba(0,0,0,0.8);
 font-weight:normal!important;
 -webkit-box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
@@ -158,7 +159,8 @@ font-size: 28px;
 margin: 0px 41px 0px 0px;
 }
 
-.bioexcerpt strong {
+.bioexcerpt strong,
+.homeexcerpt strong {
 color: #42a39f;
 font-weight:normal!important;
 }
