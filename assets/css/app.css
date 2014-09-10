@@ -531,14 +531,14 @@ Side Navbar
 }
 
 .sidemems {
-  width: 100%;
+  padding-top: 10px;
   text-align: center;
 }
 
 .sidemem > a {
   color: #f2ea29;
   z-index: 100;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "futura-pt-condensed";
 }
 
@@ -680,7 +680,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .memorybutton {
 font-size: 22px;
 }
-	
+
 }
 
 /* Small devices (tablets, 768px and up) */
