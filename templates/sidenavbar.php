@@ -22,8 +22,8 @@
         <i class="fa fa-youtube"></i>
       </div>
     </div>
-    <div class="sidemems">
+    <!-- <div class="sidemems">
       <h1 class="sidemem"><a data-target="#memory-form" data-toggle="modal">CLICK HERE TO SHARE A MEMORY</a></h1>
-    </div>
+    </div> -->
   </div>
 </div>
