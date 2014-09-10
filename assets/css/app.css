@@ -93,12 +93,11 @@ button {
 }
 
 .memorybutton {
-  background-color: #53aba7;
-  font-size: 18px;
-  font-family: serif;
-  font-style: italic;
-  color: rgba(0,0,0,0.8);
-  padding: 6px 6px;
+background-color: #53aba7;
+font-family: "garamond-premier-pro" serif;
+font-style: italic;
+color: rgba(0,0,0,0.8);
+font-weight:normal!important;
 }
 
 /*Home Bio View*/
