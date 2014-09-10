@@ -14,5 +14,6 @@
       </a>
     </div>
     <?php if (has_nav_menu( 'side_navigation')) : wp_nav_menu(array( 'theme_location'=>'side_navigation', 'menu_class' => 'nav nav-pills nav-stacked')); endif; ?>
+    <button>I'm awesome</button>
   </div>
 </div>
