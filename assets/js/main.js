@@ -60,9 +60,8 @@
 
     common: {
       init: function() {
-        $('.modal-link').bind('touchstart', function(e) {
-          $(this).toggleClass('hover_effect');
-        });
+
+        $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
 
         soundManager.setup({
           // disable or enable debug output
