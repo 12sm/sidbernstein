@@ -21,7 +21,8 @@
   var container;
 
   function gridIt(){
-    $( ".grade" ).addClass( "gradient" );
+    var $newdiv1 = $( "<div class='gradient'></div>" );
+    $( ".backstretch" ).append( $newdiv1 );
     container = document.querySelector('.jsmasonry');
     $(container).masonry();
   }
