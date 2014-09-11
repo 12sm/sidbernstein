@@ -217,39 +217,44 @@ background: #8ADFDB;
 .mp3contlg {
   background-color: #777;
   display: block;
-  padding: 2% 0;
   background: url("../img/music-player-texture-tile-light.png");
 }
 
 .mp3contdg {
   background-color: #333;
   display: block;
-  padding: 2% 0;
   background: url("../img/music-player-texture-tile-dark.png");
 }
 
 .mp3numb {
   color: #FFF;
-  font-style: serif;
+  font-family: serif;
   float: left;
-  margin: 0px 12px;
+  margin:0px 20px 0px 20px;
 }
 
 .mp3title {
   color: #FFF;
-  font-style: serif;
+  font-family: serif;
   float: left;
 }
 
 .mp3play {
-  text-align: right;
+  text-align: left;
   margin: 0 12px 0 0;
+  display: inline-block;
+  width: 100%;
 }
 
 .mp3play > a {
-  color: #FFF !important;
-  font-style: serif !important;
+color: #FFF !important;
+font-family: serif!important;
+display: block;
+width: 100%;
+padding: 15px;
 }
+
+.mp3play > a .fa-play {float:left;}
 
 
 
