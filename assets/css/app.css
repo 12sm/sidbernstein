@@ -483,7 +483,11 @@ height:50px;
 
 .product-category {
   padding: 25px !important;
-  }
+}
+
+.woocat-info {
+min-height: 220px;
+}
 
 /* ==========================================================================
 Contact Page
