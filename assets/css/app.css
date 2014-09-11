@@ -728,8 +728,9 @@ div#frm_form_8_container {
 
 .sidenav {
    padding: 0px;
-   float: left;
+   position:fixed;
    width: 10% !important;
+   height:100%;
 }
 
 .navbar {
