@@ -1038,6 +1038,12 @@ footer {
 .memoryhead {
   padding: 5% 28% 5%;
  }
+ 
+ div#frm_form_8_container {
+width: 60%;
+}
+ 
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -1051,10 +1057,19 @@ footer {
   font-size: 32px;
 }
 
- }
+div#frm_form_8_container {
+width: 30%;
+}
+
+}
 
 @media (min-width: 1400px) {
 .memory {
   padding: 8% 12% 0 0;
 }
+
+div#frm_form_8_container {
+width: 30%;
+}
+
 }
