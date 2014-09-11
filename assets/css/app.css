@@ -68,6 +68,7 @@ position: absolute;
 right: 10px;
 top: 0px;
 border: 0px solid;
+-webkit-transition:color .6s;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
 -webkit-transition:color .6s;
