@@ -17,6 +17,26 @@
       </div>
     </div>
   </div>
+  <div class="modal fade" id="memory-form">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-title">
+          <h1>Share A Memory</h1>
+        </div>
+        <div class="modal-subtitle">
+          <p>To add a memory to Sid's Legacy Page, fill out the form below:</p>
+        </div>
+        <div class="modal-body">
+          [cred_form form="Share a story about Sid"]
+        </div>
+        <div class="row modal-footer">
+          <div class="col-sm-12">
+            <button type="button" class="button" class="close" data-dismiss="modal"><span aria-hidden="true">Share your Memory</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
 <?php wp_footer(); ?>
