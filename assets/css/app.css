@@ -84,8 +84,14 @@ button {
 }
 
 .memory {
-  text-align: center;
-  background-image: url("../img/texture-behind-share-btn.png");
+text-align: center;
+background-image: url("../img/texture-behind-share-btn.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+width: 100%;
+height: 150px;
+padding: 40px;
 }
 
 .memorybutton {
