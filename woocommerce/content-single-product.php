@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
-	<?php echo do_shortcode("[wpv-view name='single-product' theid='".the_ID();."']"); ?>
+	<?php echo do_shortcode("[wpv-view name='single-product' theid='".the_ID()."']"); ?>
 
 
 	<meta itemprop="url" content="<?php the_permalink(); ?>" />
