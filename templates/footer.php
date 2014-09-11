@@ -13,7 +13,7 @@
       </div>
       <div class="credits">
         <?php echo date( 'Y'); ?>
-        <?php bloginfo( 'name'); ?>| <a href="http://12southmusic.com/" target="_blank">Built by <striong>12SM</strong></a>
+        &copy; <?php bloginfo( 'name'); ?> <a href="http://12southmusic.com/" target="_blank">Built by <strong>12SM</strong></a>
       </div>
     </div>
   </div>
