@@ -354,7 +354,8 @@ height:50px;
 }
 
 .masoninfoblock {
-  background-color: #FFF;
+background-color: #FFF;
+padding: 15px;
 }
 
 .masontitle {
@@ -383,7 +384,6 @@ height:50px;
 }
 
 .masoncaption {
-  margin: 10px 15px;
   font-size: 15px;
   color: #7F7F7F;
   max-height: 175px;
@@ -396,6 +396,7 @@ height:50px;
   padding: 0px 10px 0px 0px;
   background-color: #cabe2c;
   font-family: "futura-pt-condensed";
+  margin: 15px -15px -15px -15px;
 }
 
 .masonlink > a {
