@@ -71,6 +71,7 @@ top: 0px;
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
 background-color: transparent;
 border-color: transparent;
+border: 0px solid;
 }
 /* ==========================================================================
    Home Content
