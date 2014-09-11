@@ -78,7 +78,7 @@
         // soundManager.createSound() etc. may now be called
           inlinePlayer = new InlinePlayer();
         });
-        
+
         $('.play').on('click', function(e){
             if (inlinePlayer) {
                 inlinePlayer.events.finish = function() {
@@ -132,6 +132,12 @@
       init: function() {
         gridMem();
         stopVid();
+      }
+    },
+
+    post_type_archive_articles: {
+      init: function() {
+        gridIt();
       }
     },
 
