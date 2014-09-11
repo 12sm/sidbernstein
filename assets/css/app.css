@@ -226,6 +226,7 @@ background: #8ADFDB;
 }
 
 .mp3contlg a:hover, .mp3contdg a:hover {background: rgba(89,169,166,0.8);}
+a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .mp3numb {
   color: #FFF;
