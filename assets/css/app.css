@@ -1023,7 +1023,11 @@ footer {
    z-index: 110;
 }
 
- }
+div#frm_form_8_container {
+width: 60%;
+}
+
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
