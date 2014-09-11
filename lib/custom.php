@@ -18,4 +18,9 @@ function my_theme_wrapper_end() {
 
 add_theme_support( 'woocommerce' );
 
+function single_id( $atts ){
+	return the_ID();
+}
+add_shortcode( 'single-id', 'single_id' );
+
 ?>
