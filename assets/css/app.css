@@ -696,7 +696,7 @@ width: 17px;
   font-family: "futura-pt-condensed";
 }
 
-.nav-pills > li > a:hover, a:focus {
+.nav-pills > li > a:hover, a:focus, a:visited {
     font-family: "futura-pt-condensed";
     color: #42a39f !important;
     background: none;
