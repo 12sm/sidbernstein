@@ -368,7 +368,7 @@ height:50px;
 
 .masonlocation {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 15px;
   color: #000;
   text-transform: capitalize;
@@ -377,7 +377,7 @@ height:50px;
 
 .masondate{
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   color: #989898;
 
 }
@@ -394,7 +394,7 @@ height:50px;
 .masonlink {
   text-align: right;
   padding: 0px 10px 0px 0px;
-  background-color: #CCC93D;
+  background-color: #cabe2c;
   font-family: "futura-pt-condensed";
 }
 
@@ -998,7 +998,7 @@ font-size: 14px;
 }
 
 .masonlink > a:hover {
-  color: #428BCA !important;
+  color: #726E09 !important;
 }
 
 .modal-dialog {
