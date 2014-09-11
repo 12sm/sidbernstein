@@ -59,7 +59,19 @@ button {
   font-weight: 700;
   border: none;
 }
-
+.btn-warning {
+color: #eea236;
+background-color: transparent;
+font-size: 36px;
+padding: 0px;
+position: absolute;
+right: 10px;
+top: 0px;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+background-color: transparent;
+border-color: transparent;
+}
 /* ==========================================================================
    Home Content
    ========================================================================== */
