@@ -1,8 +1,10 @@
 <div class="row">
 	<div class="col-sm-12">
-		<div class="pagetitle">
-			<h1>Photos</h1>
-		</div>
+		<div class="page-header">
+  <h1>
+    <?php echo roots_title(); ?>
+  </h1>
+</div>
 	</div>
 </div>
 <div class="row">
