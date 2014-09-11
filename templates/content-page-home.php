@@ -34,24 +34,3 @@
     <?php echo do_shortcode( "[wpv-view name='home-music-player']"); ?>
   </div>
 </div>
-
-
-
-
-
-
-
-<div class="modal fade" id="memory-form">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        <?php echo do_shortcode( "[cred_form form='Share a story about Sid']"); ?>
-      </div>
-      <div class="row modal-footer">
-        <div class="col-xs-12">
-          <button type="button" class="text-right btn btn-warning" class="close" data-dismiss="modal"><span aria-hidden="true">Submit Your Story</span></button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
