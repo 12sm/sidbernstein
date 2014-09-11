@@ -12,8 +12,8 @@
         <?php if (has_nav_menu( 'social_navigation')) : wp_nav_menu(array( 'theme_location'=>'social_navigation', 'menu_class' => '')); endif; ?>
       </div>
       <div class="credits">
-        <?php echo date( 'Y'); ?>
-        &copy; <?php bloginfo( 'name'); ?> <a href="http://12southmusic.com/" target="_blank">Built by <strong>12SM</strong></a>
+        &copy; <?php echo date( 'Y'); ?>
+        <?php bloginfo( 'name'); ?> <a href="http://12southmusic.com/" target="_blank">Built by <strong>12SM</strong></a>
       </div>
     </div>
   </div>
