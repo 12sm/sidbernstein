@@ -1,13 +1,24 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
+  <div class="modal fade" id="memory-form">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <?php echo do_shortcode( "[cred_form form='Share a story about Sid']"); ?>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="text-right btn btn-warning" class="close" data-dismiss="modal"><span aria-hidden="true">Submit Your Story</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="grade">
-              
+
               <div class="<?php echo roots_sidenavbar_class(); ?>">
                   <section class="side-nav-wrapper">
                       <?php get_template_part('templates/sidenavbar'); ?>
                   </section>
               </div><!-- /.sidenavbar -->
-
 
     <div class="wrap container-fluid mainarea" role="document">
       <div class="content row">
