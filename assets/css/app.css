@@ -489,6 +489,22 @@ height:50px;
 min-height: 220px;
 }
 
+.woocatname h3 {
+color: #44a196;
+font-size: 28px;
+font-weight: 100;
+}
+
+.woocatdesc h4 {
+font-family: "garamond-premier-pro";
+font-size: 20px;
+color: #303030;
+}
+
+.woocatsubdesc p {
+color: #757575;
+}
+
 /* ==========================================================================
 Contact Page
 ========================================================================== */
