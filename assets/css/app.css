@@ -70,7 +70,7 @@ top: 0px;
 border: 0px solid;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
--webkit-transition:color .4s;
+-webkit-transition:color .6s;
 color: #53aba7;
 background-color: transparent;
 border-color: transparent;
