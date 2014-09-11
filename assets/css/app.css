@@ -692,13 +692,13 @@ width: 17px;
 }
 
 .nav > li.active > a {
-  background-color: #53aba7;
+  background-color: transparent;
   font-family: "futura-pt-condensed";
 }
 
 .nav-pills > li > a:hover, a:focus {
     font-family: "futura-pt-condensed";
-    color: #F8F8F8 !important;
+    color: #42a39f !important;
     background: none;
     z-index: 100;
 }
