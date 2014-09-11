@@ -133,6 +133,8 @@ border-radius: 4px;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
+margin-top: 0 auto;
+font-style: italic;
 }
 /*Home Bio View*/
 
