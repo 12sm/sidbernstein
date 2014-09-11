@@ -808,6 +808,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 font-size: 22px;
 }
 
+.bio.row {
+margin-top: 0px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
