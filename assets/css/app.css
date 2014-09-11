@@ -821,6 +821,11 @@ padding-bottom: 0px;
 padding-left: 0px;
 }
 
+.bioexcerpt p {
+font-size: 24px;
+padding-bottom: 2%;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
