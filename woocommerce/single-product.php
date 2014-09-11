@@ -13,6 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 ?>
 
+<div class="content-container">
 	<?php
 		/**
 		 * woocommerce_before_main_content hook
@@ -37,3 +38,4 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 		 */
 		do_action( 'woocommerce_after_main_content' );
 	?>
+</div>

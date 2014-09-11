@@ -1045,7 +1045,7 @@ font-size: 14px;
 
 }
 
-.jsmasonry {
+.jsmasonry, .content-container {
 margin: 30px 15px 30px 30px !important;
 }
 
