@@ -574,6 +574,11 @@ p.condor {
 .conbutt:hover {
   background: #8ADFDB;
 }
+
+input.contact, textarea.contact {
+padding: 10px!important;
+}
+
 /* ==========================================================================
 Side Navbar
 ========================================================================== */
