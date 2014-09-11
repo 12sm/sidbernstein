@@ -225,7 +225,7 @@ background: #8ADFDB;
   background: url("../img/music-player-texture-tile-dark.png");
 }
 
-.mp3contlg a:hover, .mp3contdg a:hover {background: rgba(89,169,166,0.8)}
+.mp3contlg a:hover, .mp3contdg a:hover {background: rgba(89,169,166,0.8);}
 
 .mp3numb {
   color: #FFF;

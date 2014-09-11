@@ -78,6 +78,19 @@
         // soundManager.createSound() etc. may now be called
           inlinePlayer = new InlinePlayer();
         });
+        
+        $('.play').on('click', function(e){
+            if (inlinePlayer) {
+                inlinePlayer.events.finish = function() {
+
+                    // Remove Playing Class
+                    $('a.sm2_playing').removeClass('sm2_playing');
+
+                    // Blow away the last played track
+                    inlinePlayer.stopSound(inlinePlayer.lastSound);
+                };
+            }
+        });
 
         //iOS 7 workaround
         if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
