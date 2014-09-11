@@ -1,4 +1,4 @@
-<div class="sidenav navbar navbar-inverse" data-spy="affix" data-offset-top="" role="sidenav">
+<div class="sidenav navbar navbar-inverse" data-offset-top="" role="sidenav">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle navbar" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
