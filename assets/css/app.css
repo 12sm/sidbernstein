@@ -1003,7 +1003,7 @@ font-size: 14px;
 }
 
 .modal-dialog {
-  margin: 15% auto;
+  margin: 5% auto!important;
   text-align: left !important;
 }
 
