@@ -109,7 +109,9 @@ transition:background-color .3s ease;
 button.memorybutton.modal-link:hover, .memorybutton:hover {
 background-color: #8ADFDB;
 }
-
+.photourl img {
+width: 100%;
+}
 /*Home Bio View*/
 
 .homebio {
@@ -236,7 +238,7 @@ margin-bottom: 50px;
   background: url("../img/music-player-texture-tile-dark.png");
 }
 
-.mp3contlg a:hover, .mp3contdg a:hover, a.sm2_playing {background: rgba(89,169,166,0.8);} 
+.mp3contlg a:hover, .mp3contdg a:hover, a.sm2_playing {background: rgba(89,169,166,0.8);}
 a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .mp3numb {
@@ -1047,11 +1049,11 @@ width: 60%;
 .memoryhead {
   padding: 5% 28% 5%;
  }
- 
+
  div#frm_form_8_container {
 width: 60%;
 }
- 
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
