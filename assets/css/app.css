@@ -7,10 +7,6 @@
    Base
    ========================================================================== */
 
-body {
-   background-image:
-}
-
 .gradient {
   height: 100%;
   background: -moz-linear-gradient(top,  rgba(67,67,67,0) 38%, rgba(67,67,67,0.53) 55%, rgba(67,67,67,1) 70%, rgba(67,67,67,1) 99%); /* FF3.6+ */
@@ -21,7 +17,6 @@ body {
   background: linear-gradient(to bottom,  rgba(67,67,67,0) 38%,rgba(67,67,67,0.53) 55%,rgba(67,67,67,1) 70%,rgba(67,67,67,1) 99%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00434343', endColorstr='#434343',GradientType=0 ); /* IE6-9 */
 }
-
 
 a:hover {
   text-decoration: none;
@@ -510,8 +505,21 @@ p.condor {
   margin: 0px;
 }
 
+.conbutt {
+  background-color: #53aba7;
+  font-family: "garamond-premier-pro" serif;
+  font-style: italic;
+  padding: 10px;
+  color: rgba(0,0,0,0.8);
+  font-weight: normal!important;
+  -webkit-box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
+  box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
+  transition: background-color .3s ease;
+}
 
-
+.conbutt:hover {
+  background: #8ADFDB;
+}
 /* ==========================================================================
 Side Navbar
 ========================================================================== */
