@@ -510,7 +510,7 @@ padding: 15px;
 }
 
 .masontitle a {
-color: #53aba7;
+color: #53aba7!important;
 text-decoration: none;
 transition:color .3s ease;
 }
