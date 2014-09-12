@@ -464,8 +464,10 @@ border-bottom: none;
 
 .modal-body {
 position: relative;
-padding: 20px 0px;
+padding: 20px;
 }
+
+.modal-body img {width:100%;}
 
 .modal-footer {
   border-top: none !important;
