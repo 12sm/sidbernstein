@@ -516,7 +516,7 @@ transition:color .3s ease;
 }
 
 .masontitle a:hover {
-color: #69CAC6;
+color: #69CAC6!important;
 text-decoration: none;
 }
 
