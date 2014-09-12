@@ -131,29 +131,34 @@ background-color: #8ADFDB;
 .photourl img {
 width: 100%;
 }
-.wpt-form-submit.form-submit.submit{
-color: #fff;
-background-color: #f0ad4e;
+.wpt-form-submit.form-submit.submit {
 border-color: #eea236;
 display: block;
 margin-bottom: 0;
-font-weight: normal;
 text-align: center;
 vertical-align: middle;
 cursor: pointer;
 background-image: none;
-border: 1px solid transparent;
 white-space: nowrap;
-padding: 6px 12px;
-font-size: 14px;
 line-height: 1.428571429;
-border-radius: 4px;
 -webkit-user-select: none;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
 margin: 0 auto;
+background-color: #59a9a6;
+font-size: 18px;
+font-family: "garamond-premier-pro";
 font-style: italic;
+color: #063230;
+padding: 10px;
+background: #59a9a6;
+text-shadow: none;
+box-shadow: none;
+font-weight: normal;
+border-radius: 0;
+border: none;
+transition: background .3s ease;
 }
 /*Home Bio View*/
 
