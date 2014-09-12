@@ -249,14 +249,6 @@ background: #8ADFDB;
 margin-bottom: 50px;
 }
 
-.homealbumcover {
-
-}
-
-.homemp3container {
-
-}
-
 .homemp3cont {
   font-family: serif;
   font-size: 18px;
@@ -515,6 +507,17 @@ padding: 15px;
   border: medium none;
   font-size: 18px;
 
+}
+
+.masontitle a {
+color: #428bca;
+text-decoration: none;
+transition:color .3s ease;
+}
+
+.masontitle a:hover {
+color: #53aba7;
+text-decoration: none;
 }
 
 /* ==========================================================================
