@@ -441,8 +441,13 @@ padding: 15px;
    Modal
    ========================================================================== */
 
-.modal-body {
+.modal-header .close {
+margin-top: -2px;
+font-style: normal;
+}
 
+.modal-header {
+border-bottom: none;
 }
 
 .modal-content > hr {
