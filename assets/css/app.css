@@ -540,7 +540,7 @@ color: #D6D6D6;
 }
 
 /* ==========================================================================
-   Store 
+   Store
    ========================================================================== */
 
 .woocat {
@@ -585,7 +585,10 @@ background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%)
 background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-
+.img-container.imgLiquid_bgSize.imgLiquid_ready {
+width: 100%;
+padding-bottom: 85%;
+}
 /* ==========================================================================
 Contact Page
 ========================================================================== */
@@ -852,7 +855,7 @@ padding-bottom: 2%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	
+
 .vc_custom_1410467072371 {
 margin-top: 0px;
 margin-bottom: 0px;
