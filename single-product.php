@@ -23,12 +23,12 @@
     <div class="wrap container-fluid mainarea" role="document">
       <div class="content row">
         <main class="main <?php echo roots_main_class(); ?>" role="main">
-
+          
           <?php echo do_shortcode("[wpv-view name='single-product' theid='[single-id']");
           		echo do_shortcode("[single-id']");
            ?>
-
-
+          
+          
         </main><!-- /.main -->
         <?php if (roots_display_sidebar()) : ?>
           <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
