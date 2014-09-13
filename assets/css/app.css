@@ -1157,7 +1157,9 @@ font-size: 14px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+.col {
+margin: 0 5%;
+}
 
 .memoryhead > .memory {
   padding: 8% 0 0;
