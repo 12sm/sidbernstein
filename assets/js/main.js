@@ -79,6 +79,8 @@
           inlinePlayer = new InlinePlayer();
         });
 
+        $('.img-container').imgLiquid();
+
         $('.play').on('click', function(e){
             if (inlinePlayer) {
                 inlinePlayer.events.finish = function() {
