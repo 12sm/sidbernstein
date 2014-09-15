@@ -580,7 +580,6 @@ min-height: 220px;
 }
 
 .woocatimage {
-<<<<<<< HEAD
   border: 10px solid #FFF;
   -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
   box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
@@ -593,21 +592,7 @@ min-height: 220px;
   background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* IE10+ */
   background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-=======
-border: 10px solid #FFF;
--webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
-box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
-padding: 30px;
-background: #ffffff; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #dadada 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#dadada)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-height:350px;
->>>>>>> FETCH_HEAD
+  height:350px;
 }
 
 .img-container.imgLiquid_bgSize.imgLiquid_ready {
@@ -615,8 +600,25 @@ height:350px;
   padding-bottom: 85%;
 }
 
-<<<<<<< HEAD
-=======
+.white {
+background: #FFF;
+padding: 10px;
+}
+
+h2.prod-title {
+color: #42a39f;
+font-size: 26px;
+font-family: "adobe garamond";
+font-style: italic;
+text-align: center;
+}
+
+span.amount {
+color: #232323;
+font-size: 20px;
+font-style: normal;
+}
+
 .white {
 background: #FFF;
 padding: 10px;
@@ -676,8 +678,12 @@ text-shadow: none;
 text-align: left;
 }
 
+.prod-info-top {
+margin-bottom: 20px;
+padding-bottom: 20px;
+border-bottom: 1px solid #CCC;
+}
 
->>>>>>> FETCH_HEAD
 /* ==========================================================================
 Contact Page
 ========================================================================== */
