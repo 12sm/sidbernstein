@@ -656,6 +656,10 @@ text-shadow: none!important;
 border-radius: 0!important;
 }
 
+.prod-info-top h3 {
+text-align: left;
+}
+
 
 /* ==========================================================================
 Contact Page
