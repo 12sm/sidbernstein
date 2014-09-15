@@ -62,26 +62,26 @@ button {
   border: none;
 }
 .btn-warning {
-color: #eea236;
-background-color: transparent;
-font-size: 36px;
-padding: 0px;
-position: absolute;
-right: 10px;
-top: 0px;
-border: 0px solid;
--webkit-transition:color .6s;
+  color: #eea236;
+  background-color: transparent;
+  font-size: 36px;
+  padding: 0px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  border: 0px solid;
+  -webkit-transition:color .6s;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
--webkit-transition:color .6s;
-color: #53aba7;
-background-color: transparent;
-border-color: transparent;
-border: 0px solid;
+  -webkit-transition:color .6s;
+  color: #53aba7;
+  background-color: transparent;
+  border-color: transparent;
+  border: 0px solid;
 }
 .product .entry-content .col {
-background: #fff;
-padding: 15px;
+  background: #fff;
+  padding: 15px;
 }
 /* ==========================================================================
    Home Content
@@ -107,62 +107,62 @@ padding: 15px;
 }
 
 .memory {
-text-align: center;
-background-image: url("../img/texture-behind-share-btn.png");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center center;
-width: 100%;
-height: 150px;
-padding: 40px;
+  text-align: center;
+  background-image: url("../img/texture-behind-share-btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 150px;
+  padding: 40px;
 }
 
 .memorybutton {
-background-color: #53aba7;
-font-family: "garamond-premier-pro" serif;
-font-style: italic;
-padding: 10px;
-color: rgba(0,0,0,0.8);
-font-weight:normal!important;
--webkit-box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
-box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
-transition:background-color .3s ease;
+  background-color: #53aba7;
+  font-family: "garamond-premier-pro" serif;
+  font-style: italic;
+  padding: 10px;
+  color: rgba(0,0,0,0.8);
+  font-weight:normal!important;
+  -webkit-box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
+  box-shadow: 0 0 10px 5px rgba(255,255,255,.7);
+  transition:background-color .3s ease;
 }
 
 button.memorybutton.modal-link:hover, .memorybutton:hover {
-background-color: #8ADFDB;
+  background-color: #8ADFDB;
 }
 .photourl img {
-width: 100%;
+  width: 100%;
 }
 .wpt-form-submit.form-submit.submit {
-border-color: #eea236;
-display: block;
-margin-bottom: 0;
-text-align: center;
-vertical-align: middle;
-cursor: pointer;
-background-image: none;
-white-space: nowrap;
-line-height: 1.428571429;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-margin: 0 auto;
-background-color: #59a9a6;
-font-size: 18px;
-font-family: "garamond-premier-pro";
-font-style: italic;
-color: #063230;
-padding: 10px;
-background: #59a9a6;
-text-shadow: none;
-box-shadow: none;
-font-weight: normal;
-border-radius: 0;
-border: none;
-transition: background .3s ease;
+  border-color: #eea236;
+  display: block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  line-height: 1.428571429;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0 auto;
+  background-color: #59a9a6;
+  font-size: 18px;
+  font-family: "garamond-premier-pro";
+  font-style: italic;
+  color: #063230;
+  padding: 10px;
+  background: #59a9a6;
+  text-shadow: none;
+  box-shadow: none;
+  font-weight: normal;
+  border-radius: 0;
+  border: none;
+  transition: background .3s ease;
 }
 /*Home Bio View*/
 
@@ -207,18 +207,18 @@ transition: background .3s ease;
 }
 
 .bio.row {
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .bioexcerpt p {
-font-size: 28px;
-margin: 0px 41px 0px 0px;
+  font-size: 28px;
+  margin: 0px 41px 0px 0px;
 }
 
 .bioexcerpt strong,
-.homeexcerpt strong {
-color: #42a39f;
-font-weight:normal!important;
+  .homeexcerpt strong {
+  color: #42a39f;
+  font-weight:normal!important;
 }
 
 .keepreading {
@@ -228,23 +228,23 @@ font-weight:normal!important;
 }
 
 .button, .keepreading a.button, .keepreading a {
-background-color: #59a9a6;
-font-size: 18px;
-font-family: "garamond-premier-pro";
-font-style: italic;
-color: #063230;
-padding: 10px;
-background: #59a9a6;
-text-shadow: none;
-box-shadow: none;
-font-weight: normal;
-border-radius: 0;
-border: none;
-transition:background .3s ease;
+  background-color: #59a9a6;
+  font-size: 18px;
+  font-family: "garamond-premier-pro";
+  font-style: italic;
+  color: #063230;
+  padding: 10px;
+  background: #59a9a6;
+  text-shadow: none;
+  box-shadow: none;
+  font-weight: normal;
+  border-radius: 0;
+  border: none;
+  transition:background .3s ease;
 }
 
 .button:hover, .keepreading a.button:hover, .keepreading a:hover {
-background: #8ADFDB;
+  background: #8ADFDB;
 }
 
 .homealbumtitle {
@@ -257,7 +257,7 @@ background: #8ADFDB;
 }
 
 .homealbumcontainer {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .homemp3cont {
@@ -306,12 +306,12 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .mp3play > a {
-color: #FFF !important;
-font-family: serif!important;
-display: block;
-width: 100%;
-padding: 15px;
-height:50px;
+  color: #FFF !important;
+  font-family: serif!important;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  height:50px;
 }
 
 .mp3play > a .fa-play {float:left;}
@@ -332,10 +332,10 @@ height:50px;
 }
 
 .credits {
-   font-size: 10px;
-   bottom: 0px;
-   text-align: center;
-   color: #FFF;
+  font-size: 10px;
+  bottom: 0px;
+  text-align: center;
+  color: #FFF;
 }
 
 .credits > a {
@@ -357,8 +357,8 @@ height:50px;
 }
 
 .masoninfoblock {
-background-color: #FFF;
-padding: 15px;
+  background-color: #FFF;
+  padding: 15px;
 }
 
 .masontitle {
@@ -403,13 +403,13 @@ padding: 15px;
 }
 
 .masonlink > a {
-    color: #FFF !important;
-    font-size: 20px;
+  color: #FFF !important;
+  font-size: 20px;
 }
 
 .masoninfoblock .masonlocation > a {
-      color: #FFF !important;
-      text-transform: capitalize;
+  color: #FFF !important;
+  text-transform: capitalize;
 }
 
 .masonhr {
@@ -451,12 +451,12 @@ padding: 15px;
    ========================================================================== */
 
 .modal-header .close {
-margin-top: -2px;
-font-style: normal;
+  margin-top: -2px;
+  font-style: normal;
 }
 
 .modal-header {
-border-bottom: none;
+  border-bottom: none;
 }
 
 .modal-content > hr {

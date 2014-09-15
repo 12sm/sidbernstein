@@ -98,7 +98,7 @@
         if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
           $("body").css({
             "background": "url(http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/home-bg.jpg) center center no-repeat",
-            "background-size": "cover",
+            "background-size": "contain",
             "padding-bottom": "50px"
           });
         } else {
