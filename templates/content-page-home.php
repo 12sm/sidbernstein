@@ -1,4 +1,4 @@
-<div class="row sidback">
+<!-- <div class="row sidback">
   <div class="memright col-xs-6 col-xs-offset-5">
     <div class="row">
       <div class="col-xs-12 quote">
@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
