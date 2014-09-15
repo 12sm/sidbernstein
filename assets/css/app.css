@@ -881,6 +881,7 @@ width: 17px;
   z-index: 100;
   font-family: "futura-pt-condensed";
   font-size: 20px;
+  padding: 0px 15px;
 }
 
 .nav > li.active > a {
