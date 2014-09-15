@@ -559,8 +559,9 @@ color: #D6D6D6;
 min-height: 220px;
 }
 
-.woopost {
-  padding: 20px;
+.woocatimage img {
+max-height: 100%;
+width: auto;
 }
 
 .woocatname h3 {
@@ -598,6 +599,7 @@ background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%);
 background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* IE10+ */
 background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+max-height:400px;
 }
 .img-container.imgLiquid_bgSize.imgLiquid_ready {
 width: 100%;
