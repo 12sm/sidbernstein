@@ -95,15 +95,22 @@
         });
 
         //iOS 7 workaround
-        if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
-          $("body").css({
-            "background": "url(http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/home-bg.jpg) center center no-repeat",
-            "background-size": "contain",
-            "padding-bottom": "50px"
-          });
-        } else {
-          $("body").backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/home-bg.jpg");
-        };
+        // if (navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS 7_\d/i)) {
+        //   $("body").css({
+        //     "background": "url(http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/home-bg.jpg) center center no-repeat",
+        //     "background-size": "contain",
+        //     "padding-bottom": "50px"
+        //   });
+        // } else {
+        //   $("body").backstretch("http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/home-bg.jpg");
+        // };
+        $("body").css({
+          "background": "url(http://stage.sidbernstein.com/wp-content/themes/sidbernstein/assets/img/home-bg.jpg) center center no-repeat",
+          "background-size": "cover",
+          "padding-bottom": "50px",
+          "background-repeat": "no-repeat",
+          "background-position": "0 center"
+        });
       }
     },
 
