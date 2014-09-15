@@ -639,6 +639,10 @@ transition:background .3s ease;
 
 .product-thumb a:hover {background:#8ADFDB;}
 
+body.single-product header {
+display: none;
+}
+
 
 /* ==========================================================================
 Contact Page
