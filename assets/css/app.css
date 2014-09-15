@@ -735,6 +735,7 @@ div#frm_form_8_container {
   font-family: "garamond-premier-pro";
   font-size: 14px;
 }
+
 ::-moz-placeholder {  /* Firefox 19+ */
   font-family: "garamond-premier-pro";
   font-size: 14px;
@@ -888,11 +889,15 @@ width: 17px;
   font-family: "futura-pt-condensed";
 }
 
+.nav > li.active > a.hover {
+  background-color: transparent;
+}
+
 .nav-pills > li > a:hover {
-    font-family: "futura-pt-condensed";
-    color: #f8f8f8 !important;
-    background: none;
-    z-index: 100;
+  font-family: "futura-pt-condensed";
+  color: #f8f8f8 !important;
+  background: none;
+  z-index: 100;
 }
 
 .navlogo {
