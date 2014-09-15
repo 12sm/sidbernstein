@@ -23,7 +23,7 @@
 
 
 <div class="row sidhomebio">
-	<div class="homebio col-xs-12">
+  <div class="homebio col-xs-12">
     <?php echo do_shortcode( "[wpv-view name='home-bio']"); ?>
   </div>
 </div>
