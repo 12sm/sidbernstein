@@ -672,6 +672,10 @@ padding-bottom: 20px;
 border-bottom: 1px solid #CCC;
 }
 
+.woocommerce img, .woocommerce-page img {
+height: 100%;
+width: auto;
+}
 
 
 
