@@ -559,6 +559,10 @@ color: #D6D6D6;
 min-height: 220px;
 }
 
+.woopost {
+  padding: 20px;
+}
+
 .woocatname h3 {
 color: #44a196;
 font-size: 28px;
