@@ -643,6 +643,11 @@ body.single-product header {
 display: none;
 }
 
+.quantity.buttons_added {
+/* text-align: left; */
+margin-left: 0;
+}
+
 
 /* ==========================================================================
 Contact Page
