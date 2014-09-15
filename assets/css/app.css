@@ -89,13 +89,13 @@ padding: 15px;
 
 /*Home Memory View*/
 
-.sidback {
+/*.sidback {
    background-image: url("../img/sid-face-bg.jpg");
    background-position: right top;
    background-repeat: no-repeat;
    background-size: 116%;
    padding-bottom : 30%;
-}
+}*/
 
 .memright {
   padding-top: 10%;
