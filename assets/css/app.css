@@ -695,6 +695,18 @@ height: auto;
 width: 100%;
 }
 
+.woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {
+border: none;
+background: #dfdfdf;
+position: relative;
+z-index: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+margin: 0 -5px;
+padding: 0 1em;
+box-shadow:none;
+}
+
 
 /* ==========================================================================
 Contact Page
