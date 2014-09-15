@@ -717,7 +717,7 @@ border-left: 1px solid #dfdfdf;
 border-right: 1px solid #dfdfdf;
 }
 
-.woocommerce div.product .woocommerce-tabs ul.tabs, .woocommerce #content div.product .woocommerce-tabs ul.tabs, .woocommerce-page div.product .woocommerce-tabs ul.tabs, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs {
+.woocommerce div.product .woocommerce-tabs ul.tabs, .woocommerce #content div.product .woocommerce-tabs ul.tabs, .woocommerce-page div.product .woocommerce-tabs ul.tabs, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs, div#tab-description {
 font-family: "garamond-premier-pro";
 }
 
