@@ -637,6 +637,8 @@ text-align: right;
 transition:background .3s ease;
 }
 
+.product-thumb a:hover {background:#8ADFDB;}
+
 
 /* ==========================================================================
 Contact Page
