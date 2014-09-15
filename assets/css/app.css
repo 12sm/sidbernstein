@@ -685,10 +685,14 @@ padding-bottom: 20px;
 border-bottom: 1px solid #CCC;
 }
 
-
 .woocommerce img, .woocommerce-page img {
 height: 100%;
 width: auto;
+}
+
+body.single-product .woocommerce img, body.single-product .woocommerce-page img {
+height: auto;
+width: 100%;
 }
 
 
