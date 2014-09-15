@@ -717,6 +717,10 @@ border-left: 1px solid #dfdfdf;
 border-right: 1px solid #dfdfdf;
 }
 
+.woocommerce div.product .woocommerce-tabs ul.tabs, .woocommerce #content div.product .woocommerce-tabs ul.tabs, .woocommerce-page div.product .woocommerce-tabs ul.tabs, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs {
+font-family: "garamond-premier-pro";
+}
+
 
 /* ==========================================================================
 Contact Page
