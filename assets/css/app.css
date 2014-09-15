@@ -889,7 +889,7 @@ width: 17px;
   font-family: "futura-pt-condensed";
 }
 
-.nav > li.active:hover {
+.nav > li.active > a:hover {
   background-color: transparent;
 }
 
