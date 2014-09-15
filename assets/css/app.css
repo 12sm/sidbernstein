@@ -665,6 +665,14 @@ text-shadow: none;
 text-align: left;
 }
 
+.prod-info-top {
+margin-bottom: 20px;
+padding-bottom: 20px;
+border-bottom: 1px solid #CCC;
+}
+
+
+
 
 /* ==========================================================================
 Contact Page
