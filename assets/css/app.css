@@ -634,6 +634,7 @@ color: #FFF;
 padding: 10px;
 display: block;
 text-align: right;
+transition:background .3s ease;
 }
 
 
