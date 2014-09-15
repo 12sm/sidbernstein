@@ -721,6 +721,15 @@ border-right: 1px solid #dfdfdf;
 font-family: "garamond-premier-pro";
 }
 
+.entry-content h2 {
+font-family: "garamond-premier-pro";
+font-size: 26px;
+color: #444D4D;
+font-style: italic;
+text-align: left;
+}
+
+
 
 /* ==========================================================================
 Contact Page
