@@ -606,10 +606,17 @@ width: 100%;
 padding-bottom: 85%;
 }
 
-
 .white {
 background: #FFF;
 padding: 10px;
+}
+
+h2.prod-title {
+color: #42a39f;
+font-size: 26px;
+font-family: "adobe garamond";
+font-style: italic;
+text-align: center;
 }
 
 
