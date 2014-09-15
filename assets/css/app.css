@@ -628,6 +628,13 @@ font-style: normal;
 .product-thumb p {
 color: #868686;
 }
+.product-thumb a {
+background-color: #42a39f;
+color: #FFF;
+padding: 10px;
+display: block;
+text-align: right;
+}
 
 
 /* ==========================================================================
