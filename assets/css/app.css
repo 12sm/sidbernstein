@@ -569,6 +569,12 @@ font-size: 28px;
 font-weight: 100;
 }
 
+.woopost {
+padding: 20px;
+border-bottom: 1px solid #AAA;
+margin-bottom: 50px;
+}
+
 .woocatdesc h4 {
 font-family: "garamond-premier-pro";
 font-size: 20px;
