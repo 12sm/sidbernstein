@@ -656,6 +656,11 @@ text-shadow: none!important;
 border-radius: 0!important;
 }
 
+.woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover {
+background: #8ADFDB;
+text-shadow: none;
+}
+
 .prod-info-top h3 {
 text-align: left;
 }
