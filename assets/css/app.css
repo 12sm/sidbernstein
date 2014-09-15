@@ -690,11 +690,10 @@ height: 100%;
 width: auto;
 }
 
-body.single-product .woocommerce img, body.single-product .woocommerce-page img {
+img.attachment-medium.wp-post-image {
 height: auto;
 width: 100%;
 }
-
 
 
 /* ==========================================================================
