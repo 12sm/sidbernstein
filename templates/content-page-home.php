@@ -30,6 +30,14 @@
 
 
 
+<div class="row sidhomestore">
+  <div class="homestore col-xs-12">
+    <?php echo do_shortcode( "[wpv-view name='home-store']"); ?>
+  </div>
+</div>
+
+
+
 <div class="row">
   <div class="col-xs-12 homealbumcontainer">
     <?php echo do_shortcode( "[wpv-view name='home-music-player']"); ?>

@@ -185,7 +185,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 
 .homeexcerpt {
   font-size: 24px;
-  font-family: serif;
+  font-family: "garamond-premier-pro";
   color: rgba(0,0,0,0.8);
   padding: 10px;
 }
@@ -397,7 +397,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .masonlink {
   text-align: right;
   padding: 0px 10px 0px 0px;
-  background-color: #cabe2c;
+  background-color: #f2ea29;
   font-family: "futura-pt-condensed";
   margin: 15px -15px -15px -15px;
 }
@@ -443,7 +443,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   margin: 10px 0 0;
 }
 
-
+.feature
 
 
 /* ==========================================================================
@@ -611,7 +611,7 @@ padding: 10px;
 }
 
 h2.prod-title {
-color: #42a39f;
+color: #f2a39f;
 font-size: 26px;
 font-family: "adobe garamond";
 font-style: italic;
@@ -1097,7 +1097,7 @@ font-size: 14px;
 }
 
 .fullbio {
-  font-family: serif;
+  font-family: "garamond-premier-pro";
   font-size: 16px;
 }
 
