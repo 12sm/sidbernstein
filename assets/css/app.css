@@ -686,8 +686,8 @@ border-bottom: 1px solid #CCC;
 }
 
 .woocommerce img, .woocommerce-page img {
-height: 100%;
-width: auto;
+height: auto;
+width: 100%;
 }
 
 img.attachment-medium.wp-post-image {
@@ -881,7 +881,7 @@ width: 17px;
   z-index: 100;
   font-family: "futura-pt-condensed";
   font-size: 20px;
-  padding: 0px 15px;
+  padding: 2px 15px;
 }
 
 .nav > li.active > a {
