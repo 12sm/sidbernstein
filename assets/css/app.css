@@ -289,6 +289,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .mp3title {
   color: #FFF;
   font-family: "garamond-premier-pro";
+  font-size: 20px !important;
   float: left;
 }
 
@@ -1266,7 +1267,7 @@ div#frm_form_8_container {
 
 .mp3title {
   font-family: "garamond-premier-pro";
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 }
