@@ -595,6 +595,11 @@ min-height: 220px;
   height:350px;
 }
 
+.woocatimage > a > img {
+  height: auto;
+  width: auto:
+}
+
 .img-container.imgLiquid_bgSize.imgLiquid_ready {
   width: 100%;
   padding-bottom: 85%;
@@ -1300,6 +1305,4 @@ div#frm_form_8_container {
 
 div#frm_form_8_container {
 width: 30%;
-}
-
 }
