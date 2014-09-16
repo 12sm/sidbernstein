@@ -1247,6 +1247,11 @@ div#frm_form_8_container {
   width: 60%;
 }
 
+.mp3title {
+  font-family: "garamond-premier-pro";
+  font-size: 15px !important;
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
@@ -1263,13 +1268,6 @@ div#frm_form_8_container {
 
  div#frm_form_8_container {
   width: 60%;
-}
-
-.mp3title {
-  font-family: "garamond-premier-pro";
-  font-size: 15px !important;
-}
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
