@@ -1283,7 +1283,7 @@ div#frm_form_8_container {
   width: 60%;
 }
 
-.mp3title .mp3numb{
+.mp3title {
   font-size: 18px !important;
 }
 
@@ -1314,6 +1314,6 @@ div#frm_form_8_container {
 width: 30%;
 }
 
-.mp3title .mp3numb{
+.mp3title {
   font-size: 21px !important;
 }
