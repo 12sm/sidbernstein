@@ -596,8 +596,8 @@ min-height: 220px;
 }
 
 .woocatimage > a > img {
-  height: auto;
-  width: auto:
+  height: 100%;
+  width: auto;
 }
 
 .img-container.imgLiquid_bgSize.imgLiquid_ready {
