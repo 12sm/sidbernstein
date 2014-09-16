@@ -1237,18 +1237,16 @@ font-size: 14px;
 }
 
 .jsmasonry, .content-container {
-margin: 30px 15px 30px 30px !important;
+  margin: 30px 15px 30px 30px !important;
 }
 
 footer {
-   bottom: 0px;
-   z-index: 110;
+  bottom: 0px;
+  z-index: 110;
 }
 
 div#frm_form_8_container {
-width: 60%;
-}
-
+  width: 60%;
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1266,11 +1264,11 @@ width: 60%;
  }
 
  div#frm_form_8_container {
-width: 60%;
+  width: 60%;
 }
 
 .mp3title {
-font-size: 14px;
+  font-size: 14px;
 }
 
 }
@@ -1290,7 +1288,7 @@ margin: 0 5%;
 }
 
 div#frm_form_8_container {
-width: 30%;
+  width: 30%;
 }
 
 }
