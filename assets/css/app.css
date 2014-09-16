@@ -306,7 +306,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   display: block;
   width: 100%;
   padding: 15px;
-  height:50px;
+  height: 3.834356% !important;
 }
 
 .mp3play > a .fa-play {float:left;}
