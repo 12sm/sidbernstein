@@ -257,13 +257,10 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 }
 
 .homealbumcontainer {
+  display: block;
+  float: left;
+  clear: none;
   margin-bottom: 50px;
-}
-
-.homemp3cont {
-  font-family: serif;
-  font-size: 18px;
-
 }
 
 .secondalbumimage {
@@ -1122,15 +1119,16 @@ font-size: 14px;
 }
 
 .homealbumcover {
-  width: 21% !important;
+  height: 100% !important;
 }
 
 .homemp3container {
-  margin: 0 1% 0 0;
-}
-
-.homemp3cont {
-  margin: 0 3% 0 0;
+  font-family: "garamond-premier-pro";
+  font-size: 18px;
+  margin: 0 0 0 0;
+  display: block;
+  float: left;
+  clear: none;
 }
 
 .secondalbumimage {
