@@ -306,7 +306,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   display: block;
   width: 100%;
   padding: 15px;
-  height: 3.834356% !important;
+  height:50px;
 }
 
 .mp3play > a .fa-play {float:left;}
@@ -1132,6 +1132,15 @@ font-size: 14px;
 
 .mp3play > a:hover {
   color: rgba(225, 238, 47, 0.9) !important;
+}
+
+.mp3play > a {
+  color: #FFF !important;
+  font-family: serif!important;
+  display: block;
+  width: 100%;
+  padding: 6.25%;
+  height: 0px;
 }
 
 .masonthumb {
