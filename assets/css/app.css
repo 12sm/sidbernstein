@@ -1267,6 +1267,14 @@ div#frm_form_8_container {
   font-size: 12px !important;
 }
 
+.fa {
+  line-height: 0.5 !important;
+}
+
+.mp3play {
+  line-height: 0.5 !important;
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
