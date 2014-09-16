@@ -261,6 +261,10 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   text-align: center;
 }
 
+.sidhomealbum {
+  margin: 0 -15px 0 0;
+}
+
 .homealbum {
   margin-bottom: 50px;
 }
