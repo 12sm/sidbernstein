@@ -85,7 +85,7 @@ button {
 }
 
 .fa {
-  line-height: 0 !important;
+  line-height: 1.5 !important;
 }
 
 /* ==========================================================================
@@ -287,6 +287,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .mp3numb {
   color: #FFF;
   font-family: serif;
+  font-size: 20px;
   float: left;
   margin:0px 10px 0px 10px;
 }
@@ -311,13 +312,10 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   display: block;
   width: 100%;
   padding: 15px;
-  height:50px;
+  height: 50px;
 }
 
 .mp3play > a .fa-play {float:left;}
-
-
-
 
 /* ==========================================================================
    Primary Content
@@ -1265,6 +1263,10 @@ div#frm_form_8_container {
   font-size: 12px !important;
 }
 
+.mp3numb {
+  font-size: 12px !important;
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
@@ -1284,6 +1286,10 @@ div#frm_form_8_container {
 }
 
 .mp3title {
+  font-size: 18px !important;
+}
+
+.mp3numb {
   font-size: 18px !important;
 }
 
@@ -1315,5 +1321,9 @@ width: 30%;
 }
 
 .mp3title {
+  font-size: 21px !important;
+}
+
+.mp3numb {
   font-size: 21px !important;
 }
