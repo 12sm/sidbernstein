@@ -83,6 +83,11 @@ button {
   background: #fff;
   padding: 15px;
 }
+
+.fa {
+  line-height: 0 !important;
+}
+
 /* ==========================================================================
    Home Content
    ========================================================================== */
@@ -283,7 +288,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   color: #FFF;
   font-family: serif;
   float: left;
-  margin:0px 20px 0px 20px;
+  margin:0px 10px 0px 10px;
 }
 
 .mp3title {
@@ -1257,8 +1262,7 @@ div#frm_form_8_container {
 }
 
 .mp3title {
-  font-family: "garamond-premier-pro";
-  font-size: 14px !important;
+  font-size: 12px !important;
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1279,6 +1283,10 @@ div#frm_form_8_container {
   width: 60%;
 }
 
+.mp3title .mp3numb{
+  font-size: 18px !important;
+}
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 .col {
@@ -1297,8 +1305,6 @@ div#frm_form_8_container {
   width: 30%;
 }
 
-}
-
 @media (min-width: 1400px) {
 .memory {
   padding: 8% 12% 0 0;
@@ -1306,4 +1312,8 @@ div#frm_form_8_container {
 
 div#frm_form_8_container {
 width: 30%;
+}
+
+.mp3title .mp3numb{
+  font-size: 21px !important;
 }
