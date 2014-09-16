@@ -288,7 +288,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .mp3title {
   color: #FFF;
-  font-family: serif;
+  font-family: "garamond-premier-pro";
   float: left;
 }
 
@@ -1121,8 +1121,8 @@ font-size: 14px;
 
 .homemp3container {
   font-family: "garamond-premier-pro";
-  font-size: 18px;
-  margin: 0 0 0 0;  
+  font-size: 20px;
+  margin: 0 0 0 0;
 }
 
 .secondalbumimage {
@@ -1265,7 +1265,8 @@ div#frm_form_8_container {
 }
 
 .mp3title {
-  font-size: 14px;
+  font-family: "garamond-premier-pro";
+  font-size: 20px;
 }
 
 }
