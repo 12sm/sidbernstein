@@ -308,8 +308,8 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 }
 
 .feature.woocatimage {
-height: auto!important;
-padding: 5px!important;
+height: 200px!important;
+padding: 20px!important;
 }
 
 .homealbumtitle {
