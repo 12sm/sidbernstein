@@ -958,6 +958,28 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+@media (min-width:350px) {
+
+.mp3title {
+  font-size: 15px !important;
+}
+
+.mp3numb {
+  font-size: 15px !important;
+}
+}
+
+@media (min-width:400px) {
+
+.mp3title {
+  font-size: 18px !important;
+}
+
+.mp3numb {
+  font-size: 18px !important;
+}
+}
+
 @media (max-width:767px) {
 
 .memorybutton {
@@ -981,17 +1003,18 @@ padding-left: 0px;
 font-size: 24px;
 padding-bottom: 2%;
 }
-
-.mp3title {
-  font-size: 12px !important;
-}
-
-.mp3numb {
-  font-size: 12px !important;
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.mp3title {
+  font-size: 16px !important;
+}
+
+.mp3numb {
+  font-size: 16px !important;
+}
 
 .vc_custom_1410467072371 {
 margin-top: 0px;
@@ -1284,6 +1307,7 @@ div#frm_form_8_container {
 .mp3play {
   line-height: 0.5 !important;
 }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -1304,11 +1328,13 @@ div#frm_form_8_container {
 }
 
 .mp3title {
-  font-size: 18px !important;
+  font-size: 22px !important;
 }
 
 .mp3numb {
-  font-size: 18px !important;
+  font-size: 22px !important;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1328,6 +1354,7 @@ margin: 0 5%;
 div#frm_form_8_container {
   width: 30%;
 }
+}
 
 @media (min-width: 1400px) {
 .memory {
@@ -1339,9 +1366,10 @@ width: 30%;
 }
 
 .mp3title {
-  font-size: 21px !important;
+  font-size: 24px !important;
 }
 
 .mp3numb {
-  font-size: 21px !important;
+  font-size: 24px !important;
+}
 }
