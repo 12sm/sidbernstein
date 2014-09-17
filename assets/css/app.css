@@ -308,6 +308,11 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   clear: none;
 }
 
+.feature.woocatimage {
+height: auto;
+padding: 5px!important;
+}
+
 .homealbumtitle {
   font-family: "garamond-premier-pro";
   font-size: 32px;
