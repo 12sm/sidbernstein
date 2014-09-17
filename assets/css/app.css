@@ -1038,6 +1038,10 @@ font-size: 32px;
 margin-top:20%;
 }
 
+body.home .vc_col-sm-6.col-xs-6.wpb_column.vc_column_container {
+text-align: center;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
