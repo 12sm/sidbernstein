@@ -104,6 +104,10 @@ button {
 
 body.home h1 {margin-top:20%;}
 
+.vc_col-sm-6.col-xs-6.wpb_column.vc_column_container {
+text-align: center;
+}
+
 body.home h4 {
 font-size: 12px;
 text-align: center;
