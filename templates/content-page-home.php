@@ -31,7 +31,7 @@
 
 
 <div class="row sidhomestore">
-  <div class="homestore col-xs-12">
+  <div class="col-xs-10 col-xs-offset-1 homestore">
     <?php echo do_shortcode( "[wpv-view name='home-store']"); ?>
   </div>
 </div>
