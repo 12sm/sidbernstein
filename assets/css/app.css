@@ -83,6 +83,11 @@ button {
   background: #fff;
   padding: 15px;
 }
+
+.fa {
+  line-height: 1.5 !important;
+}
+
 /* ==========================================================================
    Home Content
    ========================================================================== */
@@ -179,7 +184,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 }
 
 .homebiophoto {
-  margin: 0px;
+  margin: 85px 0 0 0;
 }
 
 .homeheader {
@@ -192,7 +197,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 
 .homeexcerpt {
   font-size: 24px;
-  font-family: serif;
+  font-family: "garamond-premier-pro";
   color: rgba(0,0,0,0.8);
   padding: 10px;
 }
@@ -254,6 +259,27 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   background: #8ADFDB;
 }
 
+.viewmore > h1 {
+  text-align: left;
+  float: left;
+  display: block;
+  clear: none;
+}
+
+.viewmore > a {
+  float: left;
+  display: block;
+  clear: none;
+}
+
+.feature {
+  width: 18%;
+  padding: 0 1%;
+  float: left;
+  display: block;
+  clear: none;
+}
+
 .homealbumtitle {
   font-family: "garamond-premier-pro";
   font-size: 32px;
@@ -263,14 +289,8 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   text-align: center;
 }
 
-.homealbumcontainer {
+.homealbum {
   margin-bottom: 50px;
-}
-
-.homemp3cont {
-  font-family: serif;
-  font-size: 18px;
-
 }
 
 .secondalbumimage {
@@ -295,13 +315,15 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .mp3numb {
   color: #FFF;
   font-family: serif;
+  font-size: 12px;
   float: left;
-  margin:0px 20px 0px 20px;
+  margin:0px 10px 0px 10px;
 }
 
 .mp3title {
   color: #FFF;
-  font-family: serif;
+  font-family: "garamond-premier-pro";
+  font-size: 12px;
   float: left;
 }
 
@@ -318,13 +340,10 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   display: block;
   width: 100%;
   padding: 15px;
-  height:50px;
+  height: 50px;
 }
 
 .mp3play > a .fa-play {float:left;}
-
-
-
 
 /* ==========================================================================
    Primary Content
@@ -404,7 +423,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .masonlink {
   text-align: right;
   padding: 0px 10px 0px 0px;
-  background-color: #cabe2c;
+  background-color: #f2ea29;
   font-family: "futura-pt-condensed";
   margin: 15px -15px -15px -15px;
 }
@@ -450,7 +469,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   margin: 10px 0 0;
 }
 
-
+.feature
 
 
 /* ==========================================================================
@@ -602,6 +621,11 @@ min-height: 220px;
   height:350px;
 }
 
+.woocatimage > a > img {
+  height: 100%;
+  width: auto;
+}
+
 .img-container.imgLiquid_bgSize.imgLiquid_ready {
   width: 100%;
   padding-bottom: 85%;
@@ -613,7 +637,7 @@ padding: 10px;
 }
 
 h2.prod-title {
-color: #42a39f;
+color: #f2a39f;
 font-size: 26px;
 font-family: "adobe garamond";
 font-style: italic;
@@ -693,8 +717,8 @@ border-bottom: 1px solid #CCC;
 }
 
 .woocommerce img, .woocommerce-page img {
-height: 100%;
-width: auto;
+height: auto;
+width: 100%;
 }
 
 img.attachment-medium.wp-post-image {
@@ -742,6 +766,7 @@ div#frm_form_8_container {
   font-family: "garamond-premier-pro";
   font-size: 14px;
 }
+
 ::-moz-placeholder {  /* Firefox 19+ */
   font-family: "garamond-premier-pro";
   font-size: 14px;
@@ -887,6 +912,7 @@ width: 17px;
   z-index: 100;
   font-family: "futura-pt-condensed";
   font-size: 20px;
+  padding: 2px 15px;
 }
 
 .nav > li.active > a {
@@ -895,11 +921,15 @@ width: 17px;
   font-family: "futura-pt-condensed";
 }
 
+.nav > li.active > a:hover {
+  background-color: transparent;
+}
+
 .nav-pills > li > a:hover {
-    font-family: "futura-pt-condensed";
-    color: #f8f8f8 !important;
-    background: none;
-    z-index: 100;
+  font-family: "futura-pt-condensed";
+  color: #f8f8f8 !important;
+  background: none;
+  z-index: 100;
 }
 
 .navlogo {
@@ -956,6 +986,28 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+@media (min-width:350px) {
+
+.mp3title {
+  font-size: 15px !important;
+}
+
+.mp3numb {
+  font-size: 15px !important;
+}
+}
+
+@media (min-width:400px) {
+
+.mp3title {
+  font-size: 18px !important;
+}
+
+.mp3numb {
+  font-size: 18px !important;
+}
+}
+
 @media (max-width:767px) {
 
 .memorybutton {
@@ -979,16 +1031,27 @@ padding-left: 0px;
 font-size: 24px;
 padding-bottom: 2%;
 }
+<<<<<<< HEAD
 
 body.home h1 {
 font-size: 32px;
 margin-top:20%;
 }
 
+=======
+>>>>>>> FETCH_HEAD
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.mp3title {
+  font-size: 16px !important;
+}
+
+.mp3numb {
+  font-size: 16px !important;
+}
 
 .vc_custom_1410467072371 {
 margin-top: 0px;
@@ -1098,7 +1161,7 @@ font-size: 14px;
 }
 
 .fullbio {
-  font-family: serif;
+  font-family: "garamond-premier-pro";
   font-size: 16px;
 }
 
@@ -1123,15 +1186,13 @@ font-size: 14px;
 }
 
 .homealbumcover {
-  width: 21% !important;
+  height: 100% !important;
 }
 
 .homemp3container {
-  margin: 0 1% 0 0;
-}
-
-.homemp3cont {
-  margin: 0 3% 0 0;
+  font-family: "garamond-premier-pro";
+  font-size: 12px;
+  margin: 0 0 0 0;
 }
 
 .secondalbumimage {
@@ -1140,6 +1201,15 @@ font-size: 14px;
 
 .mp3play > a:hover {
   color: rgba(225, 238, 47, 0.9) !important;
+}
+
+.mp3play > a {
+  color: #FFF !important;
+  font-family: serif!important;
+  display: block;
+  width: 100%;
+  padding: 6.25%;
+  height: 0px;
 }
 
 .masonthumb {
@@ -1243,18 +1313,37 @@ font-size: 14px;
 }
 
 .jsmasonry, .content-container {
-margin: 30px 15px 30px 30px !important;
+  margin: 30px 15px 30px 30px !important;
 }
 
 footer {
-   bottom: 0px;
-   z-index: 110;
+  bottom: 0px;
+  z-index: 110;
 }
 
 div#frm_form_8_container {
-width: 60%;
+  width: 60%;
 }
 
+.sidhomealbum {
+  margin: 0 -15px 0 0;
+}
+
+.mp3title {
+  font-size: 12px !important;
+}
+
+.mp3numb {
+  font-size: 12px !important;
+}
+
+.fa {
+  line-height: 0.5 !important;
+}
+
+.mp3play {
+  line-height: 0.5 !important;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1272,13 +1361,16 @@ width: 60%;
  }
 
  div#frm_form_8_container {
-width: 60%;
+  width: 60%;
 }
 
 .mp3title {
-font-size: 14px;
+  font-size: 18px !important;
 }
 
+.mp3numb {
+  font-size: 18px !important;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1296,9 +1388,16 @@ margin: 0 5%;
 }
 
 div#frm_form_8_container {
-width: 30%;
+  width: 30%;
 }
 
+.mp3title {
+  font-size: 21px !important;
+}
+
+.mp3numb {
+  font-size: 21px !important;
+}
 }
 
 @media (min-width: 1400px) {
@@ -1310,4 +1409,19 @@ div#frm_form_8_container {
 width: 30%;
 }
 
+.homebiophoto {
+  margin: 30px 0 0 0;
+}
+}
+
+@media (min-width: 1600px) {
+.homie {
+  margin-top: 25px;
+}
+}
+
+@media (min-width: 1800px) {
+.homie {
+  margin-top: 50px;
+}
 }

@@ -1,14 +1,16 @@
-<div class="col-sm-12">
-	<div class="row">
-		<div class="pagetitle">
-			<h1>Videos</h1>
-		</div>
+<div class="row">
+	<div class="col-sm-12">
+		<div class="page-header">
+	<h1>
+		<?php echo roots_title(); ?>
+	</h1>
+</div>
 	</div>
 </div>
-<div class="col-sm-12">
-	<div class="row">		
+<div class="row">
+	<div class="col-sm-12">
 	<?php
-  		echo do_shortcode("[wpv-view name='videos']");
+		echo do_shortcode("[wpv-view name='videos']");
 	?>
 	</div>
 </div>
