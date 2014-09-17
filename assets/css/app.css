@@ -1376,3 +1376,9 @@ width: 30%;
   margin: 30px 0 0 0;
 }
 }
+
+@media (min-width: 1600px) {
+.homie {
+  margin-top: 25px;
+}
+}
