@@ -797,6 +797,15 @@ font-style: italic;
 text-align: left;
 }
 
+div#mc_embed_signup {
+background: #FFF;
+padding: 10px;
+color: #757575;
+}
+
+#mc_embed_signup p {
+color: #757575;
+}
 
 
 /* ==========================================================================
