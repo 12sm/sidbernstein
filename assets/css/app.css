@@ -252,9 +252,22 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   background: #8ADFDB;
 }
 
+.viewmore > h1 {
+  text-align: left;
+}
+
+.viewmore > a {
+  float: left;
+  display: block;
+  clear: none;
+}
+
 .feature {
   width: 18%;
   padding: 0 1%;
+  float: left;
+  display: block;
+  clear: none;
 }
 
 .homealbumtitle {
