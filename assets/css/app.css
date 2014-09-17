@@ -807,6 +807,13 @@ color: #757575;
 color: #757575;
 }
 
+input#mce-EMAIL {
+border: 1px solid #ECECEC;
+padding: 5px;
+width: 100%;
+margin-bottom: 5px;
+}
+
 
 /* ==========================================================================
 Contact Page
