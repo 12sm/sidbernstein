@@ -97,6 +97,13 @@ button {
    padding-bottom : 30%;
 }*/
 
+body.home h4 {
+font-size: 12px;
+text-align: center;
+color: #949494;
+margin-top: 0px;
+}
+
 .memright {
   padding-top: 10%;
   text-align: center;
@@ -971,6 +978,11 @@ padding-left: 0px;
 .bioexcerpt p {
 font-size: 24px;
 padding-bottom: 2%;
+}
+
+body.home h1 {
+font-size: 32px;
+margin-top:20%;
 }
 
 }
