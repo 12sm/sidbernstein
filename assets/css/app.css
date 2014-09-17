@@ -130,7 +130,7 @@ margin-top: 0px;
 }
 
 .memorybutton {
-  background-color: #53aba7;
+  background-color: red;
   font-family: "garamond-premier-pro" serif;
   font-style: italic;
   padding: 10px;
@@ -1031,15 +1031,13 @@ padding-left: 0px;
 font-size: 24px;
 padding-bottom: 2%;
 }
-<<<<<<< HEAD
+
 
 body.home h1 {
 font-size: 32px;
 margin-top:20%;
 }
 
-=======
->>>>>>> FETCH_HEAD
 }
 
 /* Small devices (tablets, 768px and up) */
