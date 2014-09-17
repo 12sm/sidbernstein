@@ -261,10 +261,6 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   text-align: center;
 }
 
-.sidhomealbum {
-  margin: 0 -15px 0 0;
-}
-
 .homealbum {
   margin-bottom: 50px;
 }
@@ -1261,6 +1257,10 @@ footer {
 
 div#frm_form_8_container {
   width: 60%;
+}
+
+.sidhomealbum {
+  margin: 0 -15px 0 0;
 }
 
 .mp3title {
