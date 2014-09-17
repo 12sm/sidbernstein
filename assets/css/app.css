@@ -254,6 +254,9 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 
 .viewmore > h1 {
   text-align: left;
+  float: left;
+  display: block;
+  clear: none;
 }
 
 .viewmore > a {
