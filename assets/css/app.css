@@ -305,11 +305,19 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   float: left;
   display: block;
   clear: none;
-}
-
-.feature.woocatimage {
-height: 200px!important;
-padding: 20px!important;
+    border: 10px solid #FFF;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
+  padding: 20px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #dadada 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#dadada)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  height:200px;
 }
 
 .homealbumtitle {
@@ -651,22 +659,6 @@ min-height: 220px;
   background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   height:350px;
-}
-
-.woocatimage-home {
-  border: 10px solid #FFF;
-  -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
-  box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
-  padding: 20px;
-  background: #ffffff; /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #dadada 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#dadada)); /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%); /* IE10+ */
-  background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  height:200px;
 }
 
 .woocatimage > a > img {
