@@ -177,7 +177,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 }
 
 .homebiophoto {
-  margin: 0px;
+  margin: 50px 0 0 0;
 }
 
 .homeheader {
@@ -1370,5 +1370,9 @@ div#frm_form_8_container {
 
 div#frm_form_8_container {
 width: 30%;
+}
+
+.homebiophoto {
+  margin: 0;
 }
 }
