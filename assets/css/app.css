@@ -310,6 +310,13 @@ height: 80%;
 overflow: hidden;
 }
 
+span.amount {
+color: #757575;
+font-size: 16px;
+font-style: normal;
+text-decoration: none;
+}
+
 .feature {
   width: 18%;
   float: left;
@@ -480,7 +487,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .masonlink > a {
-  color: #FFF !important;
+  color: #A08F18 !important;
   font-size: 20px;
 }
 
