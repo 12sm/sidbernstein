@@ -108,6 +108,28 @@ body.home h1 {margin-top:20%;}
 text-align: center;
 }
 
+a.button.keepreading {
+background-color: #59a9a6;
+font-size: 18px;
+font-family: "garamond-premier-pro";
+font-style: italic;
+color: #063230;
+padding: 10px;
+background: #59a9a6;
+text-shadow: none;
+box-shadow: none;
+font-weight: normal;
+border-radius: 0;
+border: none;
+transition: background .3s ease;
+width: 160px;
+vertical-align: bottom;
+display: inline-block;
+float: left;
+margin-top: 20%;
+margin-left: 20px;
+}
+
 body.home h4 {
 font-size: 12px;
 text-align: center;
