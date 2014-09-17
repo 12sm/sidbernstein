@@ -982,6 +982,12 @@ font-size: 24px;
 padding-bottom: 2%;
 }
 
+.mp3title {
+  font-size: 12px !important;
+}
+
+.mp3numb {
+  font-size: 12px !important;
 }
 
 /* Small devices (tablets, 768px and up) */
