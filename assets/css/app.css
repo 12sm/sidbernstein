@@ -1093,6 +1093,8 @@ margin: 5px;
 overflow: hidden;
 }
 
+a.button.keepreading {margin-top:10px;margin-bottom:10px;text-align:center;}
+
 .memorybutton {
 font-size: 22px;
 }
