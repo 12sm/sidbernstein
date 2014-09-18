@@ -1084,6 +1084,15 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width:767px) {
 
+.feature {
+border: 3px solid #FFF;
+padding: 0px;
+height: auto;
+max-height: 120px;
+margin: 5px;
+overflow: hidden;
+}
+
 .memorybutton {
 font-size: 22px;
 }
