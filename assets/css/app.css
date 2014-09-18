@@ -1427,6 +1427,15 @@ div#frm_form_8_container {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+.feature {
+border: 10px solid #FFF;
+padding: 0px;
+height: auto;
+max-height: 120px;
+margin: 5px;
+overflow: hidden;
+}
+
 .memory {
   padding: 8% 0;
 }
@@ -1453,6 +1462,18 @@ div#frm_form_8_container {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+.feature {
+width: 18%;
+float: left;
+display: block;
+clear: none;
+border: 10px solid #FFF;
+padding: 20px;
+height: 200px;
+margin: 5px;
+}
+
 .col {
 margin: 0 5%;
 }
