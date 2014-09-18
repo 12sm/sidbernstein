@@ -1084,10 +1084,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width:767px) {
 
-.memorybutton {
-font-size: 16px;
-}
-
 .feature {
 border: 3px solid #FFF;
 padding: 0px;
@@ -1099,9 +1095,11 @@ overflow: hidden;
 
 a.button.keepreading {margin-top:10px;margin-bottom:10px;text-align:center;}
 
+
 .memorybutton {
-font-size: 22px;
+font-size: 16px;
 }
+
 
 .bio.row {
 margin-top: 0px;
