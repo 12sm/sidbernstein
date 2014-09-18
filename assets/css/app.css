@@ -1084,6 +1084,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width:767px) {
 
+
+.nav > li > a {
+font-size: 30px;
+}
+
 .feature {
 border: 3px solid #FFF;
 padding: 0px;
