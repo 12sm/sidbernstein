@@ -586,7 +586,6 @@ font-family: "garamond-premier-pro";
 .modal-body {
 position: relative;
 padding: 20px;
-padding-bottom: 15px;
 }
 
 .modal-body img {width:100%;}
