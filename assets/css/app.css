@@ -1470,8 +1470,9 @@ display: block;
 clear: none;
 border: 10px solid #FFF;
 padding: 20px;
-height: 200px;
+max-height: 200px;
 margin: 5px;
+overflow:hidden;
 }
 
 .col {
