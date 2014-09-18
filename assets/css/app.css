@@ -531,8 +531,32 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   margin: 10px 0 0;
 }
 
-.feature
-
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
+font-size: 100%;
+margin: 0;
+line-height: 1em;
+cursor: pointer;
+position: relative;
+font-family: inherit;
+text-decoration: none;
+overflow: visible;
+padding: 6px 10px;
+font-weight: normal;
+-webkit-border-radius: 0;
+border-radius: 0;
+left: auto;
+text-shadow: none;
+color: #5e5e5e;
+text-shadow: none!Important;
+border: none;
+background: #44a196;
+white-space: nowrap;
+display: inline-block;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+font-family: "garamond-premier-pro";
+}
 
 /* ==========================================================================
    Modal
@@ -701,7 +725,7 @@ padding: 10px;
 h2.prod-title {
 color: #f2a39f;
 font-size: 26px;
-font-family: "adobe garamond";
+font-family: "garamond-premier-pro";
 font-style: italic;
 text-align: center;
 }
@@ -720,7 +744,7 @@ padding: 10px;
 h2.prod-title {
 color: #42a39f;
 font-size: 26px;
-font-family: "adobe garamond";
+font-family: "garamond-premier-pro";
 font-style: italic;
 text-align: center;
 }
