@@ -531,7 +531,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   margin: 10px 0 0;
 }
 
-.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
+input#mc-embedded-subscribe {
 font-size: 100%;
 margin: 0;
 line-height: 1em;
@@ -556,6 +556,10 @@ display: inline-block;
 -moz-box-shadow: none;
 box-shadow: none;
 font-family: "garamond-premier-pro";
+}
+
+input#mc-embedded-subscribe:hover {
+background: #4CC9BA;
 }
 
 /* ==========================================================================
