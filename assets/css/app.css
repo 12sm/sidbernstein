@@ -1082,6 +1082,16 @@ text-transform: uppercase;
 font-family: "futura-pt-condensed";
 }
 
+.dropdown-menu>li>a {
+display: block;
+padding: 3px 20px;
+clear: both;
+font-weight: normal;
+line-height: 1.428571429;
+color: #656665;
+white-space: nowrap;
+}
+
 a.button.keepreading.hear-more {
 margin: 0!important;
 }
