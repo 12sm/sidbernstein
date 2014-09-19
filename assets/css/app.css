@@ -1074,6 +1074,11 @@ a.button.keepreading.hear-more {
 margin: 0!important;
 }
 
+/* Delete to show Related Products heading */
+.rel-prod {
+display: none;
+}
+
 
 
 /* ==========================================================================
