@@ -116,6 +116,7 @@
 
     home: {
       init: function() {
+        $('.images').imgLiquid();
       }
     },
 
