@@ -16,10 +16,10 @@
     <?php if (has_nav_menu( 'side_navigation')) : wp_nav_menu(array( 'theme_location'=>'side_navigation', 'menu_class' => 'nav nav-pills nav-stacked')); endif; ?>
     <div class="row socials">
       <div class="col-xs-6 social face">
-        <a href="https://www.facebook.com/SidBernsteinMusic" target="_top"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://www.facebook.com/SidBernsteinMusic" target="_new"><i class="fa fa-facebook-square"></i></a>
       </div>
       <div class="col-xs-6 social tube">
-        <a href="http://www.youtube.com/user/SidBernPresents" target="_top"><i class="fa fa-youtube"></i></a>
+        <a href="http://www.youtube.com/user/SidBernPresents" target="_new"><i class="fa fa-youtube"></i></a>
       </div>
     </div>
     <div class="row sidemems">
