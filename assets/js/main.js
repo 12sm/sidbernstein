@@ -135,9 +135,14 @@
       init: function() {
         gridVid();
         stopVid();
+        $('.woocatimage').imgLiquid();
       }
     },
-
+store: {
+      init: function() {
+        $('.woocatimage').imgLiquid();
+      }
+    },
     post_type_archive_memories: {
       init: function() {
         gridMem();
