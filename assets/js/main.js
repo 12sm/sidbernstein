@@ -140,7 +140,7 @@
     },
 store: {
       init: function() {
-        $('.images').imgLiquid();
+        $('.images').imgLiquid({vertialAlign: 'top'});
       }
     },
     post_type_archive_memories: {
