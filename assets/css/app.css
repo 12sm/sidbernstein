@@ -1047,6 +1047,19 @@ width: 17px;
   z-index: 100;
 }
 
+.social a i {
+font-size: 30px;
+color: #656665;
+text-transform: uppercase;
+transition:color .3s ease;
+}
+
+.social a i:hover {
+font-size: 30px;
+color: #FFF;
+text-transform: uppercase;
+}
+
 .navlogo {
   display:none;
 
