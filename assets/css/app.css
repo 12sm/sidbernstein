@@ -1081,6 +1081,7 @@ text-align: left;
 text-transform: uppercase; 
 font-family: "futura-pt-condensed";
 margin-left: -14px;
+float:none;
 }
 
 .dropdown-menu>li>a {
