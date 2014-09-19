@@ -566,8 +566,8 @@ background: #4CC9BA;
 display: none;
 }
 
-section#respond h3 {
-text-align: left;
+section#respond {
+display: none;
 }
 
 /* ==========================================================================
