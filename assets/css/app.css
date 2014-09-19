@@ -1188,7 +1188,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width:767px) {
 
-body.single, body.single-product .images {
+body.single .images, body.single-product .images {
 width: 100%;
 padding-bottom: 0;
 overflow: hidden;
