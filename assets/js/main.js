@@ -140,7 +140,7 @@
     },
 store: {
       init: function() {
-        $('.woocatimage').imgLiquid();
+        $('.images').imgLiquid();
       }
     },
     post_type_archive_memories: {
