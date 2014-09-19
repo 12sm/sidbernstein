@@ -1084,6 +1084,10 @@ margin-left: -14px;
 float:none;
 }
 
+.nav .open>a {
+background-color: transparent;
+}
+
 .dropdown-menu>li>a {
 display: block;
 padding: 3px 20px;
