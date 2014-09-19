@@ -1095,6 +1095,11 @@ color: #FFF;
 background-color: transparent;
 }
 
+ul.nav li {
+background-color: transparent;
+text-align: center;
+}
+
 .dropdown-menu>li>a {
 display: block;
 padding: 3px 20px;
