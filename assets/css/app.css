@@ -1070,6 +1070,18 @@ text-transform: uppercase;
   display: inherit;
 }
 
+.dropdown-menu {
+position: inherit;
+padding: 10px 0;
+font-size: 16px;
+background-color: transparent;
+border: none;
+color: #656665;
+text-align: center;
+text-transform: uppercase;
+font-family: "futura-pt-condensed";
+}
+
 a.button.keepreading.hear-more {
 margin: 0!important;
 }
