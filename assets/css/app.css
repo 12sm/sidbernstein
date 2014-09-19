@@ -1073,12 +1073,12 @@ text-transform: uppercase;
 .dropdown-menu {
 position: inherit;
 padding: 10px 0;
-font-size: 16px;
+font-size: 20px;
 background-color: transparent;
 border: none;
 color: #656665;
-text-align: center;
-text-transform: uppercase;
+text-align: left;
+text-transform: uppercase; 
 font-family: "futura-pt-condensed";
 }
 
