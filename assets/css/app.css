@@ -1080,6 +1080,7 @@ color: #656665;
 text-align: left;
 text-transform: uppercase; 
 font-family: "futura-pt-condensed";
+margin-left: -14px;
 }
 
 .dropdown-menu>li>a {
