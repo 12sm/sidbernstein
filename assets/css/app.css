@@ -751,14 +751,6 @@ background: #FFF;
 padding: 10px;
 }
 
-h2.prod-title {
-color: #f2a39f;
-font-size: 26px;
-font-family: "garamond-premier-pro";
-font-style: italic;
-text-align: center;
-}
-
 span.amount {
 color: #232323;
 font-size: 20px;
@@ -1595,8 +1587,12 @@ div#frm_form_8_container {
   line-height: 0.5 !important;
 }
 
+.prod-title {
+  text-align: left !important;
+}
+
 .profo {
-  text-align: left;
+  text-align: left !important;
 }
 
 .fopro {
