@@ -802,11 +802,6 @@ body.single-product header {
 display: none;
 }
 
-.quantity.buttons_added {
-/* text-align: left; */
-margin-left: 0;
-}
-
 .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt {
 background: #53aba7;
 border: none!important;
@@ -871,6 +866,27 @@ width: 100%;
 margin-bottom: 5px;
 }
 
+.singlehead {
+  background-image: url("../img/store-header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: auto;
+}
+
+.profo {
+  text-align: center;
+}
+
+.fopro {
+  text-align: center;
+}
+
+.specs > p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
 /* ==========================================================================
 Contact Page
@@ -1585,6 +1601,11 @@ div#frm_form_8_container {
 
 .fopro {
   text-align: right;
+}
+
+.quantity.buttons_added {
+/* text-align: left; */
+margin-left: 0;
 }
 
 }
