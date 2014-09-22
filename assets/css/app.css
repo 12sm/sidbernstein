@@ -821,8 +821,8 @@ border-bottom: 1px solid #CCC;
 }
 
 .woocommerce img, .woocommerce-page img {
-height: auto;
-width: 100%;
+height: 100%;
+width: auto;
 }
 
 img.attachment-medium.wp-post-image {
