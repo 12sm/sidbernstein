@@ -1599,7 +1599,7 @@ div#frm_form_8_container {
 }
 
 .fopro {
-  text-align: right;
+  text-align: left !important;
 }
 
 .quantity.buttons_added {
