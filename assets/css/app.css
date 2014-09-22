@@ -1265,15 +1265,6 @@ body.home .vc_col-sm-6.col-xs-6.wpb_column.vc_column_container {
 text-align: center;
 }
 
-.profo {
-  text-align: left;
-}
-
-.fopro {
-  text-align: right;
-}
-
-
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1587,6 +1578,15 @@ div#frm_form_8_container {
 .mp3play {
   line-height: 0.5 !important;
 }
+
+.profo {
+  text-align: left;
+}
+
+.fopro {
+  text-align: right;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
