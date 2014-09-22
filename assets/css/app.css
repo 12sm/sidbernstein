@@ -310,6 +310,8 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 
 .images {
 height: 385px;
+width: auto;
+
 padding-bottom: 5%;
 overflow: hidden;
 }
@@ -1219,9 +1221,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width:767px) {
 
 body.single .images, body.single-product .images {
-height: 100%;
 padding-bottom: 0;
-overflow: hidden;
 }
 
 .nav > li > a {
