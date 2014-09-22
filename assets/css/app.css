@@ -309,7 +309,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 }
 
 .images {
-width: 100%;
+min-height: 385px;
 padding-bottom: 5%;
 overflow: hidden;
 }
