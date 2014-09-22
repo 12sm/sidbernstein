@@ -315,7 +315,7 @@ padding: 10px 0;
 margin-top: 3%;
 padding-bottom: 5%;
 overflow: hidden;
-min-width: 285;
+min-width: 285px;
 }
 
 span.amount {
