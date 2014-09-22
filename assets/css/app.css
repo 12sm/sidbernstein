@@ -578,6 +578,14 @@ display: none;
   height: auto;
 }
 
+.profo {
+  text-align: center;
+}
+
+.fopro {
+  text-align: center;
+}
+
 /* ==========================================================================
    Modal
    ========================================================================== */
@@ -1257,6 +1265,13 @@ body.home .vc_col-sm-6.col-xs-6.wpb_column.vc_column_container {
 text-align: center;
 }
 
+.profo {
+  text-align: left;
+}
+
+.fopro {
+  text-align: right;
+}
 
 
 }
