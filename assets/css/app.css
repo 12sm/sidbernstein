@@ -79,7 +79,7 @@ button {
   border-color: transparent;
   border: 0px solid;
 }
-.product .entry-content .col {
+.product .entry-content .spv {
   background: #fff;
   padding: 15px;
 }
@@ -88,7 +88,7 @@ button {
   line-height: 1.5 !important;
 }
 
-.col {
+.spv {
 margin: 0 5%;
 }
 
@@ -569,7 +569,14 @@ section#respond {
 display: none;
 }
 
-
+.singlehead {
+  background-image: url("../img/store-header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: auto;
+}
 
 /* ==========================================================================
    Modal
@@ -1078,7 +1085,7 @@ background-color: transparent;
 border: none;
 color: #656665;
 text-align: left;
-text-transform: uppercase; 
+text-transform: uppercase;
 font-family: "futura-pt-condensed";
 margin-left: -14px;
 float:none;
@@ -1618,7 +1625,7 @@ margin: 5px;
 overflow:hidden;
 }
 
-.col {
+.spv {
 margin: 0 5%;
 }
 
