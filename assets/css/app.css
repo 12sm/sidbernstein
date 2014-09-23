@@ -1265,7 +1265,7 @@ border: 3px solid #FFF;
 padding: 0px;
 height: auto;
 max-height: 120px;
-margin: 6px;
+margin: 5px;
 overflow: hidden;
 }
 
@@ -1646,7 +1646,7 @@ border: 10px solid #FFF;
 padding: 0px;
 height: auto;
 max-height: 120px;
-margin: 8px;
+margin: 6px;
 overflow: hidden;
 }
 
@@ -1675,10 +1675,6 @@ overflow: hidden;
 
 .product-info {
   padding-left: 30px;
-}
-
-.feature {
-  margin: 6px;
 }
 }
 
