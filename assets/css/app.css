@@ -887,9 +887,11 @@ margin-bottom: 5px;
 
 .product-image {
   text-align:  center;
-  vertical-align: middle;
 }
 
+.prim {
+  vertical-align: middle;
+}
 /* ==========================================================================
 Contact Page
 ========================================================================== */
