@@ -893,16 +893,6 @@ margin-bottom: 5px;
   margin-bottom: 10px !important;
 }
 
-.singlestory{
-  padding-top: 20px;
-  column-count: 2;
-  column-gap: 10px;
-  -moz-column-count: 2;
-  -moz-column-gap: 10px;
-   -webkit-column-count: 2;
-   -webkit-column-gap: 10px;
-}
-
 .spv {
   padding-top: 10px;
 }
@@ -1292,6 +1282,16 @@ text-align: center;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.singlestory{
+  padding-top: 20px;
+  column-count: 2;
+  column-gap: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+}
 
 .mp3title {
   font-size: 16px !important;
