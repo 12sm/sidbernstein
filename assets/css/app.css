@@ -891,6 +891,15 @@ margin-bottom: 5px;
 .product-info > div > div > p {
   margin-bottom: 10px !important;
 }
+
+.singlestory{
+  column-count: 2;
+  column-gap: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 20px;
+}
 /* ==========================================================================
 Contact Page
 ========================================================================== */
