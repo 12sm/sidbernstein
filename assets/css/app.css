@@ -308,7 +308,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   clear: none;
 }
 
-.images {
+/*.images {
 height: 398px;
 width: auto;
 padding: 10px 0;
@@ -316,7 +316,7 @@ margin-top: 3%;
 padding-bottom: 5%;
 overflow: hidden;
 min-width: 285px;
-}
+}*/
 
 span.amount {
 color: #757575;
@@ -823,7 +823,7 @@ padding-bottom: 20px;
 border-bottom: 1px solid #CCC;
 }
 
-.woocommerce img, .woocommerce-page img {
+/*.woocommerce img, .woocommerce-page img {
 height: 100%;
 width: auto;
 }
@@ -831,7 +831,7 @@ width: auto;
 img.attachment-medium.wp-post-image {
 height: auto;
 width: 100%;
-}
+}*/
 
 div#tab-description {
 font-family: "garamond-premier-pro";
@@ -889,6 +889,9 @@ margin-bottom: 5px;
   text-align:  center;
 }
 
+.product-info > div > div > p {
+  margin-bottom: 10px !important;
+}
 /* ==========================================================================
 Contact Page
 ========================================================================== */
