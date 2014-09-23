@@ -421,7 +421,6 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .featured {
-  margin-right: -50px !important;
 }
 
 .pagetitle {
@@ -1265,7 +1264,7 @@ border: 3px solid #FFF;
 padding: 0px;
 height: auto;
 max-height: 120px;
-margin: 5px;
+margin: 8px;
 overflow: hidden;
 }
 
