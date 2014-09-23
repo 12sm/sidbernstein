@@ -324,14 +324,8 @@ text-decoration: none;
 }
 
 .feature {
-  width: 18%;
-  float: left;
-  display: block;
-  clear: none;
-    border: 10px solid #FFF;
   -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
   box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
-  padding: 20px;
   background: #ffffff; /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #dadada 100%)!important; /* FF3.6+ */
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#dadada))!important; /* Chrome,Safari4+ */
@@ -340,8 +334,6 @@ text-decoration: none;
   background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dadada 100%)!important; /* IE10+ */
   background: radial-gradient(ellipse at center,  #ffffff 0%,#dadada 100%)!important; /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=1 )!important; /* IE6-9 fallback on horizontal gradient */
-  height:200px;
-  margin: 6px;
 }
 
 .homealbumtitle {
@@ -1260,15 +1252,6 @@ padding-bottom: 0;
 font-size: 30px;
 }
 
-.feature {
-border: 3px solid #FFF;
-padding: 0px;
-height: auto;
-max-height: 120px;
-margin: 5px;
-overflow: hidden;
-}
-
 a.button.keepreading {margin-top:10px;margin-bottom:10px;text-align:center;}
 
 
@@ -1309,15 +1292,6 @@ text-align: center;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-.feature {
-border: 3px solid #FFF;
-padding: 0px;
-height: auto;
-max-height: 120px;
-margin: 5px;
-overflow: hidden;
-}
 
 .mp3title {
   font-size: 16px !important;
@@ -1641,15 +1615,6 @@ margin-left: 0;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-.feature {
-border: 10px solid #FFF;
-padding: 0px;
-height: auto;
-max-height: 120px;
-margin: 6px;
-overflow: hidden;
-}
-
 .memory {
   padding: 8% 0;
 }
@@ -1680,18 +1645,6 @@ overflow: hidden;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-.feature {
-width: 18%;
-float: left;
-display: block;
-clear: none;
-border: 10px solid #FFF;
-padding: 20px;
-max-height: 200px;
-margin: 8px;
-overflow:hidden;
-}
 
 .spv {
 margin: 0 5%;
