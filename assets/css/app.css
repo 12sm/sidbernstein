@@ -416,8 +416,8 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .main { }
 
 .cdimg > img {
-width: 100%;
-height: auto;
+  width: 100% !important;
+  height: auto !important;
 }
 
 .featured {
