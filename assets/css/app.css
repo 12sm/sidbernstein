@@ -751,19 +751,13 @@ min-height: 220px;
 }
 
 .white {
-background: #FFF;
-padding: 10px;
+padding: 30px;
 }
 
 span.amount {
 color: #232323;
 font-size: 20px;
 font-style: normal;
-}
-
-.white {
-background: #FFF;
-padding: 10px;
 }
 
 h2.prod-title {
