@@ -889,9 +889,6 @@ margin-bottom: 5px;
   text-align:  center;
 }
 
-.attachment-shop_thumbnail {
-  vertical-align: middle;
-}
 /* ==========================================================================
 Contact Page
 ========================================================================== */
@@ -1650,6 +1647,10 @@ overflow: hidden;
 .mp3numb {
   font-size: 18px !important;
 }
+
+.product-info {
+  padding-left: 30px;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1689,6 +1690,10 @@ div#frm_form_8_container {
 
 .mp3numb {
   font-size: 21px !important;
+}
+
+.product-info {
+  padding-left: 15px;
 }
 }
 
