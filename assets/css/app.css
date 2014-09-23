@@ -309,8 +309,6 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 }
 
 .images {
-height: 100%;
-max-height: 575px;
 width: auto;
 padding: 10px 0;
 margin-top: 3%;
@@ -830,7 +828,8 @@ width: auto;
 
 img.attachment-medium.wp-post-image {
 height: auto;
-width: 100%;
+width: auto;
+max-height: 385px;
 }
 
 div#tab-description {
