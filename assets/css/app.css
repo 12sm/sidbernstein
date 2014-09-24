@@ -430,11 +430,6 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   height: auto !important;
 }
 
-.featured {
-  margin-right: -13% !important;
-  text-align: center;
-}
-
 .pagetitle {
   margin: 40px 0 10px;
   text-align: center;
@@ -1283,6 +1278,10 @@ text-align: center;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.featured {
+  margin-right: -13% !important;
+}
 
 .singlestory{
   padding-top: 20px;
