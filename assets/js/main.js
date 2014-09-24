@@ -117,6 +117,9 @@
         },function(){
           $(".dropdown").removeClass("open");
         });
+        $('.vaultlink').click(function(){
+          window.location = 'http://stage.sidbernstein.com/store/';
+        });
       }
     },
 
