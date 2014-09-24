@@ -26,6 +26,10 @@ a:hover {
   cursor:pointer;
 }
 
+.shi {
+  padding: 40% 0px;
+}
+
 p {
   margin: 0 0 23px !important;
   font-family: "garamond-premier-pro";
