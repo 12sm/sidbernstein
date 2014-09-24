@@ -30,6 +30,10 @@ a:hover {
   padding: 62% 0 !important;
 }
 
+.ship > a > img {
+  height: auto !important;
+}
+
 p {
   margin: 0 0 23px !important;
   font-family: "garamond-premier-pro";
@@ -336,6 +340,7 @@ text-decoration: none;
 }
 
 .feature {
+  margin: 0 1%;
   -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
   box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
   background: #ffffff; /* Old browsers */
