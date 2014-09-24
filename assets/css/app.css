@@ -32,6 +32,7 @@ a:hover {
 
 .ship > a > img {
   height: auto !important;
+  padding: 0 !important;
 }
 
 p {
@@ -434,7 +435,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .featured {
-  margin-right: -50px !important;
+  margin-right: -10% !important;
 }
 
 .pagetitle {
