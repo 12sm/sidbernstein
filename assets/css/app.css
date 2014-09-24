@@ -98,6 +98,10 @@ margin: 0 5%;
 
 /*Home Memory View*/
 
+.portrait > div > img {
+  height: auto !important;
+}
+
 /*.sidback {
    background-image: url("../img/sid-face-bg.jpg");
    background-position: right top;
