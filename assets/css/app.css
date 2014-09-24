@@ -573,23 +573,6 @@ section#respond {
 display: none;
 }
 
-.singlehead {
-  background-image: url("../img/store-header-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  width: 100%;
-  height: auto;
-}
-
-.profo {
-  text-align: center;
-}
-
-.fopro {
-  text-align: center;
-}
-
 /* ==========================================================================
    Modal
    ========================================================================== */
@@ -956,6 +939,10 @@ Side Navbar
 ========================================================================== */
 .socials {
   margin-top: -10px;
+}
+
+b.caret {
+  display: none;
 }
 
 .social {
@@ -1622,7 +1609,7 @@ margin-left: 0;
 }
 
 .mp3title {
-  font-size: 18px !important;
+  font-size: 15px !important;
 }
 
 .mp3numb {
