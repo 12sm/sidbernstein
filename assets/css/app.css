@@ -409,9 +409,9 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .mp3play > a .fa-play {float:left;}
 
-.singlehead > div > div > div > div > a {
+/*.singlehead > div > div > div > div > a {
   padding: 2%;
-}
+}*/
 
 /* ==========================================================================
    Primary Content
