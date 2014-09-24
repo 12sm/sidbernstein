@@ -114,6 +114,8 @@
 
         $(".vaultlink").hover(function(){
           $(".dropdown").addClass("open");
+        },function(){
+          $(".dropdown").removeClass("open");
         });
       }
     },
