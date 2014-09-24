@@ -1592,14 +1592,6 @@ div#frm_form_8_container {
   text-align: left !important;
 }
 
-.profo {
-  text-align: left !important;
-}
-
-.fopro {
-  text-align: left !important;
-}
-
 .quantity.buttons_added {
 /* text-align: left; */
 margin-left: 0;
@@ -1609,6 +1601,14 @@ margin-left: 0;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+.profo {
+  text-align: left !important;
+}
+
+.fopro {
+  text-align: left !important;
+}
 
 .memory {
   padding: 8% 0;
