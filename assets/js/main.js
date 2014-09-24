@@ -147,11 +147,13 @@
         $('.woocatimage').imgLiquid();
       }
     },
-store: {
+
+    store: {
       init: function() {
-        $('.images').imgLiquid({verticalAlign: 'top'});
+        // $('.images').imgLiquid({verticalAlign: 'top'});
       }
     },
+    
     post_type_archive_memories: {
       init: function() {
         gridMem();
