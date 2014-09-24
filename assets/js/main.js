@@ -111,6 +111,10 @@
           "background-repeat": "no-repeat",
           "background-position": "0 center"
         });
+
+        $(".vaultlink").hover(function(){
+          $(".dropdown").addClass("open");
+        });
       }
     },
 
