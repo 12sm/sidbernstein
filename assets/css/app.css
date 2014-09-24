@@ -347,6 +347,7 @@ text-decoration: none;
   margin: 0 1%;
   -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
   box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
+  border: 10px solid #FFF;
 }
 
 .homealbumtitle {
