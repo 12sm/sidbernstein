@@ -30,9 +30,12 @@ a:hover {
   padding: 62% 0 !important;
 }
 
+.ship {
+  padding: 0 !important;
+}
+
 .ship > a > img {
   height: auto !important;
-  padding: 0 !important;
 }
 
 p {
