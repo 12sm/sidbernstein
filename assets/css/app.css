@@ -128,7 +128,7 @@ margin: 0 5%;
 
 body.home h1 {margin-top:20%;}
 
-.homealbumtitle h1 {
+.homealbumtitle {
 text-align: left;
 }
 
@@ -151,11 +151,11 @@ border-radius: 0;
 border: none;
 transition: background .3s ease;
 width: 160px;
-vertical-align: bottom;
+vertical-align: middle;
 display: inline-block;
 float: left;
-margin-top: 20%;
-margin-left: 20px;
+/*margin-top: 20%;*/
+/*margin-left: 20px;*/
 }
 
 body.home h4 {
@@ -292,7 +292,6 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 .keepreading {
   width: 100%;
   margin: 5% auto;
-  text-align: center;
 }
 
 .button, .keepreading a.button, .keepreading a {
@@ -1238,8 +1237,10 @@ padding-bottom: 0;
 font-size: 30px;
 }
 
-a.button.keepreading {margin-top:10px;margin-bottom:10px;text-align:center;}
-
+a.button.keepreading {
+  margin-top:10px;
+  margin-bottom:10px;
+}
 
 .memorybutton {
 font-size: 16px;
