@@ -859,6 +859,7 @@ margin-bottom: 5px;
   background-position: center top;
   width: 100%;
   height: auto;
+  margin-left: 0px;
 }
 
 .profo {
@@ -1281,6 +1282,10 @@ text-align: center;
   column-count: 2;
   -moz-column-count: 2;
   -webkit-column-count: 2;
+}
+
+.singlehead {
+  margin-left: -15px;
 }
 
 .mp3title {
