@@ -102,6 +102,10 @@ margin: 0 5%;
   height: auto !important;
 }
 
+.membutt > div > p {
+  text-align: center;
+}
+
 /*.sidback {
    background-image: url("../img/sid-face-bg.jpg");
    background-position: right top;
