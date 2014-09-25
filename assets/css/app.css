@@ -132,6 +132,10 @@ body.home h1 {margin-top:10%;}
 text-align: left;
 }
 
+.homestore > h1 {
+text-align: left;
+}
+
 .vc_col-sm-6.col-xs-6.wpb_column.vc_column_container {
 text-align: center;
 }
