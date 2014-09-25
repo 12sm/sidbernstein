@@ -489,7 +489,6 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .viewline {
-
 }
 
 .photourl > img {
@@ -498,6 +497,10 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .quote {
   margin-top: 20%;
+}
+
+.form-submit:hover {
+  background: #7dcecf;
 }
 
 .pagetitle {
