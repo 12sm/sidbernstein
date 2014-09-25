@@ -126,7 +126,7 @@ margin: 0 5%;
    padding-bottom : 30%;
 }*/
 
-body.home h1 {margin-top:20%;}
+/*body.home h1 {margin-top:20%;}*/
 
 .homealbumtitle > h1 {
 text-align: left;
@@ -291,7 +291,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 
 .keepreading {
   width: 100%;
-  margin: 5% auto;
+  margin: 0 auto;
 }
 
 .button, .keepreading a.button, .keepreading a {
