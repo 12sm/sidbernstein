@@ -1175,10 +1175,6 @@ text-transform: uppercase;
 
 }
 
-.navbar-brand {
-  display: inherit;
-}
-
 .dropdown-menu {
 position: inherit;
 padding: 10px 0;
