@@ -486,10 +486,11 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .storebut {
   width: auto !important;
   text-align: left !important;
+  vertical-align: bottom !important;
 }
 
 .viewline {
-  vertical-align: bottom !important;
+
 }
 
 .photourl > img {
