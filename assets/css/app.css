@@ -26,6 +26,10 @@ a:hover {
   cursor:pointer;
 }
 
+.membutt > div > p {
+  margin-bottom: 0;
+}
+
 .shi {
   padding: 62% 0 !important;
 }
