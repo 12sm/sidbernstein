@@ -464,13 +464,12 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .storebut {
-  width: auto !important;
   text-align: center !important;
   vertical-align: bottom !important;
 }
 
 .homealbumtitle > a > h1 {
-  text-align: left;
+  text-align: center;
 }
 
 .homealbumtitle > a > h1:hover {
