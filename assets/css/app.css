@@ -309,7 +309,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   font-family: "garamond-premier-pro" !important;
   font-style: italic !important;
   color: #063230 !important;
-  padding: 10px !important;
+  padding: 10px;
   background: #59a9a6 !important;
   text-shadow: none !important;
   box-shadow: none !important;
