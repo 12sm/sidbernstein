@@ -471,7 +471,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   margin: auto !important;
 }
 
-.photourl {
+.photourl > img {
   height: auto !important;
 }
 
