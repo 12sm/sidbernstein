@@ -30,6 +30,10 @@ a:hover {
   margin-bottom: 0;
 }
 
+.wpb-row {
+  margin-bottom: 0 !important;
+}
+
 .shi {
   padding: 62% 0 !important;
 }
