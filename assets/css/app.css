@@ -137,11 +137,19 @@ margin: 0 5%;
 body.home h1 {margin-top:10%;}
 
 .homealbumtitle > a > h1 {
-text-align: left;
+  text-align: left;
 }
 
 .homealbumtitle > a > h1:hover {
-color: #7dcecf;
+  color: #7dcecf;
+}
+
+.viewmas > h1 {
+  text-align: left;
+}
+
+.viewmas > h1:hover {
+  color: #7dcecf;
 }
 
 .homestore > h1 {
