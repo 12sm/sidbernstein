@@ -1714,6 +1714,14 @@ margin-left: 0;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+.catblock {
+  min-height: 165px;
+}
+
+.woocat-info {
+min-height: 250px;
+}
+
 .memory {
   padding: 8% 0;
 }
