@@ -1558,6 +1558,14 @@ font-size: 14px;
 
 }
 
+.ifrizzy {
+  text-align: center !important;
+}
+
+.ifrizzy > img {
+  text-align: center !important;
+}
+
 .js-wpt-field-items {
     margin: auto;
     width: 70%;
