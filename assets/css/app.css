@@ -304,7 +304,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
 }
 
 .button, .keepreading a.button, .keepreading a {
-  background-color: #59a9a6;
+  background-color: #59a9a6 !important;
   font-size: 18px;
   font-family: "garamond-premier-pro";
   font-style: italic;
@@ -319,8 +319,8 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   transition:background .3s ease;
 }
 
-.button:hover, .keepreading a.button:hover, .keepreading a:hover {
-  background: #7dcecf;
+.button:hover, .keepreading a.button:hover, .keepreading a:hover, .keepreading input:hover {
+  background: #7dcecf !important;
 }
 
 .viewmore > h1 {
