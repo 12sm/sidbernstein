@@ -1377,6 +1377,10 @@ text-align: center;
   min-height: 185px;
 }
 
+.catsquare {
+  min-height: 223px;
+}
+
 .singlestory{
   padding-top: 20px;
   column-count: 2;
@@ -1718,6 +1722,10 @@ margin-left: 0;
   min-height: 165px;
 }
 
+.catsquare {
+  min-height: 285px;
+}
+
 .woocat-info {
 min-height: 250px;
 }
@@ -1758,6 +1766,10 @@ min-height: 250px;
 margin: 0 5%;
 }
 
+.catsquare {
+  min-height: 340px;
+}
+
 .memoryhead > .memory {
   padding: 8% 0 0;
 }
@@ -1788,6 +1800,10 @@ div#frm_form_8_container {
   padding: 8% 12% 0 0;
 }
 
+.catsquare {
+  min-height: 395px;
+}
+
 div#frm_form_8_container {
 width: 30%;
 }
@@ -1804,6 +1820,10 @@ width: 30%;
 @media (min-width: 1600px) {
 .homie {
   margin-top: 25px;
+}
+
+.catsquare {
+  min-height: 435px;
 }
 }
 
