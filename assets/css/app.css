@@ -465,6 +465,16 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   height: auto !important;
 }
 
+.ifrizzy > img {
+  width: 100% !important;
+  height: auto !important;
+  margin: auto !important;
+}
+
+.photourl {
+  height: auto !important;
+}
+
 .pagetitle {
   margin: 40px 0 10px;
   text-align: center;
@@ -1556,12 +1566,6 @@ font-size: 14px;
 
 .memorymodal {
 
-}
-
-.ifrizzy > img {
-  width: 100% !important;
-  height: auto !important;
-  margin: auto !important;
 }
 
 .js-wpt-field-items {
