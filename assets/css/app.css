@@ -767,7 +767,7 @@ color: #D6D6D6;
 }
 
 .woocat-info {
-min-height: 220px;
+min-height: 275px;
 }
 
 .woopost {
@@ -1366,6 +1366,10 @@ text-align: center;
 
 .viewmas > h1 {
   text-align: left !important;
+}
+
+.catblock {
+  min-height: 185px;
 }
 
 .singlestory{
