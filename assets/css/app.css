@@ -432,6 +432,9 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .main { }
 
+.homeheader > img {
+  height: auto !important;
+}
 .homealbumcover > .cdimg > img {
   width: 100% !important;
   height: auto !important;
