@@ -136,7 +136,7 @@ margin: 0 5%;
 
 body.home h1 {margin-top:10%;}
 
-.homealbumtitle > a {
+.homealbumtitle > a > h1 {
 text-align: left;
 }
 
