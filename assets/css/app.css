@@ -27,7 +27,7 @@ a:hover {
 }
 
 .membutt > div > p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .wpb_row {
