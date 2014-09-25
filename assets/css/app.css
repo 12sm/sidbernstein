@@ -1558,8 +1558,10 @@ font-size: 14px;
 
 }
 
-.photomodal {
-  text-align: center !important;
+.ifrizzy > img {
+  width: 100% !important;
+  height: auto !important;
+  margin: auto !important;
 }
 
 .js-wpt-field-items {
