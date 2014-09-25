@@ -255,6 +255,11 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   margin: 85px 0 0 0;
 }
 
+.homebiophoto > img {
+  height: auto !important;
+  width: 100% !important;
+}
+
 .homeheader {
   font-family: "garamond-premier-pro" serif;
   font-size: 32px;
