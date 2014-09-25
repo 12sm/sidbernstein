@@ -483,6 +483,15 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   margin: auto !important;
 }
 
+.storebut {
+  width: auto !important;
+  text-align: left !important;
+}
+
+.viewline {
+  vertical-align: bottom !important;
+}
+
 .photourl > img {
   height: auto !important;
 }
