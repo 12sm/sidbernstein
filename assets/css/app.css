@@ -461,6 +461,10 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   height: auto !important;
 }
 
+.mainImg > img {
+  height: auto !important;
+}
+
 .pagetitle {
   margin: 40px 0 10px;
   text-align: center;
