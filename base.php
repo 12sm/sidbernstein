@@ -7,7 +7,7 @@
           <?php echo do_shortcode( "[cred_form form='Share a story about Sid']"); ?>
         </div>
         <div class="modal-footer">
-          <button type="button" class="text-right btn btn-warning button keepreading" class="close" data-dismiss="modal"><span aria-hidden="true"><i class='fa fa-times-circle'></i></span></button>
+          <button type="button" class="text-right btn btn-warning" class="close" data-dismiss="modal"><span aria-hidden="true"><i class='fa fa-times-circle'></i></span></button>
         </div>
       </div>
     </div>
