@@ -447,6 +447,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .photoImg > a > img {
   height: auto !important;
+  width: 100%;
 }
 
 .bioPhotos > img {
