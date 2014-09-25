@@ -8,7 +8,8 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo home_url(); ?>/">
-        <?php bloginfo( 'name'); ?>
+        <img src="/wp-content/themes/sidbernstein/assets/img/logo.jpg">
+		<?php bloginfo( 'name'); ?>
       </a>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
