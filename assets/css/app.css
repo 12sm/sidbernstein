@@ -472,12 +472,12 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   text-align: center;
 }
 
-.homealbumtitle > a > h1:hover {
-  color: #7dcecf;
-}
-
 .viewmas > h1 {
   text-align: center;
+}
+
+.homealbumtitle > a > h1:hover {
+  color: #7dcecf;
 }
 
 .viewmas > h1:hover {
@@ -1353,6 +1353,19 @@ text-align: center;
 
 .featured {
   margin-right: -13% !important;
+}
+
+.storebut {
+  text-align: left !important;
+  vertical-align: bottom !important;
+}
+
+.homealbumtitle > a > h1 {
+  text-align: left !important;
+}
+
+.viewmas > h1 {
+  text-align: left !important;
 }
 
 .singlestory{
