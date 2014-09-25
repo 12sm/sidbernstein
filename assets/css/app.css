@@ -500,7 +500,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .form-submit:hover {
-  background: #7dcecf;
+  background: #7dcecf !important;
 }
 
 .pagetitle {
