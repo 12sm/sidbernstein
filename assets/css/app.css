@@ -701,6 +701,7 @@ padding: 20px;
 
 .modal-copy {
   padding: 0 20px;
+  text-align:left;
 }
 
 .modal-footer .button {
@@ -758,8 +759,8 @@ color: #D6D6D6;
 }
 
 .photo-photo img {
-height: auto;
-width: 100%;
+height: auto!important;
+width: 100%!important;
 }
 
 /* ==========================================================================
