@@ -18,8 +18,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00434343', endColorstr='#434343',GradientType=0 ); /* IE6-9 */
 }
 
-.col {
-  z-index: 99;
+.content {
+  z-index: 9;
 }
 
 a {transition: color .3s ease, background-color .3s ease;}
