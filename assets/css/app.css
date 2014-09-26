@@ -1397,7 +1397,6 @@ text-align: center;
 }
 
 .singlestory {
-  padding-top: 20px;
 }
 
 .singlehead {
@@ -1731,6 +1730,7 @@ margin-left: 0;
 @media (min-width: 992px) {
 
 .singlestory {
+  padding-top: 20px;
   column-count: 2;
   -moz-column-count: 2;
   -webkit-column-count: 2;
