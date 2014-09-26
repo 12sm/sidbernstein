@@ -535,7 +535,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .masonblock {
   text-align: center;
-  padding: 5px 1% !important;
+  padding: 5px 5% !important;
   width: 100%;
  }
 
@@ -1369,7 +1369,8 @@ text-align: center;
 
 .masonblock {
   width: 25%;
- }
+  padding: 5px 5% !important;
+}
 
 .woocat-info {
   padding-top: 0px;
