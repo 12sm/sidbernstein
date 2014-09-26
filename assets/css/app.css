@@ -440,12 +440,9 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   height: auto !important;
 }
 
-.videourl > img {
-  height: auto !important;
-}
-
 .videourl > a > img {
   height: auto !important;
+  width: 100% !important;
 }
 
 .photoImg > a > img {
