@@ -1368,7 +1368,7 @@ text-align: center;
 @media (min-width: 768px) {
 
 .masonblock {
-  width: 25%;
+  width: 50%;
   padding: 5px 1% !important;
 }
 
@@ -1741,6 +1741,10 @@ margin-left: 0;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+.masonblock {
+  width: 33.333333333333%;
+ }
+
 .catblock {
   min-height: 165px;
 }
@@ -1784,6 +1788,10 @@ min-height: 250px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+.masonblock {
+  width:25%;
+ }
 
 .spv {
 margin: 0 5%;
