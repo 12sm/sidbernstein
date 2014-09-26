@@ -1396,11 +1396,11 @@ text-align: center;
   min-height: 223px;
 }
 
-.singlestory{
+.singlestory > div {
   padding-top: 20px;
-  column-count: 1;
-  -moz-column-count: 1;
-  -webkit-column-count: 1;
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
 }
 
 .singlehead {
@@ -1733,12 +1733,7 @@ margin-left: 0;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-.singlestory{
-  padding-top: 20px;
-  column-count: 2;
-  -moz-column-count: 2;
-  -webkit-column-count: 2;
-}
+
 
 .catblock {
   min-height: 165px;
@@ -1783,16 +1778,6 @@ min-height: 250px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-.singlestory > div > p {
-  column-count: 2;
-  -moz-column-count: 2;
-  -webkit-column-count: 2;
-}
-
-.singlestory {
-  padding-top: 20px;
-}
 
 .spv {
 margin: 0 5%;
