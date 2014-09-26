@@ -18,6 +18,10 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00434343', endColorstr='#434343',GradientType=0 ); /* IE6-9 */
 }
 
+.singlestory {
+  padding-top: 20px;
+}
+
 a {transition: color .3s ease, background-color .3s ease;}
 
 a:hover {
@@ -1725,7 +1729,6 @@ margin-left: 0;
 }
 
 .singlestory > div {
-  padding-top: 20px;
   column-count: 2;
   -moz-column-count: 2;
   -webkit-column-count: 2;
