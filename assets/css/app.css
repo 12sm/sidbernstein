@@ -1784,11 +1784,14 @@ min-height: 250px;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-.singlestory{
-  padding-top: 20px;
+.singlestory > div > p {
   column-count: 2;
   -moz-column-count: 2;
   -webkit-column-count: 2;
+}
+
+.singlestory {
+  padding-top: 20px;
 }
 
 .spv {
