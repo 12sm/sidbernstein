@@ -26,7 +26,7 @@ a {color: #59a9a6; transition: color .3s ease, background-color .3s ease;}
 
 a:hover {
   text-decoration: none;
-  color: #FFF;
+  color: #999;
   cursor:pointer;
 }
 
@@ -887,7 +887,6 @@ border: none!important;
 color: #feffff;
 text-shadow: none!important;
 border-radius: 0!important;
-margin-top:10px;
 }
 
 .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover {
@@ -988,6 +987,7 @@ max-width: 1170px;
 margin: 0px auto;
 background: #fff;
 padding: 15px;	
+font-family: "garamond-premier-pro", serif!important;
 }
 /* ==========================================================================
 Contact Page
