@@ -730,7 +730,6 @@ padding: 20px;
   font-family: "garamond-premier-pro";
   font-size: 18px;
   padding: 10px;
-  float: left;
 }
 
 .wpt-form-file {
@@ -1641,7 +1640,7 @@ font-size: 14px;
 }
 
 .wpt-form-file {
-
+display: inline!important;
 }
 
 .sidvidcopy {
