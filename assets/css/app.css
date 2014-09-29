@@ -22,7 +22,7 @@
   padding-top: 20px;
 }
 
-a {transition: color .3s ease, background-color .3s ease;}
+a {color: #59a9a6; transition: color .3s ease, background-color .3s ease;}
 
 a:hover {
   text-decoration: none;
@@ -575,11 +575,13 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 }
 
 .masoncaption {
-  font-size: 15px;
   color: #7F7F7F;
   max-height: 175px;
   overflow: hidden;
   text-align: left;
+  margin: 0 0 23px !important;
+  font-family: "garamond-premier-pro";
+  font-size: 16px;
 }
 
 .masonlink {
@@ -730,6 +732,7 @@ padding: 20px;
   font-family: "garamond-premier-pro";
   font-size: 18px;
   padding: 10px;
+  width:100%;
 }
 
 .wpt-form-file {
@@ -976,6 +979,15 @@ margin-bottom: 5px;
 
 .spv {
   padding-top: 10px;
+}
+
+
+body.woocommerce-checkout .woocommerce,
+body.woocommerce-cart .woocommerce {
+max-width: 1170px;
+margin: 0px auto;
+background: #fff;
+padding: 15px;	
 }
 /* ==========================================================================
 Contact Page
