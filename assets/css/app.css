@@ -1315,6 +1315,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width:767px) {
 
+.navbar-header {
+background: transparent url(/wp-content/themes/sidbernstein/assets/img/logo.jpg) 0px 0px scroll no-repeat;	
+}
+
 body.single .images, body.single-product .images {
 padding-bottom: 0;
 }
