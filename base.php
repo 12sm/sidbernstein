@@ -13,13 +13,11 @@
     </div>
   </div>
   <div class="grade">
-
-              <div class="<?php echo roots_sidenavbar_class(); ?>">
-                  <section class="side-nav-wrapper">
-                      <?php get_template_part('templates/sidenavbar'); ?>
-                  </section>
-              </div><!-- /.sidenavbar -->
-
+    <div class="<?php echo roots_sidenavbar_class(); ?>">
+      <section class="side-nav-wrapper">
+        <?php get_template_part('templates/sidenavbar'); ?>
+      </section>
+    </div><!-- /.sidenavbar -->
     <div class="wrap container-fluid mainarea" role="document">
       <div class="col">
         <div class="content row">
@@ -34,7 +32,6 @@
         </div><!-- /.content -->
       </div><!-- /.col -->
     </div><!-- /.wrap -->
-
     <?php get_template_part('templates/footer'); ?>
   </div>
 </body>
