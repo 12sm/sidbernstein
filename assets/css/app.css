@@ -989,6 +989,8 @@ background: #fff;
 padding: 15px;
 font-family: "garamond-premier-pro", serif!important;
 }
+
+body.sids-book .spv.poster, body-the-cd .spv.poster {display:none;}
 /* ==========================================================================
 Contact Page
 ========================================================================== */
