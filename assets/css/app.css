@@ -209,7 +209,7 @@ button.memorybutton.modal-link:hover, .memorybutton:hover {
   background: #7dcecf;
 }
 .photourl img {
-  width: 100%;
+  width: 100% !important;
 }
 .wpt-form-submit.form-submit.submit {
   border-color: #eea236;
@@ -986,7 +986,7 @@ body.woocommerce-cart .woocommerce {
 max-width: 1170px;
 margin: 0px auto;
 background: #fff;
-padding: 15px;	
+padding: 15px;
 font-family: "garamond-premier-pro", serif!important;
 }
 /* ==========================================================================
@@ -1328,7 +1328,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width:767px) {
 
 .navbar-header {
-background: transparent url(/wp-content/themes/sidbernstein/assets/img/logo.jpg) 0px 0px scroll no-repeat;	
+background: transparent url(/wp-content/themes/sidbernstein/assets/img/logo.jpg) 0px 0px scroll no-repeat;
 }
 
 body.single .images, body.single-product .images {
@@ -1381,6 +1381,10 @@ text-align: center;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.col-sm-offset-3 {
+  margin-left: 21% !important;
+}
 
 .masonblock {
   width: 50%;
