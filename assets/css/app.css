@@ -1845,6 +1845,11 @@ div#frm_form_8_container {
 .product-info {
   padding-left: 15px;
 }
+
+body.post-type-archive-articles .masonblock {
+width: 50%;
+}
+
 }
 
 @media (min-width: 1400px) {
