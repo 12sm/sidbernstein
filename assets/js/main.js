@@ -153,7 +153,7 @@
         // $('.images').imgLiquid({verticalAlign: 'top'});
       }
     },
-    
+
     post_type_archive_memories: {
       init: function() {
         gridMem();
@@ -163,7 +163,6 @@
 
     post_type_archive_articles: {
       init: function() {
-        gridIt();
       }
     },
 

@@ -436,6 +436,13 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 
 .main { }
 
+.article {
+  margin: 0 2%;
+  padding: 2% 0;
+  width: 100%;
+  height: auto;
+}
+
 .homeheader > img {
   height: auto !important;
 }
