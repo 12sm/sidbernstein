@@ -583,7 +583,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   max-height: 175px;
   overflow: hidden;
   text-align: left;
-  margin: 0 0 23px !important;
+  margin: 0 !important;
   font-family: "garamond-premier-pro";
   font-size: 16px;
 }
