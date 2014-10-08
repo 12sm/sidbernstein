@@ -592,6 +592,17 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
   margin: 0 !important;
 }
 
+.artu {
+  font-weight: 200;
+  color: #999;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.artti:hover {
+  color: #7dcecf;
+}
+
 .masonlink {
   text-align: right;
   padding: 0px 10px 0px 0px;
