@@ -437,8 +437,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .main { }
 
 .article {
-  margin: 0 2%;
-  padding: 2% 0;
+  margin: 2% -15px 2% 0 !important;
   width: 100%;
   height: auto;
 }
