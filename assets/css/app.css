@@ -437,7 +437,7 @@ a.sm2_playing .fa-play:before {content:"\f04c";}
 .main { }
 
 .articl {
-  margin-top: 2% !important;
+  margin-top: 10px !important;
 }
 
 .homeheader > img {
@@ -1389,7 +1389,7 @@ text-align: center;
 @media (min-width: 768px) {
 
 .articl {
-  margin-left: 2% !important;
+  margin-left: 10px !important;
 }
 
 .col-sm-offset-3 {
