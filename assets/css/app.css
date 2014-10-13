@@ -1142,11 +1142,10 @@ b.caret {
 
 .navbar-collapse {
   background-image: url("../img/nav-tile-bg.jpg");
-  width: 100%;
+  min-width: 100%;
   z-index: 100;
   padding: 0px;
   max-height: inherit !important;
-  margin-right: 0 !important;
 }
 
 ul.nav li {
@@ -1512,7 +1511,7 @@ div#frm_form_8_container {
 }
 
 .navbar-collapse{
-  max-width: 175px !important;
+  min-width: 175px !important;
   z-index: 1;
   margin: 0px;
 }
