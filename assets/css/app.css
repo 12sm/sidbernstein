@@ -1076,6 +1076,8 @@ Side Navbar
 ========================================================================== */
 .socials {
   margin-top: -10px;
+  width: 146px;
+  margin: 20px auto;
 }
 
 b.caret {
@@ -1111,6 +1113,8 @@ b.caret {
 .sidemems {
   padding-top: 10px;
   text-align: center;
+  width: 146px;
+  margin: 20px auto;
 }
 
 .sidemem > a {
