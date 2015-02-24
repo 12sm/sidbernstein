@@ -2,6 +2,7 @@
   <div class="col-sm-10 col-sm-offset-1">
     <div class="page-header">
       <h1>
+        <i class="fa fa-camera"></i>
         <?php echo roots_title(); ?>
       </h1>
     </div>
