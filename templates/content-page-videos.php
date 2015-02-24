@@ -2,7 +2,7 @@
   <div class="col-sm-10 col-sm-offset-1">
     <div class="page-header">
       <h1>
-        <?php echo roots_title(); ?>
+        <i class="fa fa-video-camera"></i> <?php echo roots_title(); ?>
       </h1>
     </div>
   </div>

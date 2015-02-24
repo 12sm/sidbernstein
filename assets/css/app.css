@@ -1118,8 +1118,10 @@ b.caret {
 }
 
 .sidemem > a {
-  color: #f2ea29;
-  z-index: 100;
+  background-color: #f2ea29;
+  display: block;
+  color: #000;
+  padding: 7px;
   font-size: 20px;
   font-family: "futura-pt-condensed";
 }
