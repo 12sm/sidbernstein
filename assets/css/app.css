@@ -1021,12 +1021,15 @@ padding: 5px;
 .department-links a {
 color: #253D3A;
 font-family: Serif;
-padding: 25px 20px;
-margin-top: 25px;
+padding: 5px 20px;
+background-color: #59a9a6;
 font-style: italic;
 font-size: 14px;
-transition: color .2s ease;
+opacity:.8;
+transition: opacity .2s ease;
 }
+
+.department-links a:hover {opacity:1;}
 
 /* ==========================================================================
 Contact Page
