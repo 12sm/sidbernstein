@@ -1010,6 +1010,16 @@ font-family: "garamond-premier-pro", serif!important;
 }
 
 body.sids-book .spv.poster, body-the-cd .spv.poster {display:none;}
+
+/* Department Links View */
+
+.department-links {
+text-align: center;
+background-color: rgba(90,90,90,.3);
+padding: 5px;
+color: #FFF;
+}
+
 /* ==========================================================================
 Contact Page
 ========================================================================== */
