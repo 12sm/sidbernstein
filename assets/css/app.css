@@ -1015,9 +1015,17 @@ body.sids-book .spv.poster, body-the-cd .spv.poster {display:none;}
 
 .department-links {
 text-align: center;
-background-color: rgba(90,90,90,.3);
 padding: 5px;
-color: #FFF;
+}
+
+.department-links a {
+color: #253D3A;
+font-family: Serif;
+padding: 25px 20px;
+margin-top: 25px;
+font-style: italic;
+font-size: 14px;
+transition: color .2s ease;
 }
 
 /* ==========================================================================
