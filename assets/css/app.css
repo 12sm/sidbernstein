@@ -1015,7 +1015,8 @@ body.sids-book .spv.poster, body-the-cd .spv.poster {display:none;}
 
 .department-links {
 text-align: left;
-padding: 5px;
+padding: 10px;
+font-family: serif;
 }
 
 .department-links a {
