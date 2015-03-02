@@ -208,6 +208,10 @@ margin-top: 0px;
 button.memorybutton.modal-link:hover, .memorybutton:hover {
   background: #7dcecf;
 }
+.cred-group p {
+text-align: center!important;
+color: #CCC!important;
+}
 .photourl img {
   width: 100% !important;
 }
