@@ -1036,6 +1036,10 @@ transition: opacity .2s ease;
 
 .department-links a:hover {opacity:1;}
 
+body.the-music .spv.poster {
+display: none;
+}
+
 /* ==========================================================================
 Contact Page
 ========================================================================== */
